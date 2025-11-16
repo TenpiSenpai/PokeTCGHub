@@ -1,7 +1,5 @@
 <script lang="ts" setup>
-/// <reference types="d:/repos/poketcghub/node_modules/.vue-global-types/vue_3.5_0.d.ts" />
-import * as content from '@nuxt/content';
-import { Types } from '~/classes/types';
+import { Types } from '../classes/types';
 const props = defineProps({
     set: {
         type: String,
@@ -9,7 +7,7 @@ const props = defineProps({
     }
 })
 const {set} = props;
-type t = keyof (content.Collections)
+type t = keyof (Collections)
 var s = set as t;
 
 const {data} = await useAsyncData(set, () => {
