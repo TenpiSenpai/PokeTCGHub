@@ -1,0 +1,18 @@
+name: Team Rocket's Dugtrio
+type: F
+hp: 100
+stage: 1
+evolve-from: Team Rocket's Diglett
+ability:
+  name: Pothole
+  desc: Whenever your opponent's Active Pokemon moves to the Bench during their turn, put 2 damage counters on that Pokemon.
+attack:
+  - energy: FC
+    name: Mud Shot
+    damage: 50
+weak: G
+resist:
+retreat: 1
+img:
+  jp: /jp/m2a/83.jpg
+  eng:

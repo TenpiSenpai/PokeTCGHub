@@ -1,0 +1,15 @@
+name: Team Rocket's Diglett2
+type: F
+hp: 60
+stage: 0
+attack:
+  - energy: F
+    name: Rummage Around
+    damage: 0
+    desc: Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.
+weak: G
+resist:
+retreat: 1
+img:
+  jp: /jp/m2a/83.jpg
+  eng:
