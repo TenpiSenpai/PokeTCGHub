@@ -1,0 +1,1 @@
+import{_ as o}from"./DWj1Xy4R.js";import{_ as t,m as e,o as r}from"./BFv3qMnZ.js";import"./Cq_zRDlo.js";const _={};function c(s,a){const n=o;return r(),e(n,{set:"ninjaspinner"})}const f=t(_,[["render",c]]);export{f as default};

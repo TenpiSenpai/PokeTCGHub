@@ -1,1 +1,0 @@
-import{u as a,i as s,j as u,k as r,l as i}from"./BxPy07QP.js";function o(t){const e=t||a();return e.ssrContext?.head||e.runWithContext(()=>{if(s()){const n=u(r);if(!n)throw new Error("[nuxt] [unhead] Missing Unhead instance.");return n}})}function h(t,e={}){const n=e.head||o(e.nuxt);return i(t,{head:n,...e})}export{o as i,h as u};
