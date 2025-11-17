@@ -1,0 +1,1 @@
+import{_ as e}from"./DB1HggGx.js";import{_ as t,m as r,o as _}from"./9M4r3FQ-.js";import"./D6xBIxTI.js";import"./DYn1DJgb.js";const c={};function n(a,m){const o=e;return _(),r(o,{set:"megadream"})}const d=t(c,[["render",n]]);export{d as default};
