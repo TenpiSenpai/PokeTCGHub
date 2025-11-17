@@ -31,7 +31,7 @@ const {data} = props;
             <div>Retreat: {{ data.retreat }}</div>
         </div>
         <div>
-            <img :src="'images/sets' + data.img.jp" class="max-h-[300px]"></img>
+            <img :src="'/PokeTCGHub/images/sets' + data.img.jp" class="max-h-[300px]"></img>
         </div>
     </div>
 </template>
