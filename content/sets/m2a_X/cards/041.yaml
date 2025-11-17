@@ -1,0 +1,19 @@
+name: Frosmoth
+type: W
+hp: 110
+stage: 1
+evolves-from: Snom
+ability:
+  name: Inviting Wings
+  desc: Once during your turn, if this Pokemon is in your Active Spot, you may use this Ability. Each player draws a card.
+attack:
+  - energy: WW
+    name: Cold Cyclone
+    damage: 90
+    desc: Move a [W] Energy from this Pokemon to 1 of your Benched Pokemon.
+weak: M
+resist: 
+retreat: 2
+img:
+  jp: /jp/m2a/041.jpg
+  en:

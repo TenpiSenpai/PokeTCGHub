@@ -1,0 +1,20 @@
+name: N's Zekrom
+type: N
+hp: 130
+stage: 0
+evolves-from:
+attack:
+  - energy: CCC
+    name: Shred
+    damage: 70
+    desc: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+  - energy: RLLC
+    name: Rampaging Thunder
+    damage: 250
+    desc: This Pokemon can't attack during your next turn.
+weak:
+resist: 
+retreat: 2
+img:
+  jp: /jp/m2a/129.jpg
+  en:

@@ -1,0 +1,16 @@
+name: Dratini
+type: N
+hp: 80
+stage: 0
+evolves-from:
+attack:
+  - energy: WL
+    name: Headbutt
+    damage: 30
+    desc:
+weak:
+resist: 
+retreat: 2
+img:
+  jp: /jp/m2a/124.jpg
+  en:

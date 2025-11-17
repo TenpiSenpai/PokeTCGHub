@@ -1,0 +1,15 @@
+name: Entei
+type: R
+hp: 140
+stage: 0
+attack:
+  - energy: RR
+    name: Flare Fall
+    damage: 30+
+    desc:  If you have at least 4 Fire Energy in play, this attack does 90 more damage.
+weak: W
+resist: 
+retreat: 3
+img:
+  jp: /jp/m2a/020.jpg
+  en:

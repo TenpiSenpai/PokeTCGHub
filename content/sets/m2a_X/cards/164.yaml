@@ -1,0 +1,15 @@
+name: Thick Scale
+type: T
+subtype: Pokemon Tool
+hp:
+stage:
+evolves-from:
+trainer:
+  - The [N] Pokemon this Tool is attached to takes 50 less damage from the attacks of your opponent's [G],[R],[W] and [L] Pokemon.
+  - You may attach any number of Pokemon Tools to your Pokemon during your turn. You may attach only 1 Pokemon Tool to each Pokemon, and it stays attached.
+weak:
+resist: 
+retreat:
+img:
+  jp: /jp/m2a/164.jpg
+  en:

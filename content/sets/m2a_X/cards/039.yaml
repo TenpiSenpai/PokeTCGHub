@@ -1,0 +1,20 @@
+name: N's Vanilluxe
+type: W
+hp: 150
+stage: 2
+evolves-from: N's Vanillish
+attack:
+  - energy: CC
+    name: Layered Snow
+    damage:
+    desc: Double the number of damage counters on each of your opponent's Pokemon.
+  - energy: WCC
+    name: Blizzard
+    damage: 120
+    desc: This attack does 10 damage to each of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+weak: M
+resist: 
+retreat: 2
+img:
+  jp: /jp/m2a/039.jpg
+  en:

@@ -1,0 +1,19 @@
+name: Mega Dragonite ex
+type: N
+hp: 370
+stage: 2
+evolves-from: Dragonair
+ability:
+  name: Sky Transport
+  desc: Once during your turn, you may use this ability. Switch your Active Pokemon with 1 of your Benched Pokemon.
+attack:
+  - energy: WLL
+    name: Ryuno Glide
+    damage: 330
+    desc: Discard 2 Energy from this Pokemon.
+weak:
+resist: 
+retreat: 2
+img:
+  jp:
+  en: /en/drm/126.jpg

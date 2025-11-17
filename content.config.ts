@@ -9,6 +9,7 @@ export default defineContentConfig({
       schema: z.object({
         name: z.string(),
         type: z.string(),
+        subtype: z.string(),
         hp: z.number(),
         stage: z.number(),
         'evolve-from': z.string(),
@@ -19,15 +20,16 @@ export default defineContentConfig({
         attack: z.array(z.object({
           energy: z.string(),
           name: z.string(),
-          damage: z.number(),
+          damage: z.string(),
           desc: z.string()
         })),
+        trainer: z.array(z.string()),
         weak: z.string(),
         resist: z.string(),
         retreat: z.number(),
         img: z.object({
           jp: z.string(),
-          end: z.string()
+          en: z.string()
         })
       })
     }),
@@ -37,6 +39,7 @@ export default defineContentConfig({
       schema: z.object({
         name: z.string(),
         type: z.string(),
+        subtype: z.string(),
         hp: z.number(),
         stage: z.number(),
         'evolve-from': z.string(),
@@ -50,12 +53,13 @@ export default defineContentConfig({
           damage: z.number(),
           desc: z.string()
         })),
+        trainer: z.array(z.string()),
         weak: z.string(),
         resist: z.string(),
         retreat: z.number(),
         img: z.object({
           jp: z.string(),
-          end: z.string()
+          en: z.string()
         })
       })
     })

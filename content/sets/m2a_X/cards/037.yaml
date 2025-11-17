@@ -1,0 +1,17 @@
+name: N's Vanillite
+type: W
+hp: 60
+stage: 0
+attack:
+  - energy: C
+    name: Call for Family
+    desc: Search your deck for up to 2 Basic Pokemon and put them onto your Bench. Then, shuffle your deck.
+  - energy: WC
+    name: Icy Snow
+    damage: 20
+weak: M
+resist: 
+retreat: 1
+img:
+  jp: /jp/m2a/037.jpg
+  en:

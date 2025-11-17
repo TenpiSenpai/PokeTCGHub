@@ -1,0 +1,20 @@
+name: Mega Frosslass ex
+type: W
+hp: 310
+stage: 1
+evolves-from: Snorunt
+attack:
+  - energy: W
+    name: Rebellion
+    damage: 50x
+    desc: This attacks does 50 damage times the number of cards in your opponent's hand.
+  - energy: WCC
+    name: Absolute Snow
+    damage: 150
+    desc: Your opponent's Active Pokemon is now Asleep.
+weak: M
+resist: 
+retreat: 1
+img:
+  jp: /jp/m2a/036.jpg
+  en:
