@@ -31,7 +31,7 @@ const {data} = props;
             <div>Retreat: {{ data.retreat }}</div>
         </div>
         <div>
-            <img :src="'/imgs/sets' + data.img.jp" class="max-h-[300px]"></img>
+            <NuxtImg :src="'/imgs/sets' + data.img.jp" class="max-h-[300px]" />
         </div>
     </div>
 </template>
