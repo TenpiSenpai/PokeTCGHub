@@ -15,8 +15,8 @@
         <div class="grow"></div>
         <div class="menu p-8 relative cursor-pointer" @click="openMenu($event)">
             Upcoming JP Releases
-            <div class="submenu hidden absolute top-[100%] bg-slate-600 right-0 px-8 py-4">
-                <NuxtLink to="/sets/megadream">MEGA Dream ex</NuxtLink>
+            <div class="submenu hidden absolute top-[100%] bg-slate-600 right-0">
+                <NuxtLink class="block px-8 py-4" to="/sets/megadream">MEGA Dream ex</NuxtLink>
             </div>
         </div>
     </div>

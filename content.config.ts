@@ -3,9 +3,9 @@ import { z } from 'zod'
 
 export default defineContentConfig({
   collections: {
-    megadream: defineCollection({
+    jp_m2a: defineCollection({
       type: 'data',
-      source: 'sets/m2a_X/cards/**.yaml',
+      source: 'sets/jp/m2a/**.yaml',
       schema: z.object({
         name: z.string(),
         type: z.string(),
@@ -30,12 +30,17 @@ export default defineContentConfig({
         img: z.object({
           jp: z.string(),
           en: z.string()
+        }),
+        title: z.string(),
+        ref: z.object({
+          set: z.string(),
+          num: z.string()
         })
       })
     }),
-    ninjaspinner: defineCollection({
+    en_m3: defineCollection({
       type: 'data',
-      source: 'sets/m3_X/cards/**.yaml',
+      source: 'sets/en/m3/**.yaml',
       schema: z.object({
         name: z.string(),
         type: z.string(),
@@ -60,6 +65,11 @@ export default defineContentConfig({
         img: z.object({
           jp: z.string(),
           en: z.string()
+        }),
+        title: z.string(),
+        ref: z.object({
+          set: z.string(),
+          num: z.string()
         })
       })
     })

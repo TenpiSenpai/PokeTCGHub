@@ -7,6 +7,7 @@ const props = defineProps({
     }
 })
 const {data} = props;
+console.log(data)
 </script>
 <template>
     <div class="flex border-t border-b" :type="GetTypeByCode(data.type)?.code">
