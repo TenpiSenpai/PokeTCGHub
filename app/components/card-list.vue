@@ -16,11 +16,30 @@ const {data} = await useAsyncData(set, () => {
 const cards = data.value!.sort((a, b) => {
     return GetTypeByCode(a.type).order - GetTypeByCode(b.type).order
 });
+    function gotoType(code: string) {
+        console.log(code);
+        console.log(document.querySelectorAll(`[type="${code}"]`))
+        // window.location = '#type-' + code;
+    }
+    let lastType:string | null = null;
+    function testLastType(code: string) {
+        if (code != lastType) {
+            lastType = code;
+            return true;
+        }
+        return false;
+    }
 </script>
 
 <template>
-    <div class="flex">
-        <div v-for="type in Types" class="p-4">{{ type.name }}</div>
+    <div class="flex p-4 border-t">
+        <a v-for="type in Types" class="p-4" :href="'#type-' + type.code">{{ type.name }}</a>
     </div>
-    <card-block v-for="card in cards" :data="card"></card-block>
+    <template v-for="card in cards">
+        <div v-if="testLastType(card.type)" :id="'type-' + card.type"></div>
+        <card-block :data="card"></card-block>
+    </template>
 </template>
+
+<script lang="ts">
+</script>
