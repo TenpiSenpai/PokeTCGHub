@@ -1,0 +1,20 @@
+name: Raichu
+type: L
+hp: 130
+stage: 1
+evolve-from: Pikachu
+attack:
+  - energy: L
+    name: Quick Attack
+    damage: 20+
+    desc: Flip a coin, if heads, this attack does 50 more damage.
+  - energy: LLC
+    name: Strong Volt
+    damage: 150
+    desc: Discard 1 [L] Energy from this Pokemon.
+weak: F
+resist: 
+retreat: 1
+img:
+  jp: /jp/mc/226.jpg
+  en:

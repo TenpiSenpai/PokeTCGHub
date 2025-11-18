@@ -1,0 +1,8 @@
+name: Urbain
+type: T
+subtype: Supporter
+trainer:
+  - Draw 3 cards.
+img:
+  jp: /jp/mc/702.jpg
+  en:

@@ -1,0 +1,20 @@
+name: Krookodile ex
+type: D
+hp: 320
+stage: 2
+evolve-from: Krokorok
+attack:
+  - energy: DC
+    name: Confront
+    damage: 80
+    desc: During your opponent's next turn, the Defending Pokemon can't retreat.
+  - energy: DDC
+    name: Strong Bite
+    damage: 140+
+    desc: If this Pokemon has a Pokemon Tool attached, this attack does 140 more damage.
+weak: G
+resist: 
+retreat: 3
+img:
+  jp: /jp/promo/046.jpg
+  en:
