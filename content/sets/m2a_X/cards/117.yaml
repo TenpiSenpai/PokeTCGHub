@@ -1,0 +1,17 @@
+name: Bisharp
+type: M
+hp: 120
+stage: 1
+evolves-from: Pawniard
+attack:
+  - energy: M
+    name: Kick Draw
+    damage: 50
+    desc: Draw 2 cards.
+
+weak: F
+resist: G
+retreat: 1
+img:
+  jp: /jp/m2a/117.jpg
+  en:

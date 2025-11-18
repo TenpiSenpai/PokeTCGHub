@@ -9,7 +9,7 @@ const props = defineProps({
 const {data} = props;
 </script>
 <template>
-    <div class="flex border-t border-b">
+    <div class="flex border-t border-b" :type="GetTypeByCode(data.type)?.code">
         <div class="p-8">
             <img v-if="data.img.jp != null && data.img.en == null" :src="'/PokeTCGHub/images/sets' + data.img.jp" class="max-h-[300px]"></img>
             <img v-if="data.img.en != null" :src="'/PokeTCGHub/images/sets' + data.img.en" class="max-h-[300px]"></img>
