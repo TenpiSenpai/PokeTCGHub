@@ -34,42 +34,26 @@ const setSchema = z.object({
   })
 });
 
-export default defineContentConfig({
-  collections: {
-    jp_m2a: defineCollection({
+function newCollection(source: string) {
+  return defineCollection({
       type: 'data',
-      source: 'sets/jp/m2a/**.yaml',
-      schema: setSchema
-    }),
-    en_twm: defineCollection({
-      type: 'data',
-      source: 'sets/en/twm/**.yaml',
-      schema: setSchema
-    }),
-    en_pre: defineCollection({
-      type: 'data',
-      source: 'sets/en/pre/**.yaml',
-      schema: setSchema
-    }),
-    en_dri: defineCollection({
-      type: 'data',
-      source: 'sets/en/dri/**.yaml',
-      schema: setSchema
-    }),
-    en_blk: defineCollection({
-      type: 'data',
-      source: 'sets/en/blk/**.yaml',
-      schema: setSchema
-    }),
-    en_meg: defineCollection({
-      type: 'data',
-      source: 'sets/en/meg/**.yaml',
-      schema: setSchema
-    }),
-    en_m3: defineCollection({
-      type: 'data',
-      source: 'sets/en/m3/**.yaml',
+      source: source,
       schema: setSchema
     })
+}
+
+export default defineContentConfig({
+  collections: {
+    jp_m2a: newCollection('sets/jp/m2a/**.yaml'),
+    jp_mc: newCollection('sets/jp/mc/**.yaml'),
+    jp_mp1: newCollection('sets/jp/mp1/**.yaml'),
+    jp_promo: newCollection('sets/jp/promo/**.yaml'),
+
+    en_twm: newCollection('sets/en/twm/**.yaml'),
+    en_pre: newCollection('sets/en/pre/**.yaml'),
+    en_dri: newCollection('sets/en/dri/**.yaml'),
+    en_blk: newCollection('sets/en/blk/**.yaml'),
+    en_meg: newCollection('sets/en/meg/**.yaml'),
+    en_m3: newCollection('sets/en/m3/**.yaml'),
   }
 })

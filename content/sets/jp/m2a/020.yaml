@@ -6,7 +6,7 @@ attack:
   - energy: RR
     name: Flare Fall
     damage: 30+
-    desc:  If you have at least 4 Fire Energy in play, this attack does 90 more damage.
+    desc: If you have at least 4 Fire Energy in play, this attack does 90 more damage.
 weak: W
 resist: 
 retreat: 3

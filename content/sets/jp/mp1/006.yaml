@@ -1,0 +1,15 @@
+name: Pikachu ex
+type: L
+hp: 200
+stage: 0
+attack:
+  - energy: LLC
+    name: Volt Tackle
+    damage: 210
+    desc: This Pokemon does 30 damage to itself.
+weak: F
+resist: 
+retreat: 1
+img:
+  jp: /jp/mp1/006.jpg
+  en:

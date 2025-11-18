@@ -16,6 +16,7 @@
             Upcoming JP Releases
             <div class="submenu hidden absolute top-[100%] bg-slate-600 right-0">
                 <NuxtLink class="block px-8 py-4" to="/sets/megadream">MEGA Dream ex</NuxtLink>
+                <NuxtLink class="block px-8 py-4" to="/sets/assorted_jp">Other JP Cards</NuxtLink>
             </div>
         </div>
     </div>

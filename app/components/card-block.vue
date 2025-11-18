@@ -35,6 +35,10 @@ const {data} = props;
             </div>
             <div v-if="data.trainer" class="pt-4">
                 <p class="pb-2" v-for="line in data.trainer">{{ line }}</p>
+                <p class="pb-2" v-if="data.subtype == 'Supporter'">You may play only 1 Supporter card during your turn.</p>
+                <p class="pb-2" v-if="data.subtype == 'Item'">You may play as many Item cards as you like during your turn.</p>
+                <p class="pb-2" v-if="data.subtype == 'Pokemon Tool'">You may attach any number of Pokemon Tools to your Pokemon during your turn. You may attach only 1 Pokemon Tool to each Pokemon, and it stays attached.</p>
+                <p class="pb-2" v-if="data.subtype == 'Stadium'"></p>
             </div>
             <div v-if="data.trainer == null" class="pt-2">Weakness: {{ GetTypeByCode(data.weak)?.name }}</div>
             <div v-if="data.trainer == null">Resistance: {{ GetTypeByCode(data.resist)?.name }}</div>

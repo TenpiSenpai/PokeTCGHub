@@ -5,6 +5,12 @@ export default defineNuxtConfig({
   ssr: false,
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
   app: {
-    baseURL: '/PokeTCGHub/'
+    baseURL: '/PokeTCGHub/',
+    head: {
+      title: 'Poke TCG Hub',
+      htmlAttrs: {
+        lang: 'en',
+      },
+    }
   },
 })

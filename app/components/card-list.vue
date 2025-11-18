@@ -4,15 +4,23 @@ const props = defineProps({
     set: {
         type: String,
         required: true
+    },
+    excludeTypes: {
+        type: Boolean,
+        required: false,
+        default: false
     }
 })
-const {set} = props;
+const {set, excludeTypes} = props;
 type t = keyof (Collections)
 var s = set as t;
 
 const {data} = await useAsyncData(set, () => {
   return queryCollection(s).all()
 })
+if (data.value?.length == null) {
+    throw set + ' does not exist';
+}
 //set Linking
 //This makes it so you only have to declare cards once and cn show them in several sets such as reprints or en/jp
 for(let i = 0; i < data.value!.length; i++) {
@@ -48,7 +56,7 @@ function testLastType(code: string) {
 </script>
 
 <template>
-    <div class="flex p-4 border-t">
+    <div class="flex p-4 border-t" v-if="!excludeTypes">
         <a v-for="type in Types" class="p-4" :href="'#type-' + type.code">{{ type.name }}</a>
     </div>
     <template v-for="card in cards">
