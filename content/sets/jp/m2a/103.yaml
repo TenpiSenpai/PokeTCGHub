@@ -2,7 +2,7 @@ name: Team Rocket's Honchkrow
 type: D
 hp: 130
 stage: 1
-evolves-from: Team Rocket's Murkrow
+evolve-from: Team Rocket's Murkrow
 attack:
   - energy: CC
     name: Rocket Feathers

@@ -1,0 +1,20 @@
+name: Dragapult ex
+type: N
+hp: 320
+stage: 2
+evolve-from: Drakloak
+attack:
+  - energy: C
+    name: Jet Headbutt
+    damage: 70
+    desc:
+  - energy: RP
+    name: Phantom Dive
+    damage: 200
+    desc: Put 6 damage counters on your opponent’s Benched Pokémon in any way you like.
+weak:
+resist:
+retreat: 1
+img:
+  jp:
+  en: /en/twm/130.jpg

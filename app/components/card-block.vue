@@ -15,6 +15,7 @@ const {data} = props;
             <img v-if="data.img.en != null" :src="'/PokeTCGHub/images/sets' + data.img.en" class="max-h-[300px]"></img>
         </div>
         <div class="grow p-8 flex flex-col">
+            <div v-if="data.ref?.from != null" class="italic text-sm">{{ data.ref.from }}</div>
             <div>
                 <span class="font-bold">{{ data.name }}</span> - <span>{{ GetTypeByCode(data.type)?.name }}</span>
                 <span v-if="data.hp != null"> - {{ data.hp }} HP</span>

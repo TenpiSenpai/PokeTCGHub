@@ -4,5 +4,5 @@
         <p>Expected JP Release Date: November 28th</p>
         <p>Cards: 193 before Secret Rares</p>
     </div>
-    <card-list set="megadream" />
+    <card-list set="jp_m2a" />
 </template>
