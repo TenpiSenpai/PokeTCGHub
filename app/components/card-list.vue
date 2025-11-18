@@ -25,6 +25,10 @@ for(let i = 0; i < data.value!.length; i++) {
                 .where('title', '=', r.ref.num)
                 .first()
         })
+        if (item!.value == null) {
+            throw r.ref.set + ':' + r.ref.num + ' does not exists.';
+        }
+        item.value.ref = r.ref;
         data.value![i] = item!.value;
     }
 }
@@ -52,6 +56,3 @@ function testLastType(code: string) {
         <card-block :data="card"></card-block>
     </template>
 </template>
-
-<script lang="ts">
-</script>

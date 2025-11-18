@@ -1,6 +1,5 @@
 <script lang="ts" setup>
     function openMenu(e: any) {
-        console.log(e);
         let submenu = e.target.closest('.menu').querySelectorAll('.submenu')[0];
         if (submenu.classList.contains('hidden')) {
             submenu.classList.remove('hidden');

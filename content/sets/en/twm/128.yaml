@@ -1,0 +1,20 @@
+name: Dreepy
+type: N
+hp: 70
+stage: 0
+evolve-from:
+attack:
+  - energy: P
+    name: Petty Grudge
+    damage: 10
+    desc:
+  - energy: RP
+    name: Bite
+    damage: 40
+    desc:
+weak:
+resist:
+retreat: 1
+img:
+  jp:
+  en: /en/twm/128.jpg
