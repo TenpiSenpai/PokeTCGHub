@@ -13,6 +13,12 @@
         <div class="p-8">Poké TCG Hub</div>
         <div class="grow"></div>
         <div class="menu p-8 relative cursor-pointer" @click="openMenu($event)">
+            Upcoming EN Releases
+            <div class="submenu hidden absolute top-[100%] bg-slate-600 right-0">
+                <NuxtLink class="block px-8 py-4" to="/sets/en/ascended-heroes">Ascended Heroes</NuxtLink>
+            </div>
+        </div>
+        <div class="menu p-8 relative cursor-pointer" @click="openMenu($event)">
             Upcoming JP Releases
             <div class="submenu hidden absolute top-[100%] bg-slate-600 right-0">
                 <NuxtLink class="block px-8 py-4" to="/sets/megadream">MEGA Dream ex</NuxtLink>
