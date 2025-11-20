@@ -5,9 +5,9 @@ stage: 2
 evolve-from: Charmeleon
 attack:
   - energy: RRC
-    name: "'Plosion Y"
+    name: Explosion Y
     damage:
-    desc: Discard 3 Energy from this Pokemon. This attack does 280 damage to 1 of your opponent's Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+    desc: Discard 3 Energy from this Pokemon, and this attack does 280 damage to 1 of your opponent's Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
 weak: W
 resist: 
 retreat: 1

@@ -5,7 +5,7 @@ stage: 2
 evolves-from: N's Vanillish
 attack:
   - energy: CC
-    name: Layered Snow
+    name: Snow Coating
     damage:
     desc: Double the number of damage counters on each of your opponent's Pokemon.
   - energy: WCC
