@@ -37,6 +37,7 @@ for(let i = 0; i < data.value!.length; i++) {
             throw r.ref.set + ':' + r.ref.num + ' does not exists.';
         }
         item.value.ref = r.ref;
+        item.value.title = r.title;
         data.value![i] = item!.value;
     }
 }

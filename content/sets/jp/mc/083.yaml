@@ -1,0 +1,16 @@
+name: Charmander
+type: R
+hp: 80
+stage: 0
+evolve-from:
+attack:
+  - energy: RC
+    name: Fire Claws
+    damage: 30
+    desc:
+weak: W
+resist: 
+retreat: 1
+img:
+  jp:
+  en: /en/asc/020.jpg

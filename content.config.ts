@@ -54,6 +54,7 @@ export default defineContentConfig({
     en_dri: newCollection('sets/en/dri/**.yaml'),
     en_blk: newCollection('sets/en/blk/**.yaml'),
     en_meg: newCollection('sets/en/meg/**.yaml'),
-    en_m3: newCollection('sets/en/m3/**.yaml'),
+    en_pfl: newCollection('sets/en/pfl/**.yaml'),
+    en_asc: newCollection('sets/en/asc/**.yaml'),
   }
 })

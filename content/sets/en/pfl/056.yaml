@@ -1,0 +1,19 @@
+name: Mega Gengar ex
+type: D
+hp: 350
+stage: 2
+evolve-from: Haunter
+ability:
+  name: Shadowy Concealment
+  desc: If 1 of your {D} Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon ex, that player takes 1 fewer Prize card. The effect of Shadowy Concealment doesn’t stack.
+attack:
+  - energy: DD
+    name: Void Gale
+    damage: 230
+    desc: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+weak: F
+resist:
+retreat: 2
+img:
+  jp:
+  en: /en/pfl/056.jpg
