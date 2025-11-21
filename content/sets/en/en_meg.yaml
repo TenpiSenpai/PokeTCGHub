@@ -1,0 +1,12 @@
+set: en_meg
+desc: MEGA Evolutions
+cards:
+  - num: 119
+    name: Lillie's Determination
+    type: T
+    subtype: Supporter
+    trainer:
+      - Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.
+    img:
+      jp:
+      en: /en/meg/119.jpg

@@ -12,37 +12,37 @@ const props = defineProps({
     }
 })
 const {set, excludeTypes} = props;
-type t = keyof (Collections)
-var s = set as t;
 
 const {data} = await useAsyncData(set, () => {
-  return queryCollection(s).all()
+  return queryCollection('card_db').where('set', '=', set).first()
 })
-if (data.value?.length == null) {
+if (data.value == null) {
     throw set + ' does not exist';
 }
 //set Linking
 //This makes it so you only have to declare cards once and cn show them in several sets such as reprints or en/jp
-for(let i = 0; i < data.value!.length; i++) {
-    let r = data.value![i]!;
+for(let i = 0; i < data.value!.cards.length; i++) {
+    let r = data.value!.cards[i]!;
     if (r.ref != null) {
-        type t2 = keyof (Collections)
-        const s2 = r.ref.set as t2;
-        const {data: item} = await useAsyncData(r.ref.set + r.ref.num, () => {
-            return queryCollection(s2)
-                .where('title', '=', r.ref.num)
+        const {data: item} = await useAsyncData(r.ref.set, () => {
+            return queryCollection('card_db')
+                .where('set', '=', r.ref.set)
                 .first()
         })
-        if (item!.value == null) {
+        if (item.value == null) {
+            throw r.ref.set + ': does not exists.';
+        }
+        let f = item.value.cards.find((item: any) => item.num == r.ref.num);
+        if (f == null) {
             throw r.ref.set + ':' + r.ref.num + ' does not exists.';
         }
-        item.value.ref = r.ref;
-        item.value.title = r.title;
-        data.value![i] = item!.value;
+        f.ref = r.ref;
+        f.title = r.title;
+        f.num = r.num;
+        data.value!.cards[i] = f;
     }
 }
-// console.log(data.value);
-const cards = data.value!.sort((a, b) => {
+const cards = data.value!.cards.sort((a, b) => {
     return GetTypeByCode(a.type).order - GetTypeByCode(b.type).order
 });
 

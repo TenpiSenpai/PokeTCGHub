@@ -1,0 +1,57 @@
+set: en_pfl
+desc: Phantasmal Flames
+cards:
+  - num: '054'
+    name: Gastly
+    type: D
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: D
+        name: Petty Grudge
+        damage: 10
+        desc:
+    weak: F
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/pfl/054.jpg
+  - num: '055'
+    name: Haunter
+    type: D
+    hp: 100
+    stage: 1
+    evolve-from: Gastly
+    attack:
+      - energy: D
+        name: Spooky Shot
+        damage: 40
+        desc:
+    weak: F
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/pfl/055.jpg
+  - num: '056'
+    name: Mega Gengar ex
+    type: D
+    hp: 350
+    stage: 2
+    evolve-from: Haunter
+    ability:
+      name: Shadowy Concealment
+      desc: If 1 of your {D} Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon ex, that player takes 1 fewer Prize card. The effect of Shadowy Concealment doesn’t stack.
+    attack:
+      - energy: DD
+        name: Void Gale
+        damage: 230
+        desc: Move an Energy from this Pokémon to 1 of your Benched Pokémon.
+    weak: F
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/pfl/056.jpg
