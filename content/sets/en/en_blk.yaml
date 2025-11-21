@@ -1,0 +1,49 @@
+set: en_blk
+desc: Black Bolt
+cards:
+  - num: '030'
+    name: Tynamo
+    type: L
+    hp: 40
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Hold Still
+        damage: 
+        desc: Heal 10 damage from this Pokémon.
+    weak: F
+    resist:
+    retreat: 0
+    img:
+      jp:
+      en: /en/blk/030.jpg
+  - num: '031'
+    name: Eeletrik
+    type: L
+    hp: 90
+    stage: 1
+    evolve-from: Tynamo
+    ability:
+      name: Dynamotor
+      desc: Once during your turn, you may attach a Basic {L} Energy card from your discard pile to 1 of your Benched Pokémon.
+    attack:
+      - energy: LLC
+        name: Electric Ball
+        damage: 50
+        desc:
+    weak: F
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/blk/031.jpg
+  - num: '079'
+    name: Air Balloon
+    type: T
+    subtype: Pokemon Tool
+    trainer:
+      - The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.
+    img:
+      jp:
+      en: /en/blk/079.jpg

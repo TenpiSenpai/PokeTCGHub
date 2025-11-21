@@ -1,0 +1,65 @@
+set: en_twm
+desc: Twilight Masquerade
+cards:
+  - num: 128
+    name: Dreepy
+    type: N
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: P
+        name: Petty Grudge
+        damage: 10
+        desc:
+      - energy: RP
+        name: Bite
+        damage: 40
+        desc:
+    weak:
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/twm/128.jpg
+  - num: 129
+    name: Drakloak
+    type: N
+    hp: 90
+    stage: 1
+    evolve-from: Dreepy
+    ability:
+      name: Recon Directive
+      desc: Once during your turn, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck.
+    attack:
+      - energy: RP
+        name: Dragon Headbutt
+        damage: 40
+        desc:
+    weak:
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/twm/129.jpg
+  - num: 130
+    name: Dragapult ex
+    type: N
+    hp: 320
+    stage: 2
+    evolve-from: Drakloak
+    attack:
+      - energy: C
+        name: Jet Headbutt
+        damage: 70
+        desc:
+      - energy: RP
+        name: Phantom Dive
+        damage: 200
+        desc: Put 6 damage counters on your opponent’s Benched Pokémon in any way you like.
+    weak:
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/twm/130.jpg

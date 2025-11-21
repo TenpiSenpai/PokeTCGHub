@@ -1,0 +1,20 @@
+set: en_pre
+desc: Prismatic Evolutions
+cards:
+  - name: Budew
+    num: '004'
+    type: G
+    hp: 30
+    stage: 0
+    evolve-from:
+    attack:
+      - energy:
+        name: Itchy Pollen
+        damage: 10
+        desc: During your opponent’s next turn, they can’t play any Item cards from their hand.
+    weak: R
+    resist:
+    retreat: 0
+    img:
+      jp:
+      en: /en/pre/004.jpg

@@ -17,7 +17,7 @@ const {data} = props;
         <div class="grow p-8 flex flex-col">
             <div v-if="data.ref?.from != null" class="italic text-sm">{{ data.ref.from }}</div>
             <div>
-                <span>{{ data.title }}</span>: <span class="font-bold">{{ data.name }}</span> - <span>{{ GetTypeByCode(data.type)?.name }}</span>
+                <span>{{ data.num }}</span>: <span class="font-bold">{{ data.name }}</span> - <span>{{ GetTypeByCode(data.type)?.name }}</span>
                 <span v-if="data.hp != null"> - {{ data.hp }} HP</span>
                 <span v-if="data.subtype != null"> - {{ data.subtype }}</span>
             </div>

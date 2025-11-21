@@ -1,8 +1,0 @@
-name: Air Balloon
-type: T
-subtype: Pokemon Tool
-trainer:
-  - The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.
-img:
-  jp:
-  en: /en/blk/079.jpg

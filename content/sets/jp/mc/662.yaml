@@ -1,8 +1,0 @@
-name: PokePad
-type: T
-subtype: Item
-trainer:
-  - Search your deck for a Pokemon without a Rule Box, reveal it, and put it into your hand. Then, shuffle your deck.
-img:
-  jp: /jp/mc/662.jpg
-  en:

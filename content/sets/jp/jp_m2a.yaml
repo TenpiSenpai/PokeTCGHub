@@ -1,0 +1,490 @@
+set: jp_m2a
+desc: MEGA Dream ex
+cards:
+  - name: Wurmple
+    num: '004'
+    type: G
+    hp: 60
+    stage: 0
+    attack:
+      - energy: G
+        name: Bug Bite
+        damage: 20
+        desc:
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m2a/004.jpg
+      en:
+  - name: Silcoon
+    num: '005'
+    type: G
+    hp: 90
+    stage: 1
+    evolve-from: Wurmple
+    ability:
+      name: Cascading Cocoons
+      desc: When you play this card to evolve 1 of your Pokemon during your turn, you may use this Ability. Search your deck for a Cascoon or Silcoon and put it onto your Bench. Then, shuffle your deck.
+    attack:
+      - energy: G
+        name: Tackle
+        damage: 30
+        desc:
+    weak: F
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m2a/005.jpg
+      en:
+  - num: '011'
+    ref:
+      set: en_pre
+      num: '004'
+      from: Reprint from Prismatic Evolutions
+  - name: Entei
+    num: '020'
+    type: R
+    hp: 140
+    stage: 0
+    attack:
+      - energy: RR
+        name: Flare Fall
+        damage: 30+
+        desc: If you have at least 4 Fire Energy in play, this attack does 90 more damage.
+    weak: W
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m2a/020.jpg
+      en: /en/asc/025.jpg
+  - name: Snorunt
+    type: W
+    num: '035'
+    hp: 70
+    stage: 0
+    attack:
+      - energy: W
+        name: Chilly
+        damage: 10
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m2a/035.jpg
+      en:
+  - name: Mega Frosslass ex
+    type: W
+    num: '036'
+    hp: 310
+    stage: 1
+    evolves-from: Snorunt
+    attack:
+      - energy: W
+        name: Rebellion
+        damage: 50x
+        desc: This attacks does 50 damage times the number of cards in your opponent's hand.
+      - energy: WCC
+        name: Absolute Snow
+        damage: 150
+        desc: Your opponent's Active Pokemon is now Asleep.
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m2a/036.jpg
+      en:
+  - name: N's Vanillite
+    type: W
+    num: '037'
+    hp: 60
+    stage: 0
+    attack:
+      - energy: C
+        name: Call for Family
+        desc: Search your deck for up to 2 Basic Pokemon and put them onto your Bench. Then, shuffle your deck.
+      - energy: WC
+        name: Icy Snow
+        damage: 20
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m2a/037.jpg
+      en:
+  - name: N's Vanillish
+    type: W
+    num: '038'
+    hp: 100
+    stage: 1
+    evolves-from: N's Vanillite
+    attack:
+      - energy: C
+        name: Flop
+        damage: 20
+      - energy: WCC
+        name: Sheer Cold
+        damage: 60
+        desc: The Defending Pokemon can't attack during your opponent's next turn.
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m2a/038.jpg
+      en:
+  - name: N's Vanilluxe
+    type: W
+    num: '039'
+    hp: 150
+    stage: 2
+    evolves-from: N's Vanillish
+    attack:
+      - energy: CC
+        name: Snow Coating
+        damage:
+        desc: Double the number of damage counters on each of your opponent's Pokemon.
+      - energy: WCC
+        name: Blizzard
+        damage: 120
+        desc: This attack does 10 damage to each of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+    weak: M
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m2a/039.jpg
+      en: /en/asc/051.jpg
+  - name: Snom
+    type: W
+    num: '040'
+    hp: 50
+    stage: 0
+    evolves-from:
+    attack:
+      - energy: W
+        name: Icicle Spear
+        damage: 20
+        desc:
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m2a/040.jpg
+      en:
+  - name: Frosmoth
+    type: W
+    num: '041'
+    hp: 110
+    stage: 1
+    evolves-from: Snom
+    ability:
+      name: Inviting Wings
+      desc: Once during your turn, if this Pokemon is in your Active Spot, you may use this Ability. Each player draws a card.
+    attack:
+      - energy: WW
+        name: Cold Cyclone
+        damage: 90
+        desc: Move a [W] Energy from this Pokemon to 1 of your Benched Pokemon.
+    weak: M
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m2a/041.jpg
+      en:
+  - num: '047'
+    ref:
+      set: en_blk
+      num: '030'
+      from: Reprint from Black Bolt
+  - num: '048'
+    ref:
+      set: en_blk
+      num: '031'
+      from: Reprint from Black Bolt
+  - name: Mega Eelektross ex
+    num: '049'
+    type: L
+    hp: 350
+    stage: 2
+    evolves-from: Eelektrik
+    attack:
+      - energy: LL
+        name: Split Bomb
+        damage:
+        desc: This attack does 60 damage to 2 of your opponent's Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+      - energy: LLL
+        name: Disaster Shock
+        damage: 190
+        desc: You may discard 2 [L] Energy from this Pokemon. If you do, your opponent's Active Pokemon is now Paralyzed.
+    weak: F
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m2a/049.jpg
+      en:
+  - name: Team Rocket's Diglett
+    num: '082'
+    type: F
+    hp: 60
+    stage: 0
+    attack:
+      - energy: F
+        name: Rummage Around
+        damage: 0
+        desc: Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.
+    weak: G
+    resist:
+    retreat: 1
+    img:
+      jp: /jp/m2a/082.jpg
+      en:
+  - name: Team Rocket's Dugtrio
+    num: '083'
+    type: F
+    hp: 100
+    stage: 1
+    evolve-from: Team Rocket's Diglett
+    ability:
+      name: Pothole
+      desc: Whenever your opponent's Active Pokemon moves to the Bench during their turn, put 2 damage counters on that Pokemon.
+    attack:
+      - energy: FC
+        name: Mud Shot
+        damage: 50
+    weak: G
+    resist:
+    retreat: 1
+    img:
+      jp: /jp/m2a/083.jpg
+      en:
+  - num: 102
+    ref:
+      set: en_dri
+      num: 127
+      from: Reprint from Destined Rivals
+  - num: 103
+    name: Team Rocket's Honchkrow
+    type: D
+    hp: 130
+    stage: 1
+    evolve-from: Team Rocket's Murkrow
+    attack:
+      - energy: CC
+        name: Rocket Feathers
+        damage: 60x
+        desc: Discard any number of Supporter cards with "Team Rocket" in their name from your hand. This attack does 60 damage for each card discarded this way.
+      - energy: DCC
+        name: Hammer In
+        damage: 100
+    weak: L
+    resist: F
+    retreat: 1
+    img:
+      jp: /jp/m2a/103.jpg
+      en:
+  - num: 116
+    name: Pawniard
+    type: M
+    hp: 70
+    stage: 0
+    evolves-from:
+    attack:
+      - energy: M
+        name: Push Down
+        damage: 10
+        desc: Your opponent switches their Active Pokémon with a Benched Pokémon. (Your opponent chooses which Benched Pokémon to be their Active Pokémon)
+
+    weak: F
+    resist: G
+    retreat: 1
+    img:
+      jp: /jp/m2a/116.jpg
+      en:
+  - num: 117
+    name: Bisharp
+    type: M
+    hp: 120
+    stage: 1
+    evolves-from: Pawniard
+    attack:
+      - energy: M
+        name: Kick Draw
+        damage: 50
+        desc: Draw 2 cards.
+
+    weak: F
+    resist: G
+    retreat: 1
+    img:
+      jp: /jp/m2a/117.jpg
+      en:
+  - num: 118
+    name: Kingambit
+    type: M
+    hp: 170
+    stage: 2
+    evolves-from: Kingambit
+    ability:
+      name: Supreme Overlord
+      desc: Attacks used by this Pokémon deal 30 more damage to your opponent's Active Pokémon for each Prize card your opponent has taken.
+    attack:
+      - energy: MM
+        name: Double-Edged Slash
+        damage: 180
+        desc: This Pokémon does 50 damage to itself.
+
+    weak: F
+    resist: G
+    retreat: 3
+    img:
+      jp: /jp/m2a/118.jpg
+      en:
+  - num: 124
+    name: Dratini
+    type: N
+    hp: 80
+    stage: 0
+    evolves-from:
+    attack:
+      - energy: WL
+        name: Headbutt
+        damage: 30
+        desc:
+    weak:
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m2a/124.jpg
+      en:
+  - num: 125
+    name: Dragonair
+    type: N
+    hp: 100
+    stage: 1
+    evolves-from: Dratini
+    ability:
+      name: Evolution Discovery
+      desc: If this Pokemon has any Energy attached to it, you may use this Ability once during your turn. Search your deck for an Evolution Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.
+    attack:
+      - energy: WL
+        name: Tail Snap
+        damage: 60
+        desc:
+    weak:
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m2a/125.jpg
+      en:
+  - num: 126
+    name: Mega Dragonite ex
+    type: N
+    hp: 370
+    stage: 2
+    evolves-from: Dragonair
+    ability:
+      name: Sky Transport
+      desc: Once during your turn, you may use this ability. Switch your Active Pokemon with 1 of your Benched Pokemon.
+    attack:
+      - energy: WLL
+        name: Ryuno Glide
+        damage: 330
+        desc: Discard 2 Energy from this Pokemon.
+    weak:
+    resist: 
+    retreat: 2
+    img:
+      jp:
+      en: /en/asc/126.jpg
+  - num: 129
+    name: N's Zekrom
+    type: N
+    hp: 130
+    stage: 0
+    evolves-from:
+    attack:
+      - energy: CCC
+        name: Shred
+        damage: 70
+        desc: This attack's damage isn't affected by any effects on your opponent's Active Pokémon.
+      - energy: RLLC
+        name: Rampaging Thunder
+        damage: 250
+        desc: This Pokemon can't attack during your next turn.
+    weak:
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m2a/129.jpg
+      en:
+  - num: 132
+    ref:
+      set: en_twm
+      num: 128
+      from: Reprint from Twilight Masquerade
+  - num: 133
+    ref:
+      set: en_twm
+      num: 129
+      from: Reprint from Twilight Masquerade
+  - num: 134
+    ref:
+      set: en_twm
+      num: 130
+      from: Reprint from Twilight Masquerade
+  - num: 164
+    name: Thick Scale
+    type: T
+    subtype: Pokemon Tool
+    hp:
+    stage:
+    evolves-from:
+    trainer:
+      - The [N] Pokemon this Tool is attached to takes 50 less damage from the attacks of your opponent's [G],[R],[W] and [L] Pokemon.
+    weak:
+    resist: 
+    retreat:
+    img:
+      jp: /jp/m2a/164.jpg
+      en:
+  - num: 165
+    ref:
+      set: en_blk
+      num: '079'
+      from: Reprint from Black Bolt
+  - num: 170
+    name: Canari
+    type: T
+    subtype: Supporter
+    hp:
+    stage:
+    evolves-from:
+    trainer:
+      - You must discard a card from your hand in order to play this card.
+      - Search your deck for 4 [L] Pokemon, reveal them, and put them into your hand. Then, shuffle your deck.
+    weak:
+    resist: 
+    retreat:
+    img:
+      jp: /jp/m2a/170.jpg
+      en:
+  - num: 173
+    name: Anthea and Concordia
+    type: T
+    subtype: Supporter
+    hp:
+    stage:
+    evolves-from:
+    trainer:
+      - You can only play this card if you have N's Darmanitan, N's Zoroark ex, N's Reshiram, N's Zekrom, N's Klinklang, and N's Vanilluxe in play.
+      - During this turn, if your opponent's Active Pokemon is Knocked Out by damage from an attack from 1 of your N's Pokemon, take 3 extra Prize cards.
+    weak:
+    resist: 
+    retreat:
+    img:
+      jp: /jp/m2a/173.jpg
+      en:
+  - num: 175
+    ref:
+      set: en_meg
+      num: 119
+      from: Reprint from Mega Evoltuions

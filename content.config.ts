@@ -1,8 +1,9 @@
 import { defineCollection, defineContentConfig } from '@nuxt/content'
 import { z } from 'zod'
 
-const setSchema = z.object({
+const cardSchema = z.object({
   name: z.string(),
+  num: z.string(),
   type: z.string(),
   subtype: z.string(),
   hp: z.number(),
@@ -38,23 +39,16 @@ function newCollection(source: string) {
   return defineCollection({
       type: 'data',
       source: source,
-      schema: setSchema
+      schema: z.object({
+        set: z.string(),
+        desc: z.string(),
+        cards: z.array(cardSchema)
+      })
     })
 }
 
 export default defineContentConfig({
   collections: {
-    jp_m2a: newCollection('sets/jp/m2a/**.yaml'),
-    jp_mc: newCollection('sets/jp/mc/**.yaml'),
-    jp_mp1: newCollection('sets/jp/mp1/**.yaml'),
-    jp_promo: newCollection('sets/jp/promo/**.yaml'),
-
-    en_twm: newCollection('sets/en/twm/**.yaml'),
-    en_pre: newCollection('sets/en/pre/**.yaml'),
-    en_dri: newCollection('sets/en/dri/**.yaml'),
-    en_blk: newCollection('sets/en/blk/**.yaml'),
-    en_meg: newCollection('sets/en/meg/**.yaml'),
-    en_pfl: newCollection('sets/en/pfl/**.yaml'),
-    en_asc: newCollection('sets/en/asc/**.yaml'),
+    card_db: newCollection('sets/**/*.yaml'),
   }
 })
