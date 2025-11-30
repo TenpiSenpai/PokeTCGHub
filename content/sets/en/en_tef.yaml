@@ -1,0 +1,12 @@
+set: en_tef
+desc: Temporal Forces
+cards:
+  - num: 144
+    name: Buddy-Buddy Poffin
+    type: T
+    subtype: Item
+    trainer:
+      - Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench. Then, shuffle your deck.
+    img:
+      jp:
+      en: /en/tef/144.jpg
