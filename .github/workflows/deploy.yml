@@ -19,6 +19,8 @@ jobs:
       - run: |
           ls
           printf -v DateResult '%(%Y-%m-%d)T' -1
+          echo $DateResult
+          find ./app -name "*.vue" -exec echo {} ';'
           find ./app -name "*.vue" -exec sed -i s/{BUILD_DATE}/$DateResult/g  {} ';'
       - run: npx nuxt build --preset github_pages
       - name: Upload artifact
