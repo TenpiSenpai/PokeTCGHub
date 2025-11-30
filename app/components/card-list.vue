@@ -19,27 +19,39 @@ const {data} = await useAsyncData(set, () => {
 if (data.value == null) {
     throw set + ' does not exist';
 }
+let setList: {set:string, cards: any[]}[] = [];
 //set Linking
 //This makes it so you only have to declare cards once and cn show them in several sets such as reprints or en/jp
 for(let i = 0; i < data.value!.cards.length; i++) {
-    let r = data.value!.cards[i]!;
-    if (r.ref != null) {
-        const {data: item} = await useAsyncData(r.ref.set, () => {
+    const card = data.value!.cards[i]!;
+    if (card.ref != null) {
+        let setFind = setList.find((x) => x.set == card.ref.set);
+        if (setFind == null) {
+            const {data: item} = await useAsyncData(card.ref.set, () => {
             return queryCollection('card_db')
-                .where('set', '=', r.ref.set)
+                .where('set', '=', card.ref.set)
                 .first()
-        })
-        if (item.value == null) {
-            throw r.ref.set + ': does not exists.';
+            });
+            if (item.value == null) {
+                throw card.ref.set + ': does not exists.';
+            }
+            const newSet = {
+                set: card.ref.set,
+                cards: item.value.cards
+            };
+            setList.push(newSet);
+            setFind = newSet;
         }
-        let f = item.value.cards.find((item: any) => item.num == r.ref.num);
+        
+        let f = setFind.cards.find((item: any) => parseInt(item.num) == parseInt(card.ref.num));
         if (f == null) {
-            throw r.ref.set + ':' + r.ref.num + ' does not exists.';
+            throw card.ref.set + ':' + card.ref.num + ' does not exists.';
         }
-        f.ref = r.ref;
-        f.title = r.title;
-        f.num = r.num;
-        data.value!.cards[i] = f;
+        var found = { ...f }
+        found.ref = card.ref;
+        found.title = card.title;
+        found.num = card.num;
+        data.value!.cards[i] = found;
     }
 }
 const cards = data.value!.cards.sort((a, b) => {
@@ -60,7 +72,7 @@ function testLastType(code: string) {
     <div class="flex p-4 border-t" v-if="!excludeTypes">
         <a v-for="type in Types" class="p-4" :href="'#type-' + type.code">{{ type.name }}</a>
     </div>
-    <template v-for="card in cards">
+    <template v-for="card in cards" :key="card.num">
         <div v-if="testLastType(card.type)" :id="'type-' + card.type"></div>
         <card-block :data="card"></card-block>
     </template>

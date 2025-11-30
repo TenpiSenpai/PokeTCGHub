@@ -38,6 +38,47 @@ cards:
     img:
       jp:
       en: /en/blk/031.jpg
+  - num: '034'
+    name: Zekrom ex
+    type: L
+    hp: 230
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: CC
+        name: Slash
+        damage: 50
+        desc:
+      - energy: LLC
+        name: Voltage Burst
+        damage: 130+
+        desc: This attack does 50 more damage for each Prize card your opponent has taken. This Pokémon also does 30 damage to itself.
+    weak: F
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/blk/034.jpg
+  - num: '067'
+    name: Genesect ex
+    type: M
+    hp: 220
+    stage: 0
+    evolve-from:
+    ability:
+      name: Metallic Signal
+      desc: Once during your turn, you may search your deck for up to 2 Evolution {M} Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+    attack:
+      - energy: MMC
+        name: Protect Charge
+        damage: 150
+        desc: During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+    weak: R
+    resist: G
+    retreat: 2
+    img:
+      jp:
+      en: /en/blk/067.jpg
   - num: '079'
     name: Air Balloon
     type: T
@@ -47,3 +88,13 @@ cards:
     img:
       jp:
       en: /en/blk/079.jpg
+  - num: '086'
+    name: Prism Energy
+    type: T
+    subtype: Special Energy
+    trainer:
+      - As long as this card is attached to a Pokémon, it provides {C} Energy.
+      - If this card is attached to a Basic Pokémon, this card provides every type of Energy but provides only 1 Energy at a time.
+    img:
+      jp:
+      en: /en/blk/086.jpg

@@ -1,6 +1,46 @@
 set: en_twm
 desc: Twilight Masquerade
 cards:
+  - num: '025'
+    name: Teal Mask Ogerpon ex
+    type: G
+    hp: 210
+    stage: 0
+    evolve-from: 
+    ability:
+      name: Teal Dance
+      desc: Once during your turn, you may attach a Basic {G} Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card.
+    attack:
+      - energy: GGG
+        name: Myriad Leaf Shower
+        damage: 30+
+        desc: This attack does 30 more damage for each Energy attached to both Active Pokémon.
+    weak: R
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/twm/025.jpg
+  - num: '095'
+    name: Munkidori
+    type: P
+    hp: 110
+    stage: 0
+    evolve-from: 
+    ability:
+      name: Adrena-Brain
+      desc: Once during your turn, if this Pokémon has any {D} Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent’s Pokémon.
+    attack:
+      - energy: PC
+        name: Mind Bend
+        damage: 60
+        desc: Your opponent’s Active Pokémon is now Confused.
+    weak: D
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/twm/095.jpg
   - num: 128
     name: Dreepy
     type: N
@@ -63,3 +103,41 @@ cards:
     img:
       jp:
       en: /en/twm/130.jpg
+  - num: '131'
+    name: Tatsugiri
+    type: N
+    hp: 70
+    stage: 0
+    evolve-from: 
+    ability:
+      name: Attract Customers
+      desc: Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 6 cards of your deck, reveal a Supporter card you find there, and put it into your hand. Shuffle the other cards back into your deck.
+    attack:
+      - energy: RW
+        name: Surf
+        damage: 50
+        desc:
+    weak:
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/twm/131.jpg
+  - num: 143
+    name: Bug Catching Set
+    type: T
+    subtype: Item
+    trainer:
+      - Look at the top 7 cards of your deck. You may reveal up to 2 in any combination of {G} Pokémon and Basic {G} Energy cards you find there and put them into your hand. Shuffle the other cards back into your deck.
+    img:
+      jp:
+      en: /en/twm/143.jpg
+  - num: 148
+    name: Enhanced Hammer
+    type: T
+    subtype: Item
+    trainer:
+      - Discard a Special Energy from 1 of your opponent’s Pokémon.
+    img:
+      jp:
+      en: /en/twm/148.jpg

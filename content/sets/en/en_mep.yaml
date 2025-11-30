@@ -1,0 +1,43 @@
+set: en_mep
+desc: Mega Evolutions Promos
+cards:
+  - num: '007'
+    name: Psyduck
+    type: W
+    hp: 70
+    stage: 0
+    evolve-from:
+    ability:
+      name: Damp
+      desc: Pokémon in play (both yours and your opponent’s) lose any Ability that requires the Pokémon using it to Knock Out itself.
+    attack:
+      - energy: CC
+        name: Ram
+        damage: 20
+        desc:
+    weak: L
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/mep/007.jpg
+  - num: '008'
+    name: Golduck
+    type: W
+    hp: 120
+    stage: 1
+    evolve-from: Psyduck
+    ability:
+      name: Damp
+      desc: Pokémon in play (both yours and your opponent’s) lose any Ability that requires the Pokémon using it to Knock Out itself.
+    attack:
+      - energy: CCC
+        name: Hydro Pump
+        damage: 60
+        desc: This attack does 20 more damage for each {W} Energy attached to this Pokémon.
+    weak: L
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/mep/008.jpg

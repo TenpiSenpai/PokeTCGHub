@@ -1,0 +1,93 @@
+set: en_sfa
+desc: Shrouded Fable
+cards:
+  - num: '018'
+    name: Duskull
+    type: P
+    hp: 60
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: P
+        name: Come and Get You
+        damage:
+        desc: Put up to 3 Duskull from your discard pile onto your Bench.
+      - energy: PP
+        name: Mumble
+        damage: 30
+        desc:
+    weak: D
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/sfa/018.jpg
+  - num: '019'
+    name: Dusclops
+    type: P
+    hp: 90
+    stage: 1
+    evolve-from: Duskull
+    ability:
+      name: Cursed Blast
+      desc: Once during your turn, you may put 5 damage counters on 1 of your opponent’s Pokémon. If you use this Ability, this Pokémon is Knocked Out.
+    attack:
+      - energy: PP
+        name: Will-O-Wisp
+        damage: 50
+        desc:
+    weak: D
+    resist: F
+    retreat: 2
+    img:
+      jp:
+      en: /en/sfa/019.jpg
+  - num: '020'
+    name: Dusknoir
+    type: P
+    hp: 160
+    stage: 2
+    evolve-from: Dusclops
+    ability:
+      name: Cursed Blast
+      desc: Once during your turn, you may put 13 damage counters on 1 of your opponent’s Pokémon. If you use this Ability, this Pokémon is Knocked Out.
+    attack:
+      - energy: PPC
+        name: Shadow Bind
+        damage: 130
+        desc: During your opponent’s next turn, the Defending Pokémon can’t retreat.
+    weak: D
+    resist: F
+    retreat: 3
+    img:
+      jp:
+      en: /en/sfa/020.jpg
+  - num: '038'
+    name: Fezandipiti ex
+    type: D
+    hp: 210
+    stage: 0
+    evolve-from: 0
+    ability:
+      name: Flip the Script
+      desc: Once during your turn, if any of your Pokémon were Knocked Out during your opponent’s last turn, you may draw 3 cards. You can’t use more than 1 Flip the Script Ability each turn.
+    attack:
+      - energy: CCC
+        name: Cruel Arrow
+        damage:
+        desc: This attack does 100 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+    weak: F
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/sfa/038.jpg
+  - num: '061'
+    name: Night Stretcher
+    type: T
+    subtype: Item
+    trainer:
+      - Put a Pokémon or a Basic Energy card from your discard pile into your hand.
+    img:
+      jp:
+      en: /en/sfa/061.jpg

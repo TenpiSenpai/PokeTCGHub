@@ -1,6 +1,172 @@
 set: en_meg
-desc: MEGA Evolutions
+desc: Mega Evolutions
 cards:
+  - num: '058'
+    name: Ralts
+    type: P
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Collect
+        damage:
+        desc: Draw a card.
+      - energy: P
+        name: Headbutt
+        damage: 10
+        desc:
+    weak: D
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/meg/058.jpg
+  - num: '059'
+    name: Kirlia
+    type: P
+    hp: 100
+    stage: 1
+    evolve-from: Ralts
+    attack:
+      - energy: P
+        name: Call Sign
+        damage:
+        desc: Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+      - energy: P
+        name: Psyshot
+        damage: 30
+        desc:
+    weak: D
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/meg/059.jpg
+  - num: '060'
+    name: Mega Gardevoir ex
+    type: P
+    hp: 360
+    stage: 2
+    evolve-from: Kirlia
+    attack:
+      - energy: P
+        name: Overflowing Wishes
+        damage:
+        desc: For each of your Benched Pokémon, search your deck for a Basic {P} Energy card and attach it to that Pokémon. Then, shuffle your deck.
+      - energy: P
+        name: Mega Symphonia
+        damage: 50
+        desc: This attack does 50 damage for each {P} Energy attached to all of your Pokémon.
+    weak: D
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/meg/060.jpg
+  - num: '074'
+    name: Lunatone
+    type: F
+    hp: 110
+    stage: 0
+    evolve-from:
+    ability:
+      name: Lunar Cycle
+      desc: Once during your turn, if you have Solrock in play, you may discard a Basic {F} Energy card from your hand in order to use this Ability. Draw 3 cards. You can’t use more than 1 Lunar Cycle Ability each turn.
+    attack:
+      - energy: FF
+        name: Power Gem
+        damage: 50
+        desc:
+    weak: G
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/meg/074.jpg
+  - num: '075'
+    name: Solrock
+    type: F
+    hp: 110
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: F
+        name: Cosmic Beam
+        damage: 70
+        desc: If you don’t have Lunatone on your Bench, this attack does nothing. This attack’s damage isn’t affected by Weakness or Resistance.
+    weak: G
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/meg/075.jpg
+  - num: '076'
+    name: Riolu
+    type: F
+    hp: 80
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: F
+        name: Accelerating Stab
+        damage: 30
+        desc: During your next turn, this Pokémon can’t use Accelerating Stab.
+    weak: P
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/meg/076.jpg
+  - num: '077'
+    name: Mega Lucario ex
+    type: F
+    hp: 340
+    stage: 1
+    evolve-from: Riolu
+    attack:
+      - energy: F
+        name: Aura Jab
+        damage: 130
+        desc: Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.
+      - energy: FF
+        name: Mega Brave
+        damage: 270
+        desc: During your next turn, this Pokémon can’t use Mega Brave.
+    weak: P
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/meg/077.jpg
+  - num: 113
+    name: Acerola's Mischief
+    type: T
+    subtype: Supporter
+    trainer:
+      - You can use this card only if your opponent has 2 or fewer Prize cards remaining.
+      - Choose 1 of your Pokémon in play. During your opponent’s next turn, prevent all damage from and effects of attacks done to that Pokémon by your opponent’s Pokémon ex.
+    img:
+      jp:
+      en: /en/meg/113.jpg
+  - num: 116
+    name: Fighting Gong
+    type: T
+    subtype: Item
+    trainer:
+      - Search your deck for a Basic {F} Energy card or a Basic {F} Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+    img:
+      jp:
+      en: /en/meg/116.jpg
+  - num: 117
+    name: Forest of Vitality
+    type: T
+    subtype: Stadium
+    trainer:
+      - Each player’s {G} Pokémon can evolve into {G} Pokémon during the turn they play those Pokémon, except during their first turn.
+    img:
+      jp:
+      en: /en/meg/117.jpg
   - num: 119
     name: Lillie's Determination
     type: T
@@ -10,3 +176,30 @@ cards:
     img:
       jp:
       en: /en/meg/119.jpg
+  - num: 121
+    name: Mega Signal
+    type: T
+    subtype: Item
+    trainer:
+      - Search your deck for a Mega Evolution Pokémon ex, reveal it, and put it into your hand. Then, shuffle your deck.
+    img:
+      jp:
+      en: /en/meg/121.jpg
+  - num: 122
+    name: Mystery Garden
+    type: T
+    subtype: Stadium
+    trainer:
+      - Once during each player’s turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have {P} Pokémon in play.
+    img:
+      jp:
+      en: /en/meg/122.jpg
+  - num: 124
+    name: Premium Power Pro
+    type: T
+    subtype: Item
+    trainer:
+      - During this turn, attacks used by your {F} Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+    img:
+      jp:
+      en: /en/meg/124.jpg

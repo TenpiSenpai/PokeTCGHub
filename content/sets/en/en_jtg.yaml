@@ -1,0 +1,397 @@
+set: en_jtg
+desc: Journey Together
+cards:
+  - num: '026'
+    name: N's Darumaka
+    type: R
+    hp: 80
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: CC
+        name: Rolling Tackle
+        damage: 20
+        desc:
+      - energy: RRC
+        name: Flare
+        damage: 50
+        desc:
+    weak: W
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/jtg/026.jpg
+  - num: '027'
+    name: N's Darmanitan
+    type: R
+    hp: 140
+    stage: 1
+    evolve-from: N's Darumaka
+    attack:
+      - energy: CC
+        name: Back Draft
+        damage: 30x
+        desc: This attack does 30 damage for each Basic Energy card in your opponent’s discard pile.
+      - energy: RRC
+        name: Flamebody Cannong
+        damage: 90
+        desc: Discard all Energy from this Pokémon, and this attack also does 90 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+    weak: W
+    resist:
+    retreat: 3
+    img:
+      jp:
+      en: /en/jtg/027.jpg
+  - num: '030'
+    name: Reshiram ex
+    type: R
+    hp: 220
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: R
+        name: Fire Wing
+        damage: 40
+        desc:
+      - energy: RRC
+        name: Scorching Fire
+        damage: 200
+        desc: Discard an Energy from this Pokémon.
+    weak: W
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/jtg/030.jpg
+  - num: '052'
+    name: Iono's Tadbulb
+    type: L
+    hp: 60
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: LC
+        name: Tiny Charge
+        damage: 30
+        desc:
+    weak: F
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/jtg/052.jpg
+  - num: '053'
+    name: Iono's Bellibolt ex
+    type: L
+    hp: 280
+    stage: 1
+    evolve-from: Iono's Tadbulb
+    ability:
+      name: Electric Streamer
+      desc: As often as you like during your turn, you may attach a Basic {L} Energy card from your hand to 1 of your Iono’s Pokémon.
+    attack:
+      - energy: LLLC
+        name: Thunderous Bolt
+        damage: 230
+        desc: During your next turn, this Pokémon can’t attack.
+    weak: F
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/jtg/053.jpg
+  - num: '054'
+    name: Iono's Wattrel
+    type: L
+    hp: 60
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: L
+        name: Quick Attack
+        damage: 10+
+        desc: Flip a coin. If heads, this attack does 20 more damage.
+    weak: L
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/jtg/054.jpg
+  - num: '055'
+    name: Iono's Kilowattrel
+    type: L
+    hp: 120
+    stage: 1
+    evolve-from: Iono's Wattrel
+    ability:
+      name: Flashing Draw
+      desc: You must discard a Basic {L} Energy from this Pokémon in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand.
+    attack:
+      - energy: LCC
+        name: Mach Bolt
+        damage: 70
+        desc:
+    weak: L
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/jtg/055.jpg
+  - num: '056'
+    name: Lillie's Clefairy ex
+    type: P
+    hp: 190
+    stage: 0
+    evolve-from:
+    ability:
+      name: Fairy Zone
+      desc: The Weakness of each of your opponent’s {N} Pokémon in play is now {P}. (Apply Weakness as ×2.)
+    attack:
+      - energy: PC
+        name: Full Moon Rondo
+        damage: 20+
+        desc: This attack does 20 more damage for each Benched Pokémon (both yours and your opponent’s).
+    weak: M
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/jtg/056.jpg
+  - num: '097'
+    name: N's Zorua
+    type: D
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: D
+        name: Scratch
+        damage: 20
+        desc:
+    weak: G
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/jtg/097.jpg
+  - num: '098'
+    name: N's Zoroark
+    type: D
+    hp: 280
+    stage: 1
+    evolve-from: N's Zorua
+    ability:
+      name: Trade
+      desc: You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards.
+    attack:
+      - energy: DD
+        name: Night Joker
+        damage:
+        desc: Choose 1 of your Benched N’s Pokémon’s attacks and use it as this attack.
+    weak: G
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/jtg/098.jpg
+  - num: '107'
+    name: Magearna
+    type: M
+    hp: 90
+    stage: 0
+    evolve-from:
+    ability:
+      name: Auto Heal
+      desc: As long as this Pokémon is in the Active Spot, whenever you attach an Energy card from your hand to 1 of your Pokémon, heal 90 damage from that Pokémon.
+    attack:
+      - energy: C
+        name: Spike Draw
+        damage: 20
+        desc: Draw 2 cards.
+    weak: R
+    resist: G
+    retreat: 1
+    img:
+      jp:
+      en: /en/jtg/107.jpg
+  - num: '111'
+    name: Hop's Zacian ex
+    type: M
+    hp: 230
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Insta Strike
+        damage: 30
+        desc: This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+      - energy: MMMC
+        name: Brave Slash
+        damage: 240
+        desc: During your next turn, this Pokémon can’t use Brave Slash.
+    weak: R
+    resist: G
+    retreat: 2
+    img:
+      jp:
+      en: /en/jtg/111.jpg
+  - num: '116'
+    name: N's Reshiram
+    type: N
+    hp: 130
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: RL
+        name: Powerful Rage
+        damage: 20x
+        desc: This attack does 20 damage for each damage counter on this Pokémon.
+      - energy: RRLC
+        name: Virtuous Flame
+        damage: 170
+        desc:
+    weak:
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/jtg/116.jpg
+  - num: '117'
+    name: Hop's Snorlax
+    type: C
+    hp: 150
+    stage: 0
+    evolve-from:
+    ability:
+      name: Extra Helpings
+      desc: Attacks used by your Hop’s Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance). The effect of Extra Helpings doesn’t stack.
+    attack:
+      - energy: CCC
+        name: Dynamic Press
+        damage: 140
+        desc: This Pokémon also does 80 damage to itself.
+    weak: F
+    resist:
+    retreat: 4
+    img:
+      jp:
+      en: /en/jtg/117.jpg
+  - num: '135'
+    name: Hop's Wooloo
+    type: C
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: CCC
+        name: Smash Kick
+        damage: 50
+        desc:
+    weak: F
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/jtg/135.jpg
+  - num: '136'
+    name: Hop's Dubwool
+    type: C
+    hp: 120
+    stage: 1
+    evolve-from: Hop's Wooloo
+    ability:
+      name: Defiant Horn
+      desc: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch in 1 of your opponent’s Benched Pokémon to the Active Spot.
+    attack:
+      - energy: CCC
+        name: Headbutt
+        damage: 80
+        desc:
+    weak: F
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/jtg/136.jpg
+  - num: '138'
+    name: Hop's Cramorant
+    type: C
+    hp: 110
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Fickle Spitting
+        damage: 120
+        desc: If your opponent doesn’t have exactly 3 or 4 Prize cards remaining, this attack does nothing.
+    weak: L
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/jtg/138.jpg
+  - num: 147
+    name: Hop's Bag
+    type: T
+    subtype: Item
+    trainer:
+      - Search your deck for up to 2 Basic Hop’s Pokémon and put them onto your Bench. Then, shuffle your deck.
+    img:
+      jp:
+      en: /en/jtg/147.jpg
+  - num: 148
+    name: Hop's Choice Band
+    type: T
+    subtype: Pokemon Tool
+    trainer:
+      - Attacks used by the Hop’s Pokémon this card is attached to cost {C} less and do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+    img:
+      jp:
+      en: /en/jtg/148.jpg
+  - num: 149
+    name: Iris's Fighting Spirit
+    type: T
+    subtype: Supporter
+    trainer:
+      - You can use this card only if you discard another card from your hand.
+      - Draw cards until you have 6 cards in your hand.
+    img:
+      jp:
+      en: /en/jtg/149.jpg
+  - num: 150
+    name: Levincia
+    type: T
+    subtype: Stadium
+    trainer:
+      - Once during each player’s turn, that player may put up to 2 Basic {L} Energy cards from their discard pile into their hand.
+    img:
+      jp:
+      en: /en/jtg/150.jpg
+  - num: 152
+    name: N's Castle
+    type: T
+    subtype: Stadium
+    trainer:
+      - N’s Pokémon in play (both yours and your opponent’s) have no Retreat Cost.
+    img:
+      jp:
+      en: /en/jtg/152.jpg
+  - num: 153
+    name: N's PP Up
+    type: T
+    subtype: Item
+    trainer:
+      - Attach a Basic Energy card from your discard pile to 1 of your Benched N’s Pokémon.
+    img:
+      jp:
+      en: /en/jtg/153.jpg
+  - num: 154
+    name: Postwick
+    type: T
+    subtype: Stadium
+    trainer:
+      - Attacks used by Hop’s Pokémon (both yours and your opponent’s) do 30 more damage to the opponent’s Active Pokémon (before applying Weakness and Resistance).
+    img:
+      jp:
+      en: /en/jtg/154.jpg

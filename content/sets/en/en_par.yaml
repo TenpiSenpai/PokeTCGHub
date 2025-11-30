@@ -1,0 +1,13 @@
+set: en_par
+desc: Paradox Rift
+cards:
+  - num: 160
+    name: Counter Catcher
+    type: T
+    subtype: Item
+    trainer:
+      - You can use this card only if you have more Prize cards remaining than your opponent.
+      - Switch in 1 of your opponent’s Benched Pokémon to the Active Spot.
+    img:
+      jp:
+      en: /en/par/160.jpg

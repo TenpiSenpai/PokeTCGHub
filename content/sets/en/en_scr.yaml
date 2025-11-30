@@ -1,0 +1,121 @@
+set: en_scr
+desc: Stellar Crown
+cards:
+  - num: '114'
+    name: Hoothoot
+    type: C
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Triple Stab
+        damage: 10x
+        desc: Flip 3 coins. This attack does 10 damage for each heads.
+    weak: L
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/scr/114.jpg
+  - num: '115'
+    name: Noctowl
+    type: C
+    hp: 100
+    stage: 1
+    evolve-from: Hoothoot
+    ability:
+      name: Jewel Seeker
+      desc: Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, if you have any Tera Pokémon in play, you may search your deck for up to 2 Trainer cards, reveal them, and put them into your hand. Then, shuffle your deck.
+    attack:
+      - energy: CC
+        name: Speed Wing
+        damage: 60
+        desc:
+    weak: L
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/scr/115.jpg
+  - num: '118'
+    name: Fan Rotom
+    type: C
+    hp: 70
+    stage: 0
+    evolve-from:
+    ability:
+      name: Fan Call
+      desc: Once during your first turn, you may search your deck for up to 3 {C} Pokémon with 100 HP or less, reveal them, and put them into your hand. Then, shuffle your deck. You can’t use more than 1 Fan Call Ability during your turn.
+    attack:
+      - energy: C
+        name: Assault Landing
+        damage: 70
+        desc: If there is no Stadium in play, this attack does nothing.
+    weak: L
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/scr/118.jpg
+  - num: '119'
+    name: Bouffalant
+    type: C
+    hp: 100
+    stage: 0
+    evolve-from:
+    ability:
+      name: Curly Wall
+      desc: As long as you have at least 1 other Bouffalant in play, all of your Basic {C} Pokémon take 60 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). The effect of Curly Wall doesn’t stack.
+    attack:
+      - energy: CCC
+        name: Boundless Power
+        damage: 130
+        desc: During your next turn, this Pokémon can’t attack.
+    weak: F
+    resist: 
+    retreat: 2
+    img:
+      jp:
+      en: /en/scr/119.jpg
+  - num: '128'
+    name: Terapagos ex
+    type: C
+    hp: 230
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: CC
+        name: Unified Beatdown
+        damage: 30x
+        desc: If you go second, you can’t use this attack during your first turn. This attack does 30 damage for each of your Benched Pokémon.
+      - energy: GWL
+        name: Crown Opal
+        damage: 180
+        desc: During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic non-{C} Pokémon.
+    weak: F
+    resist: 
+    retreat: 2
+    img:
+      jp:
+      en: /en/scr/128.jpg
+  - num: 131
+    name: Area Zero Underdepths
+    type: T
+    subtype: Stadium
+    trainer:
+      - Each player who has any Tera Pokémon in play can have up to 8 Pokémon on their Bench.
+      - If a player no longer has any Tera Pokémon in play, that player discards Pokémon from their Bench until they have 5. When this card leaves play, both players discard Pokémon from their Bench until they have 5, and the player who played this card discards first.
+    img:
+      jp:
+      en: /en/scr/131.jpg
+  - num: '135'
+    name: Glass Trumpet
+    type: T
+    subtype: Item
+    trainer:
+      - You can use this card only if you have any Tera Pokémon in play.
+      - Choose up to 2 of your Benched {C} Pokémon and attach a Basic Energy card from your discard pile to each of them.
+    img:
+      jp:
+      en: /en/scr/135.jpg

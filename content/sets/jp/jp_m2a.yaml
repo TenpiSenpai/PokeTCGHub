@@ -1,6 +1,21 @@
 set: jp_m2a
 desc: MEGA Dream ex
 cards:
+  - num: '001'
+    ref:
+      set: en_dri
+      num: '001'
+      from: Reprint
+  - num: '002'
+    ref:
+      set: en_dri
+      num: '002'
+      from: Reprint
+  - num: '003'
+    ref:
+      set: en_dri
+      num: '003'
+      from: Reprint
   - name: Wurmple
     num: '004'
     type: G
@@ -95,11 +110,61 @@ cards:
     img:
       jp: /jp/m2a/008.jpg
       en:
+  - num: '009'
+    ref:
+      set: en_dri
+      num: '007'
+      from: Reprint
+  - num: '010'
+    ref:
+      set: en_dri
+      num: '008'
+      from: Reprint
   - num: '011'
     ref:
       set: en_pre
       num: '004'
-      from: Reprint from Prismatic Evolutions
+      from: Reprint
+  - num: '012'
+    ref:
+      set: en_dri
+      num: '010'
+      from: Reprint
+  - num: '013'
+    ref:
+      set: en_dri
+      num: '011'
+      from: Reprint
+  - num: '014'
+    ref:
+      set: en_dri
+      num: '012'
+      from: Reprint
+  - num: '015'
+    ref:
+      set: en_dri
+      num: '019'
+      from: Reprint
+  - num: '016'
+    ref:
+      set: en_dri
+      num: '020'
+      from: Reprint
+  - num: '017'
+    ref:
+      set: en_twm
+      num: '025'
+      from: Reprint
+  - num: '018'
+    ref:
+      set: en_dri
+      num: '035'
+      from: Reprint
+  - num: '019'
+    ref:
+      set: en_dri
+      num: '036'
+      from: Reprint
   - name: Entei
     num: '020'
     type: R
@@ -116,6 +181,11 @@ cards:
     img:
       jp: /jp/m2a/020.jpg
       en: /en/asc/025.jpg
+  - num: '021'
+    ref:
+      set: en_dri
+      num: '039'
+      from: Reprint
   - name: Numel
     num: '022'
     type: R
@@ -156,6 +226,61 @@ cards:
     img:
       jp: /jp/m2a/023.jpg
       en:
+  - num: '024'
+    ref:
+      set: en_wht
+      num: '011'
+      from: Reprint
+  - num: '025'
+    ref:
+      set: en_wht
+      num: '012'
+      from: Reprint
+  - num: '026'
+    ref:
+      set: en_wht
+      num: '013'
+      from: Reprint
+  - num: '027'
+    ref:
+      set: en_jtg
+      num: '026'
+      from: Reprint
+  - num: '028'
+    ref:
+      set: en_jtg
+      num: '027'
+      from: Reprint
+  - num: '029'
+    ref:
+      set: en_wht
+      num: '020'
+      from: Reprint
+  - num: '030'
+    ref:
+      set: en_ssp
+      num: '032'
+      from: Reprint
+  - num: '031'
+    ref:
+      set: en_ssp
+      num: '036'
+      from: Reprint
+  - num: '032'
+    ref:
+      set: en_mep
+      num: '007'
+      from: Reprint
+  - num: '033'
+    ref:
+      set: en_mep
+      num: '008'
+      from: Reprint
+  - num: '034'
+    ref:
+      set: en_dri
+      num: '051'
+      from: Reprint
   - name: Snorunt
     type: W
     num: '035'
@@ -309,6 +434,26 @@ cards:
     img:
       jp: /jp/m2a/042.jpg
       en:
+  - num: '043'
+    ref:
+      set: en_ssp
+      num: '056'
+      from: Reprint
+  - num: '044'
+    ref:
+      set: en_ssp
+      num: '057'
+      from: Reprint
+  - num: '045'
+    ref:
+      set: en_ssp
+      num: '058'
+      from: Reprint
+  - num: '046'
+    ref:
+      set: en_ssp
+      num: '059'
+      from: Reprint
   - num: '047'
     ref:
       set: en_blk
@@ -357,6 +502,11 @@ cards:
     img:
       jp: /jp/m2a/050.jpg
       en:
+  - num: '051'
+    ref:
+      set: en_blk
+      num: '034'
+      from: Reprint
   - name: Helioptile
     num: '052'
     type: L
@@ -415,6 +565,36 @@ cards:
     img:
       jp: /jp/m2a/054.jpg
       en:
+  - num: '055'
+    ref:
+      set: en_dri
+      num: '078'
+      from: Reprint
+  - num: '056'
+    ref:
+      set: en_jtg
+      num: '052'
+      from: Reprint
+  - num: '057'
+    ref:
+      set: en_jtg
+      num: '053'
+      from: Reprint
+  - num: '058'
+    ref:
+      set: en_jtg
+      num: '054'
+      from: Reprint
+  - num: '059'
+    ref:
+      set: en_jtg
+      num: '055'
+      from: Reprint
+  - num: '060'
+    ref:
+      set: en_jtg
+      num: '056'
+      from: Reprint
   - name: Team Rocket's Exeggcute
     num: '061'
     type: P
@@ -453,6 +633,26 @@ cards:
     img:
       jp: /jp/m2a/062.jpg
       en:
+  - num: '063'
+    ref:
+      set: en_dri
+      num: '081'
+      from: Reprint
+  - num: '064'
+    ref:
+      set: en_ssp
+      num: '070'
+      from: Reprint
+  - num: '065'
+    ref:
+      set: en_ssp
+      num: '071'
+      from: Reprint
+  - num: '066'
+    ref:
+      set: en_ssp
+      num: '072'
+      from: Reprint
   - name: Misdreavus
     num: '067'
     type: P
@@ -487,6 +687,41 @@ cards:
     img:
       jp: /jp/m2a/068.jpg
       en:
+  - num: '069'
+    ref:
+      set: en_meg
+      num: '058'
+      from: Reprint
+  - num: '070'
+    ref:
+      set: en_meg
+      num: '059'
+      from: Reprint
+  - num: '071'
+    ref:
+      set: en_meg
+      num: '060'
+      from: Reprint
+  - num: '072'
+    ref:
+      set: en_sfa
+      num: '018'
+      from: Reprint
+  - num: '073'
+    ref:
+      set: en_sfa
+      num: '019'
+      from: Reprint
+  - num: '074'
+    ref:
+      set: en_sfa
+      num: '020'
+      from: Reprint
+  - num: '075'
+    ref:
+      set: en_ssp
+      num: '076'
+      from: Reprint
   - name: Rotom
     num: '076'
     type: P
@@ -546,6 +781,11 @@ cards:
     img:
       jp: /jp/m2a/078.jpg
       en:
+  - num: '079'
+    ref:
+      set: en_dri
+      num: '087'
+      from: Reprint
   - name: Spectrier
     num: '080'
     type: P
@@ -567,6 +807,11 @@ cards:
     img:
       jp: /jp/m2a/080.jpg
       en:
+  - num: '081'
+    ref:
+      set: en_twm
+      num: '095'
+      from: Reprint
   - name: Team Rocket's Diglett
     num: '082'
     type: F
@@ -635,6 +880,41 @@ cards:
     img:
       jp: /jp/m2a/085.jpg
       en:
+  - num: '086'
+    ref:
+      set: en_meg
+      num: '074'
+      from: Reprint
+  - num: '087'
+    ref:
+      set: en_meg
+      num: '075'
+      from: Reprint
+  - num: '088'
+    ref:
+      set: en_dri
+      num: '102'
+      from: Reprint
+  - num: '089'
+    ref:
+      set: en_dri
+      num: '103'
+      from: Reprint
+  - num: '090'
+    ref:
+      set: en_dri
+      num: '104'
+      from: Reprint
+  - num: '091'
+    ref:
+      set: en_meg
+      num: '076'
+      from: Reprint
+  - num: '092'
+    ref:
+      set: en_meg
+      num: '077'
+      from: Reprint
   - name: Pancham
     num: '093'
     type: F
@@ -748,11 +1028,26 @@ cards:
     img:
       jp: /jp/m2a/098.jpg
       en:
+  - num: '099'
+    ref:
+      set: en_dri
+      num: '120'
+      from: Reprint
+  - num: '100'
+    ref:
+      set: en_dri
+      num: '121'
+      from: Reprint
+  - num: '101'
+    ref:
+      set: en_dri
+      num: '122'
+      from: Reprint
   - num: 102
     ref:
       set: en_dri
       num: 127
-      from: Reprint from Destined Rivals
+      from: Reprint
   - num: 103
     name: Team Rocket's Honchkrow
     type: D
@@ -773,6 +1068,11 @@ cards:
     img:
       jp: /jp/m2a/103.jpg
       en:
+  - num: '104'
+    ref:
+      set: en_dri
+      num: '128'
+      from: Reprint
   - num: 105
     name: Galarian Zigzagoon
     type: D
@@ -832,6 +1132,11 @@ cards:
     img:
       jp: /jp/m2a/107.jpg
       en:
+  - num: '108'
+    ref:
+      set: en_dri
+      num: '129'
+      from: Reprint
   - num: 109
     name: Scraggy
     type: D
@@ -869,6 +1174,16 @@ cards:
     img:
       jp: /jp/m2a/110.jpg
       en:
+  - num: '111'
+    ref:
+      set: en_jtg
+      num: '097'
+      from: Reprint
+  - num: '112'
+    ref:
+      set: en_jtg
+      num: '098'
+      from: Reprint
   - num: 113
     name: Pangoro
     type: D
@@ -890,6 +1205,11 @@ cards:
     img:
       jp: /jp/m2a/113.jpg
       en:
+  - num: '114'
+    ref:
+      set: en_sfa
+      num: '038'
+      from: Reprint
   - num: 115
     name: Pecharunt
     type: D
@@ -966,6 +1286,31 @@ cards:
     img:
       jp: /jp/m2a/118.jpg
       en:
+  - num: '119'
+    ref:
+      set: en_blk
+      num: '067'
+      from: Reprint
+  - num: '120'
+    ref:
+      set: en_jtg
+      num: '107'
+      from: Reprint
+  - num: '121'
+    ref:
+      set: en_ssp
+      num: '129'
+      from: Reprint
+  - num: '122'
+    ref:
+      set: en_ssp
+      num: '130'
+      from: Reprint
+  - num: '123'
+    ref:
+      set: en_jtg
+      num: '111'
+      from: Reprint
   - num: 124
     name: Dratini
     type: N
@@ -1044,6 +1389,11 @@ cards:
     img:
       jp: /jp/m2a/127.jpg
       en:
+  - num: '128'
+    ref:
+      set: en_jtg
+      num: '116'
+      from: Reprint
   - num: 129
     name: N's Zekrom
     type: N
@@ -1122,6 +1472,146 @@ cards:
       set: en_twm
       num: 130
       from: Reprint from Twilight Masquerade
+  - num: '135'
+    ref:
+      set: en_twm
+      num: '131'
+      from: Reprint
+  - num: '136'
+    ref:
+      set: en_jtg
+      num: '117'
+      from: Reprint
+  - num: '137'
+    ref:
+      set: en_scr
+      num: '114'
+      from: Reprint
+  - num: '138'
+    ref:
+      set: en_scr
+      num: '115'
+      from: Reprint
+  - num: '139'
+    ref:
+      set: en_scr
+      num: '118'
+      from: Reprint
+  - num: '140'
+    ref:
+      set: en_scr
+      num: '119'
+      from: Reprint
+  - num: '141'
+    ref:
+      set: en_jtg
+      num: '135'
+      from: Reprint
+  - num: '142'
+    ref:
+      set: en_jtg
+      num: '136'
+      from: Reprint
+  - num: '143'
+    ref:
+      set: en_jtg
+      num: '138'
+      from: Reprint
+  - num: '144'
+    ref:
+      set: en_ssp
+      num: '161'
+      from: Reprint
+  - num: '145'
+    ref:
+      set: en_scr
+      num: '128'
+      from: Reprint
+  - num: '146'
+    ref:
+      set: en_jtg
+      num: '153'
+      from: Reprint
+  - num: '147'
+    ref:
+      set: en_dri
+      num: '164'
+      from: Reprint
+  - num: '148'
+    ref:
+      set: en_twm
+      num: '148'
+      from: Reprint
+  - num: '149'
+    ref:
+      set: en_scr
+      num: '135'
+      from: Reprint
+  - num: '150'
+    ref:
+      set: en_dri
+      num: '168'
+      from: Reprint
+  - num: '151'
+    ref:
+      set: en_wht
+      num: '085'
+      from: Reprint
+  - num: '152'
+    ref:
+      set: en_ssp
+      num: '189'
+      from: Reprint
+  - num: '153'
+    ref:
+      set: en_tef
+      num: '144'
+      from: Reprint
+  - num: '154'
+    ref:
+      set: en_meg
+      num: '124'
+      from: Reprint
+  - num: '155'
+    ref:
+      set: en_meg
+      num: '116'
+      from: Reprint
+  - num: '156'
+    ref:
+      set: en_jtg
+      num: '147'
+      from: Reprint
+  - num: '157'
+    ref:
+      set: en_twm
+      num: '143'
+      from: Reprint
+  - num: '158'
+    ref:
+      set: en_meg
+      num: '121'
+      from: Reprint
+  - num: '159'
+    ref:
+      set: en_sfa
+      num: '061'
+      from: Reprint
+  - num: '160'
+    ref:
+      set: en_dri
+      num: '178'
+      from: Reprint
+  - num: '161'
+    ref:
+      set: en_ssp
+      num: '169'
+      from: Reprint
+  - num: '162'
+    ref:
+      set: en_dri
+      num: '162'
+      from: Reprint
   - num: 163
     name: Light Ball
     type: T
@@ -1157,6 +1647,26 @@ cards:
       set: en_blk
       num: '079'
       from: Reprint from Black Bolt
+  - num: '166'
+    ref:
+      set: en_wht
+      num: '080'
+      from: Reprint
+  - num: '167'
+    ref:
+      set: en_jtg
+      num: '148'
+      from: Reprint
+  - num: '168'
+    ref:
+      set: en_jtg
+      num: '149'
+      from: Reprint
+  - num: '169'
+    ref:
+      set: en_meg
+      num: '113'
+      from: Reprint
   - num: 170
     name: Canari
     type: T
@@ -1188,6 +1698,11 @@ cards:
     img:
       jp: /jp/m2a/171.jpg
       en:
+  - num: '172'
+    ref:
+      set: en_wht
+      num: '084'
+      from: Reprint
   - num: 173
     name: Anthea and Concordia
     type: T
@@ -1204,11 +1719,76 @@ cards:
     img:
       jp: /jp/m2a/173.jpg
       en:
+  - num: '174'
+    ref:
+      set: en_dri
+      num: '165'
+      from: Reprint
   - num: 175
     ref:
       set: en_meg
       num: 119
-      from: Reprint from Mega Evoltuions
+      from: Reprint
+  - num: '176'
+    ref:
+      set: en_dri
+      num: '171'
+      from: Reprint
+  - num: '177'
+    ref:
+      set: en_dri
+      num: '170'
+      from: Reprint
+  - num: '178'
+    ref:
+      set: en_dri
+      num: '174'
+      from: Reprint
+  - num: '179'
+    ref:
+      set: en_dri
+      num: '176'
+      from: Reprint
+  - num: '180'
+    ref:
+      set: en_dri
+      num: '177'
+      from: Reprint
+  - num: '181'
+    ref:
+      set: en_jtg
+      num: '152'
+      from: Reprint
+  - num: '182'
+    ref:
+      set: en_meg
+      num: '117'
+      from: Reprint
+  - num: '183'
+    ref:
+      set: en_ssp
+      num: '177'
+      from: Reprint
+  - num: '184'
+    ref:
+      set: en_scr
+      num: '131'
+      from: Reprint
+  - num: '185'
+    ref:
+      set: en_jtg
+      num: '150'
+      from: Reprint
+  - num: '186'
+    ref:
+      set: en_jtg
+      num: '154'
+      from: Reprint
+  - num: '187'
+    ref:
+      set: en_meg
+      num: '122'
+      from: Reprint
   - num: 188
     name: Night Mine
     type: T
@@ -1224,3 +1804,28 @@ cards:
     img:
       jp: /jp/m2a/188.jpg
       en:
+  - num: '189'
+    ref:
+      set: en_dri
+      num: '180'
+      from: Reprint
+  - num: '190'
+    ref:
+      set: en_dri
+      num: '173'
+      from: Reprint
+  - num: '191'
+    ref:
+      set: en_wht
+      num: '086'
+      from: Reprint
+  - num: '192'
+    ref:
+      set: en_blk
+      num: '086'
+      from: Reprint
+  - num: '193'
+    ref:
+      set: en_dri
+      num: '182'
+      from: Reprint

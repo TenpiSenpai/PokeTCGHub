@@ -1,0 +1,281 @@
+set: en_ssp
+desc: Surging Sparks
+cards:
+  - num: '032'
+    name: Charcadet
+    type: R
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: R
+        name: Will-O-Wisp
+        damage: 20
+        desc:
+    weak: W
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/ssp/032.jpg
+  - num: '036'
+    name: Ceruledge ex
+    type: R
+    hp: 270
+    stage: 1
+    evolve-from: Charcadet
+    attack:
+      - energy: R
+        name: Abyssal Flames
+        damage: 30+
+        desc: This attack does 20 more damage for each Energy card in your discard pile.
+      - energy: RPM
+        name: Raging Amethyst
+        damage: 280
+        desc: Discard all Energy from this Pokémon.
+    weak: W
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/ssp/036.jpg
+  - num: '056'
+    name: Chien-Pao
+    type: W
+    hp: 120
+    stage: 0
+    evolve-from:
+    ability:
+      name: Snow Sink
+      desc: When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Stadium in play.
+    attack:
+      - energy: WWC
+        name: Icicle Loop
+        damage: 120
+        desc: Put an Energy attached to this Pokémon into your hand.
+    weak: M
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/ssp/056.jpg
+  - num: '057'
+    name: Pikachu ex
+    type: L
+    hp: 200
+    stage: 0
+    evolve-from:
+    ability:
+      name: Resolute Heart
+      desc: If this Pokémon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10.
+    attack:
+      - energy: GLM
+        name: Topaz Bolt
+        damage: 300
+        desc: Discard 3 Energy from this Pokémon.
+    weak: F
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/ssp/057.jpg
+  - num: '058'
+    name: Magnemite
+    type: L
+    hp: 60
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: L
+        name: Lightning Ball
+        damage: 20
+        desc:
+    weak: F
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/ssp/058.jpg
+  - num: '059'
+    name: Magneton
+    type: L
+    hp: 100
+    stage: 1
+    evolve-from: Magneton
+    ability:
+      name: Overvolt Discharge
+      desc: Once during your turn, you may attach up to 3 Basic Energy cards from your discard pile to your {L} Pokémon in any way you like. If you use this Ability, this Pokémon is Knocked Out.
+    attack:
+      - energy: LC
+        name: Electric Ball
+        damage: 40
+        desc:
+    weak: F
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/ssp/059.jpg
+  - num: '070'
+    name: Togepi
+    type: P
+    hp: 50
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: CC
+        name: Pound
+        damage: 30
+        desc:
+    weak: M
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/ssp/070.jpg
+  - num: '071'
+    name: Togetic
+    type: P
+    hp: 90
+    stage: 1
+    evolve-from: Togepi
+    attack:
+      - energy: CC
+        name: Draining Kiss
+        damage: 30
+        desc: Heal 30 damage from this Pokémon.
+    weak: M
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/ssp/071.jpg
+  - num: '072'
+    name: Togekiss
+    type: P
+    hp: 140
+    stage: 2
+    evolve-from: Togetic
+    ability:
+      name: Wonder Kiss
+      desc: When your opponent’s Active Pokémon is Knocked Out, flip a coin. If heads, take 1 more Prize card. The effect of Wonder Kiss doesn’t stack.
+    attack:
+      - energy: CCC
+        name: Speed Wing
+        damage: 140
+        desc:
+    weak: M
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/ssp/072.jpg
+  - num: '076'
+    name: Latias ex
+    type: P
+    hp: 210
+    stage: 0
+    evolve-from:
+    ability:
+      name: Skyliner
+      desc: Your Basic Pokémon in play have no Retreat Cost.
+    attack:
+      - energy: PPC
+        name: Speed Wing
+        damage: 200
+        desc: During your next turn, this Pokémon can’t attack.
+    weak: D
+    resist: F
+    retreat: 2
+    img:
+      jp:
+      en: /en/ssp/076.jpg
+  - num: '129'
+    name: Duraludon
+    type: M
+    hp: 130
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: MM
+        name: Confront
+        damage: 50
+        desc:
+      - energy: MMM
+        name: Duralubeam
+        damage: 130
+        desc: Discard 2 Energy from this Pokémon.
+    weak: R
+    resist: G
+    retreat: 2
+    img:
+      jp:
+      en: /en/ssp/129.jpg
+  - num: '130'
+    name: Archaludon ex
+    type: M
+    hp: 300
+    stage: 1
+    evolve-from: Duraludon
+    ability:
+      name: Assemble Alloy
+      desc: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach up to 2 Basic {M} Energy cards from your discard pile to your {M} Pokémon in any way you like.
+    attack:
+      - energy: MMM
+        name: Metal Defender
+        damage: 220
+        desc: During your opponent’s next turn, this Pokémon has no Weakness.
+    weak: R
+    resist: G
+    retreat: 2
+    img:
+      jp:
+      en: /en/ssp/130.jpg
+  - num: '161'
+    name: Terapagos
+    type: C
+    hp: 120
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Prism Charge
+        damage:
+        desc: Search your deck for up to 3 Basic Energy cards of different types and attach them to your Tera Pokémon in any way you like. Then, shuffle your deck.
+      - energy: CCC
+        name: Hard Tackle
+        damage: 100
+        desc:
+    weak: F
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/ssp/161.jpg
+  - num: 169
+    name: Counter Gain
+    type: T
+    subtype: Item
+    trainer:
+      - If you have more Prize cards remaining than your opponent, attacks used by the Pokémon this card is attached to cost {C} less.
+    img:
+      jp:
+      en: /en/ssp/169.jpg
+  - num: 177
+    name: Gravity Mountain
+    type: T
+    subtype: Stadium
+    trainer:
+      - Each Stage 2 Pokémon in play (both yours and your opponent’s) gets -30 HP.
+    img:
+      jp:
+      en: /en/ssp/177.jpg
+  - num: 189
+    name: Tera Orb
+    type: T
+    subtype: Item
+    trainer:
+      - Search your deck for a Tera Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+    img:
+      jp:
+      en: /en/ssp/189.jpg
