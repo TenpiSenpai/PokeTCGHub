@@ -19,7 +19,7 @@ jobs:
       - run: |
           printf -v DateResult '%(%Y-%m-%d)T' -1
           echo $DateResult
-          grep -rl --include="*.vue" {BUILD_DATE} ./app | xargs sed -e s/{BUILD_DATE}/$DateResult/g
+          grep -rl --include="*.vue" {BUILD_DATE} ./app | xargs sed -i s/{BUILD_DATE}/$DateResult/g
       - run: npx nuxt build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
