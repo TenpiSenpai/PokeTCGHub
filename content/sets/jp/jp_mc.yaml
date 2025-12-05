@@ -77,6 +77,111 @@ cards:
     img:
       jp: /jp/mc/226.jpg
       en:
+  - num: 284
+    name: Miraidon ex
+    type: L
+    hp: 220
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: L
+        name: Slashing Claws
+        damage: 40
+        desc:
+      - energy: LLC
+        name: Hadron Spike
+        damage: 120+
+        desc: If your opponent's Active Pokemon is a Pokemon ex, this attack does 120 more damage.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/284.jpg
+      en:
+  - num: 425
+    name: Koraidon ex
+    type: F
+    hp: 230
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: FC
+        name: Deep Brown Fangs
+        damage: 50+
+        desc: If 1 of your Pokemon was Knocked Out by damage from an attack during your opponent's last turn, this attack does 120 more damage.
+      - energy: FFC
+        name: Impact Blow
+        damage: 200
+        desc: This Pokemon can't use Impact Blow during your next turn.
+    weak: P
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/425.jpg
+      en:
+  - num: 482
+    name: Hoopa
+    type: D
+    hp: 120
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: C
+        name: Filch
+        damage:
+        desc: Draw 2 Cards
+      - energy: DDC
+        name: Knuckle Impact
+        damage: 130
+        desc: During your next turn, this Pokemon can't attack.
+    weak: G
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/482.jpg
+      en:
+  - num: 495
+    name: Mawile
+    type: M
+    hp: 90
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: C
+        name: Call for Family
+        damage:
+        desc: Search your deck for up to 2 Basic Pokemon and put them onto your Bench. Then, shuffle your deck.
+      - energy: MCC
+        name: Bite
+        damage: 90
+        desc:
+    weak: F
+    resist: G 
+    retreat: 1
+    img:
+      jp: /jp/mc/495.jpg
+      en:
+  - num: 499
+    name: Registeel ex
+    type: M
+    hp: 230
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: C
+        name: Regicharge
+        damage:
+        desc: Attach up to 2 Basic [M] Energy from your discard pile to this Pokemon.
+      - energy: MCCC
+        name: Protect Steel
+        damage: 140
+        desc: During your opponent's next turn, this Pokemon takes 50 less damage from attacks.
+    weak: F
+    resist: G 
+    retreat: 3
+    img:
+      jp: /jp/mc/499.jpg
+      en:
   - num: 662
     name: PokePad
     type: T
