@@ -24,7 +24,7 @@ let setList: {set:string, cards: any[]}[] = [];
 //This makes it so you only have to declare cards once and cn show them in several sets such as reprints or en/jp
 for(let i = 0; i < data.value!.cards.length; i++) {
     const card = data.value!.cards[i]!;
-    if (card.ref != null) {
+    if (card.ref != null && card.ref.num != null) {
         let setFind = setList.find((x) => x.set == card.ref.set);
         if (setFind == null) {
             const {data: item} = await useAsyncData(card.ref.set, () => {
