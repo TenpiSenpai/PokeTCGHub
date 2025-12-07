@@ -1,6 +1,132 @@
 set: jp_mc
 desc: Start Deck 100
 cards:
+  - num: '001'
+    name: Erika's Oddish
+    type: G
+    hp: 60
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: G
+        name: Assault
+        damage: 30
+        desc: This Pokemon does 10 damage to itself.
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/001.jpg
+      en: 
+  - num: '002'
+    name: Erika's Gloom
+    type: G
+    hp: 90
+    stage: 1
+    evolve-from: Erika's Oddish
+    attack:
+      - energy: GC
+        name: Poison Spray
+        damage: 50
+        desc: Your opponent's Active Pokemon is now Poisoned.
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/002.jpg
+      en: 
+  - num: '003'
+    name: Erika's Vileplume ex
+    type: G
+    hp: 310
+    stage: 2
+    evolve-from: Erika's Gloom
+    ability:
+      name: Envious Scent
+      desc: Once during your turn, you may heal 30 damage from each of your Pokemon.
+    attack:
+      - energy: GGC
+        name: Powder Bloom
+        damage: 160
+        desc: Your opponent's Active Pokemon is now Poisoned and Asleep.
+    weak: R
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/003.jpg
+      en: 
+  - num: '006'
+    name: Erika's Bellsprout
+    type: G
+    hp: 60
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: G
+        name: Vine Slap
+        damage: 20
+        desc:
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/006.jpg
+      en: 
+  - num: '007'
+    name: Erika's Weepinbell
+    type: G
+    hp: "??"
+    stage: 1
+    evolve-from: Erika's Bellsprout
+    weak: R
+    resist: 
+    retreat: 2
+    img:
+      jp:
+      en:
+    ref:
+      from: Unrevealed
+  - num: '008'
+    name: Erika's Victreebel
+    type: G
+    hp: 150
+    stage: 2
+    evolve-from: Erika's Weepinbell
+    attack:
+      - energy: GC
+        name: Mysterious Rondo
+        damage: 40x
+        desc: This attack does 40 damage for each Erika's Pokemon you have in play.
+      - energy: GGC
+        name: Solarbeam
+        damage: 130
+        desc:
+    weak: R
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/mc/008.jpg
+      en:  
+  - num: '014'
+    name: Erika's Tangela
+    type: G
+    hp: 80
+    stage: 0
+    evolve-from:
+    ability:
+      name: Colorful Riot
+      desc: You may use this Ability once during your turn. Search your deck for an Erika's Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.
+    attack:
+      - energy: GC
+        name: Bind
+        damage: 30
+        desc: Flip a coin. If heads, your opponent's Active Pokemon is now Paralyzed.
+    weak: R
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/014.jpg
+      en: 
   - num: '083'
     name: Charmander
     type: R
@@ -155,7 +281,7 @@ cards:
         name: Bite
         damage: 90
         desc:
-    weak: F
+    weak: R
     resist: G 
     retreat: 1
     img:
@@ -176,11 +302,32 @@ cards:
         name: Protect Steel
         damage: 140
         desc: During your opponent's next turn, this Pokemon takes 50 less damage from attacks.
-    weak: F
+    weak: R
     resist: G 
     retreat: 3
     img:
       jp: /jp/mc/499.jpg
+      en:
+  - num: 602
+    name: Mega Audino ex
+    type: C
+    hp: 270
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: C
+        name: Kaleidowaltz
+        damage:
+        desc: For each heads, search your deck for 2 Basic Energy cards and attach them to your Pokemon in any way you like. Then, shuffle your deck.
+      - energy: CCC
+        name: Ear Force
+        damage: 20+
+        desc: This attack does 80 more damage for each Energy attached to your opponent's Active Pokemon.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/602.jpg
       en:
   - num: 662
     name: PokePad
@@ -191,6 +338,15 @@ cards:
     img:
       jp: /jp/mc/662.jpg
       en:
+  - num: 700
+    name: Waitress
+    type: T
+    subtype: Supporter
+    trainer:
+      - Look at the top 6 cards of your deck, choose a Basic Energy you find there, and attach it to 1 of your Pokemon. Then, shuffle the remaining cards back into your deck.
+    img:
+      jp: /jp/mc/700.jpg
+      en:
   - num: 702
     name: Urbain
     type: T
@@ -200,3 +356,68 @@ cards:
     img:
       jp: /jp/mc/702.jpg
       en:
+  - num: 724
+    name: Boss's Orders (Corbeau)
+    type: T
+    subtype: Supporter
+    trainer:
+      - Switch in 1 of your opponent's Benched Pokemon to the Active Spot
+    img:
+      jp: /jp/mc/724.jpg
+      en:
+  - num: 749
+    name: Cottonee
+    type: P
+    hp: "??"
+    stage: 0
+    evolve-from:
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp:
+      en:
+    ref:
+      from: Unrevealed
+  - num: 750
+    name: Slurpuff
+    type: P
+    hp: 120
+    stage: 1
+    evolve-from: Cottonee
+    attack:
+      - energy: P
+        name: Tackle
+        damage: 40
+        desc:
+      - energy: PC
+        name: Magical Shot
+        damage: 70
+        desc:
+    weak: M
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/750.jpg
+      en:
+    ref:
+      from: Only IR Revealed so far
+  - num: 764
+    name: Pikachu ex
+    type: L
+    hp: 200
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: LLC
+        name: Thunderbolt
+        damage: 120
+        desc:
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/764.jpg
+      en:
+    ref:
+      from: Only IR Revealed so far
