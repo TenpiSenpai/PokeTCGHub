@@ -75,17 +75,24 @@ cards:
   - num: '007'
     name: Erika's Weepinbell
     type: G
-    hp: "??"
+    hp: 90
     stage: 1
     evolve-from: Erika's Bellsprout
+    attack:
+      - energy: G
+        name: Cut
+        damage: 30
+        desc:
+      - energy: GC
+        name: Happy Cyclone
+        damage: 70
+        desc: During your next turn, this Pokemon can't attack.
     weak: R
     resist: 
     retreat: 2
     img:
-      jp:
+      jp: /jp/mc/007.jpg
       en:
-    ref:
-      from: Unrevealed
   - num: '008'
     name: Erika's Victreebel
     type: G
@@ -127,6 +134,61 @@ cards:
     img:
       jp: /jp/mc/014.jpg
       en: 
+  - num: '016'
+    name: Chikorita
+    type: G
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Growl
+        damage:
+        desc: During your opponent’s next turn, any damage done by attacks from the Defending Pokemon is reduced by 20 (before applying Weakness and Resistance).
+      - energy: GG
+        name: Seed Bomb
+        damage: 30
+        desc:
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/016.jpg
+      en: 
+  - num: '017'
+    name: Bayleef
+    type: G
+    hp: 100
+    stage: 1
+    evolve-from: Chikorita
+    attack:
+      - energy: GG
+        name: Leaf Step
+        damage: 60
+        desc:
+    weak: R
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/017.jpg
+      en: 
+  - num: '018'
+    name: Mega Meganium ex
+    type: G
+    hp: 360
+    stage: 2
+    evolve-from: Bayleef
+    attack:
+      - energy: CCC
+        name: Giant Bouquet
+        damage: 70+
+        desc: This attack does 50 more damage for each [G] Energy attached to this Pokemon.
+    weak: R
+    resist: 
+    retreat: 2
+    img:
+      jp: 
+      en: /en/asc/010.jpg
   - num: '083'
     name: Charmander
     type: R
@@ -144,6 +206,23 @@ cards:
     img:
       jp:
       en: /en/asc/020.jpg
+  - num: '084'
+    name: Charmeleon
+    type: R
+    hp: 100
+    stage: 1
+    evolve-from: Charmander
+    attack:
+      - energy: RC
+        name: Steady Firebreathing
+        damage: 50
+        desc:
+    weak: W
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/084.jpg
+      en: 
   - num: '085'
     name: Mega Charizard Y ex
     type: R
@@ -161,6 +240,129 @@ cards:
     img:
       jp: /jp/mc/085.jpg
       en: /en/asc/022.jpg
+  - num: '109'
+    name: Tepig
+    type: R
+    hp: 80
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: R
+        name: Ember
+        damage: 20
+        desc:
+    weak: W
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/109.jpg
+      en: 
+  - num: '110'
+    name: Pignite
+    type: R
+    hp: 110
+    stage: 1
+    evolve-from: Tepig
+    attack:
+      - energy: RRC
+        name: Headbutt
+        damage: 70
+        desc: Your opponent's Active Pokemon is now Burned.
+    weak: W
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/mc/110.jpg
+      en: 
+  - num: '111'
+    name: Mega Emboar ex
+    type: R
+    hp: 380
+    stage: 2
+    evolve-from: Pignite
+    attack:
+      - energy: RRC
+        name: Crimson Blast
+        damage: 320
+        desc: This Pokemon also does 60 damage to itself.
+    weak: W
+    resist: 
+    retreat: 4
+    img:
+      jp: 
+      en: /en/asc/031.jpg
+  - num: '165'
+    name: Totodile
+    type: W
+    hp: 80
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: WW
+        name: Slight Intrusion
+        damage: 40
+        desc: This Pokemon also does 10 damage to itself.
+    weak: L
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/165.jpg
+      en: 
+  - num: '166'
+    name: Croconaw
+    type: W
+    hp: 100
+    stage: 1
+    evolve-from: Totodile
+    attack:
+      - energy: WW
+        name: Crunch
+        damage: 50
+        desc: Flip a coin. If heads, discard 1 Energy from your opponent's Active Pokemon.
+    weak: L
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/166.jpg
+      en: 
+  - num: '167'
+    name: Mega Feraligatr ex
+    type: W
+    hp: 370
+    stage: 2
+    evolve-from: Croconaw
+    attack:
+      - energy: WWC
+        name: Killer Crunch
+        damage: 200+
+        desc: If your opponent's Active Pokemon has damage counters on it, this attack does 200 more damage.
+    weak: L
+    resist: 
+    retreat: 3
+    img:
+      jp:
+      en: /en/asc/043.jpg
+  - num: 192
+    name: Regice ex
+    type: W
+    hp: 230
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Regi Charge
+        damage: 
+        desc: Attach up to 2 Basic [W] Energy from your discard pile to this Pokemon.
+      - energy: WCCC
+        name: Ice Prison
+        damage: 140
+        desc: Discard 2 Energy from this Pokemon. Your opponent's Active Pokemon is now Paralyzed.
+    weak: M
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/mc/192.jpg
+      en:
   - num: 225
     name: Pikachu
     type: L
@@ -203,6 +405,23 @@ cards:
     img:
       jp: /jp/mc/226.jpg
       en:
+  - num: 233
+    name: Voltorb ex
+    type: L
+    hp: 170
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: CCC
+        name: Hundredfold Rollout
+        damage: 100+
+        desc: Flip a coin until you get tails. This attack does 100 more damage for each heads.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/233.jpg
+      en:
   - num: 284
     name: Miraidon ex
     type: L
@@ -224,6 +443,185 @@ cards:
     img:
       jp: /jp/mc/284.jpg
       en:
+  - num: 285
+    name: Clefairy
+    type: P
+    hp: 60
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: CC
+        name: Moon Kick
+        damage: 40
+        desc:
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/285.jpg
+      en:
+  - num: 295
+    name: Marill
+    type: P
+    hp: 70
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: C
+        name: Hide
+        damage:
+        desc: Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to this Pokémon.
+      - energy: PC
+        name: Bounce
+        damage: 20
+        desc:
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/295.jpg
+      en:
+  - num: 297
+    name: Azumarill ex
+    type: P
+    hp: 270
+    stage: 1
+    evolve-from: Marill
+    ability:
+      name: Bubble Bundle
+      desc: As often as you like during your turn, you may move an Energy from 1 of your Pokemon to this Pokemon.
+    attack:
+      - energy: CCC
+        name: Energy Balloon
+        damage: 60+
+        desc: This attack does 40 more damage for each [P] Energy attached to this Pokemon.
+    weak: M
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/297.jpg
+      en:
+  - num: 333
+    name: Swirlix
+    type: P
+    hp: 60
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: P
+        name: Collide
+        damage: 20
+        desc:
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/333.jpg
+      en:
+  - num: 334
+    name: Slurpuff
+    type: P
+    hp: 120
+    stage: 1
+    evolve-from: Swirlix
+    attack:
+      - energy: P
+        name: Tackle
+        damage: 40
+        desc:
+      - energy: PC
+        name: Magical Shot
+        damage: 70
+        desc:
+    weak: M
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/334.jpg
+      en:
+  - num: 367
+    name: Hitmontop
+    type: F
+    hp: 100
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Spin Draw
+        damage:
+        desc: Shuffle your hand into your deck. Then, draw 6 cards.
+      - energy: FC
+        name: Kick
+        damage: 50
+        desc:
+    weak: P
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/367.jpg
+      en:
+  - num: 375
+    name: Groudon
+    type: F
+    hp: 140
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: FFC
+        name: Heavy Slam
+        damage: 80
+        desc:
+      - energy: FFCC
+        name: Megaton Fall
+        damage: 150
+        desc: This Pokemon also does 30 damage to itself.
+    weak: P
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/367.jpg
+      en:
+  - num: 394
+    name: Stunfisk ex
+    type: F
+    hp: 210
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: F
+        name: Big Bite
+        damage: 30
+        desc: The Defending Pokemon can't retreat during your opponent's next turn.
+      - energy: FCC
+        name: Soggy Trap
+        damage: 100+
+        desc: If this Pokemon has any damage counters on it, this attack does 100 more damage.
+    weak: G
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/mc/394.jpg
+      en:
+  - num: 400
+    name: Carbink
+    type: F
+    hp: 90
+    stage: 0
+    evolve-from:
+    ability:
+      name: Dual Type
+      desc: While this Pokemon is in play, it is both [F] and [P] type.
+    attack:
+      - energy: FFC
+        name: Counter Jewel
+        damage: 70+
+        desc: If your opponent has 2 or fewer Prize cards remaining, this attack does 100 more damage.\
+    weak: G
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/400.jpg
+      en:
   - num: 425
     name: Koraidon ex
     type: F
@@ -244,6 +642,44 @@ cards:
     retreat: 2
     img:
       jp: /jp/mc/425.jpg
+      en:
+  - num: 474
+    name: Vullaby
+    type: D
+    hp: 70
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: CC
+        name: Flap
+        damage: 20
+        desc:
+    weak: E
+    resist: F
+    retreat: 1
+    img:
+      jp: /jp/mc/474.jpg
+      en:
+  - num: 475
+    name: Mandibuzz ex
+    type: D
+    hp: 260
+    stage: 1
+    evolve-from: Vullaby
+    attack:
+      - energy: CC
+        name: Bone Shot
+        damage: 
+        desc: This attack does 50 damage to 1 of your opponent's Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+      - energy: DCC
+        name: Vulture Claw
+        damage: 160
+        desc: Discard a random card from your opponent's hand.
+    weak: E
+    resist: F
+    retreat: 1
+    img:
+      jp: /jp/mc/475.jpg
       en:
   - num: 482
     name: Hoopa
@@ -308,6 +744,183 @@ cards:
     img:
       jp: /jp/mc/499.jpg
       en:
+  - num: 514
+    name: Togedemaru ex
+    type: M
+    hp: 190
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: M
+        name: Tingly Needle
+        damage: 20
+        desc: Flip a coin. If heads, your opponent's Active Pokemon is now Paralyzed.
+      - energy: MC
+        name: Spiky Rollout
+        damage: 80+
+        desc: If this Pokémon used Spiky Rollout during your last turn, this attack does 80 more damage.
+    weak: R
+    resist: G 
+    retreat: 1
+    img:
+      jp: /jp/mc/514.jpg
+      en:
+  - num: 576
+    name: Larry's Dunsparce
+    type: C
+    hp: 70
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: C
+        name: Hop
+        damage: 10+
+        desc: Flip a coin. If heads, this attack does 20 more damage.
+    weak: F
+    resist: 
+    retreat: 0
+    img:
+      jp: /jp/mc/576.jpg
+      en:
+  - num: 577
+    name: Larry's Dudunsparce ex
+    type: C
+    hp: 270
+    stage: 1
+    evolve-from: Dunsparce
+    attack:
+      - energy: CCC
+        name: Work Rush
+        damage: 80x
+        desc: Flip a coin for each Energy attached to this Pokemon. This attack does 80 damage for each heads.
+    weak: F
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/mc/577.jpg
+      en:
+  - num: 585
+    name: Skitty
+    type: C
+    hp: 60
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: C
+        name: Beckon
+        damage: 20
+        desc:
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/585.jpg
+      en:
+  - num: 586
+    name: Delcatty
+    type: C
+    hp: 100
+    stage: 1
+    evolve-from: Skitty
+    attack:
+      - energy: C
+        name: Cat Kick
+        damage: 40
+        desc:
+      - energy: CC
+        name: Energy Crush
+        damage: 40x
+        desc: This attack does 40 damage for each Energy attached to all of your opponent's Pokemon.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/586.jpg
+      en:
+  - num: 588
+    name: Zangoose ex
+    type: C
+    hp: 200
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: C
+        name: Spike Draw
+        damage: 20
+        desc: Draw 2 cards.
+      - energy: CCC
+        name: Wild Scissors
+        damage: 180
+        desc: This Pokemon also does 30 damage to itself.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/mc/588.jpg
+      en:
+  - num: 590
+    name: Larry's Starly
+    type: C
+    hp: 60
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: C
+        name: Run Errands
+        damage:
+        desc: Search your deck for up to 2 Basic Energy, reveal them, and put them into your hand. Then, shuffle your deck.
+      - energy: C
+        name: Peck
+        damage: 10
+        desc:
+    weak: L
+    resist: F 
+    retreat: 1
+    img:
+      jp: /jp/mc/590.jpg
+      en:
+  - num: 591
+    name: Larry's Staravia
+    type: C
+    hp: 90
+    stage: 1
+    evolve-from: Larry's Starly
+    attack:
+      - energy: C
+        name: Flap
+        damage: 20
+        desc:
+      - energy: CC
+        name: Air Cutter
+        damage: 50
+        desc:
+    weak: L
+    resist: F 
+    retreat: 1
+    img:
+      jp: /jp/mc/591.jpg
+      en:
+  - num: 592
+    name: Larry's Staraptor
+    type: C
+    hp: 150
+    stage: 2
+    evolve-from: Larry's Staravia
+    attack:
+      - energy: C
+        name: Facade
+        damage: 60+
+        desc: If this Pokemon is Poisoned or Burned, this attack does 100 more damage.
+      - energy: CCC
+        name: Feather Strike
+        damage: 150
+        desc: Discard 2 Energy from this Pokemon. This attack does 50 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+    weak: L
+    resist: F 
+    retreat: 1
+    img:
+      jp: /jp/mc/592.jpg
+      en:
   - num: 602
     name: Mega Audino ex
     type: C
@@ -328,6 +941,85 @@ cards:
     retreat: 1
     img:
       jp: /jp/mc/602.jpg
+      en:
+  - num: 608
+    name: Larry's Rufflet
+    type: C
+    hp: 70
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: CC
+        name: Bully
+        damage: 20+
+        desc: If your opponent's Active Pokemon has any damage counters on it, this attack does 80 more damage.
+    weak: L
+    resist: F 
+    retreat: 1
+    img:
+      jp: /jp/mc/608.jpg
+      en:
+  - num: 609
+    name: Larry's Braviary
+    type: C
+    hp: 130
+    stage: 1
+    evolve-from: Larry's Rufflet
+    attack:
+      - energy: CC
+        name: Corner
+        damage: 50
+        desc: During your opponent's next turn, the Defending Pokemon can't retreat.
+      - energy: CCC
+        name: Brave Bird
+        damage: 30
+        desc: This Pokemon also does 30 damage to itself.
+    weak: L
+    resist: F 
+    retreat: 1
+    img:
+      jp: /jp/mc/609.jpg
+      en:
+  - num: 619
+    name: Larry's Komala
+    type: C
+    hp: 90
+    stage: 0
+    evolve-from: 
+    ability:
+      name: Lethargic Charge
+      desc: Once during your turn, if this Pokemon is on your Bench, you may attach an Energy card from your hand to your Active Larry's Pokemon.
+    attack:
+      - energy: C
+        name: Drowsy Draw
+        damage:
+        desc: This Pokemon is now Asleep. Draw 2 cards.
+    weak: F
+    resist:  
+    retreat: 2
+    img:
+      jp: /jp/mc/619.jpg
+      en:
+  - num: 621
+    name: Drampa
+    type: C
+    hp: 130
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: CC
+        name: Slap
+        damage: 50
+        desc:
+      - energy: CCC
+        name: Dragon Strike
+        damage: 120
+        desc: During your next turn, this Pokemon can't use Dragon Strike.
+    weak: F
+    resist:  
+    retreat: 2
+    img:
+      jp: /jp/mc/621.jpg
       en:
   - num: 662
     name: PokePad
@@ -364,44 +1056,7 @@ cards:
       - Switch in 1 of your opponent's Benched Pokemon to the Active Spot
     img:
       jp: /jp/mc/724.jpg
-      en:
-  - num: 749
-    name: Cottonee
-    type: P
-    hp: "??"
-    stage: 0
-    evolve-from:
-    weak: M
-    resist: 
-    retreat: 1
-    img:
-      jp:
-      en:
-    ref:
-      from: Unrevealed
-  - num: 750
-    name: Slurpuff
-    type: P
-    hp: 120
-    stage: 1
-    evolve-from: Cottonee
-    attack:
-      - energy: P
-        name: Tackle
-        damage: 40
-        desc:
-      - energy: PC
-        name: Magical Shot
-        damage: 70
-        desc:
-    weak: M
-    resist: 
-    retreat: 2
-    img:
-      jp: /jp/mc/750.jpg
-      en:
-    ref:
-      from: Only IR Revealed so far
+      en: /en/asc/183.jpg
   - num: 764
     name: Pikachu ex
     type: L
@@ -418,6 +1073,6 @@ cards:
     retreat: 1
     img:
       jp: /jp/mc/764.jpg
-      en:
+      en: 
     ref:
       from: Only IR Revealed so far
