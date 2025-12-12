@@ -1,10 +1,30 @@
 set: en_asc
 desc: Ascended Heroes
 cards:
+  - num: '008'
+    ref:
+      set: jp_mc
+      num: '016'
+      from: From JP Start Deck 100
+  - num: '009'
+    ref:
+      set: jp_mc
+      num: '017'
+      from: From JP Start Deck 100
+  - num: '010'
+    ref:
+      set: jp_mc
+      num: '018'
+      from: From JP Start Deck 100
   - num: '020'
     ref:
       set: jp_mc
       num: '083'
+      from: From JP Start Deck 100
+  - num: '021'
+    ref:
+      set: jp_mc
+      num: '084'
       from: From JP Start Deck 100
   - num: '022'
     ref:
@@ -16,6 +36,36 @@ cards:
       set: jp_m2a
       num: '020'
       from: From JP MEGA Dream ex
+  - num: '029'
+    ref:
+      set: jp_mc
+      num: '109'
+      from: From JP Start Deck 100
+  - num: '030'
+    ref:
+      set: jp_mc
+      num: '110'
+      from: From JP Start Deck 100
+  - num: '031'
+    ref:
+      set: jp_mc
+      num: '111'
+      from: From JP Start Deck 100
+  - num: '041'
+    ref:
+      set: jp_mc
+      num: '165'
+      from: From JP Start Deck 100
+  - num: '042'
+    ref:
+      set: jp_mc
+      num: '166'
+      from: From JP Start Deck 100
+  - num: '043'
+    ref:
+      set: jp_mc
+      num: '167'
+      from: From JP Start Deck 100
   - num: '049'
     ref:
       set: jp_m2a
@@ -46,3 +96,8 @@ cards:
       set: en_pfl
       num: '056'
       from: Reprint from Phantasmal Flames
+  - num: '183'
+    ref:
+      set: jp_mc
+      num: '724'
+      from: From JP Start Deck 100
