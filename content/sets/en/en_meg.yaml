@@ -53,11 +53,11 @@ cards:
       - energy: P
         name: Overflowing Wishes
         damage:
-        desc: For each of your Benched Pokémon, search your deck for a Basic {P} Energy card and attach it to that Pokémon. Then, shuffle your deck.
+        desc: For each of your Benched Pokémon, search your deck for a Basic [P] Energy card and attach it to that Pokémon. Then, shuffle your deck.
       - energy: P
         name: Mega Symphonia
         damage: 50
-        desc: This attack does 50 damage for each {P} Energy attached to all of your Pokémon.
+        desc: This attack does 50 damage for each [P] Energy attached to all of your Pokémon.
     weak: D
     resist: F
     retreat: 1
@@ -72,7 +72,7 @@ cards:
     evolve-from:
     ability:
       name: Lunar Cycle
-      desc: Once during your turn, if you have Solrock in play, you may discard a Basic {F} Energy card from your hand in order to use this Ability. Draw 3 cards. You can’t use more than 1 Lunar Cycle Ability each turn.
+      desc: Once during your turn, if you have Solrock in play, you may discard a Basic [F] Energy card from your hand in order to use this Ability. Draw 3 cards. You can’t use more than 1 Lunar Cycle Ability each turn.
     attack:
       - energy: FF
         name: Power Gem
@@ -128,7 +128,7 @@ cards:
       - energy: F
         name: Aura Jab
         damage: 130
-        desc: Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.
+        desc: Attach up to 3 Basic [F] Energy cards from your discard pile to your Benched Pokémon in any way you like.
       - energy: FF
         name: Mega Brave
         damage: 270
@@ -154,7 +154,7 @@ cards:
     type: T
     subtype: Item
     trainer:
-      - Search your deck for a Basic {F} Energy card or a Basic {F} Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+      - Search your deck for a Basic [F] Energy card or a Basic [F] Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
     img:
       jp:
       en: /en/meg/116.jpg
@@ -163,7 +163,7 @@ cards:
     type: T
     subtype: Stadium
     trainer:
-      - Each player’s {G} Pokémon can evolve into {G} Pokémon during the turn they play those Pokémon, except during their first turn.
+      - Each player’s [G] Pokémon can evolve into [G] Pokémon during the turn they play those Pokémon, except during their first turn.
     img:
       jp:
       en: /en/meg/117.jpg
@@ -190,7 +190,7 @@ cards:
     type: T
     subtype: Stadium
     trainer:
-      - Once during each player’s turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have {P} Pokémon in play.
+      - Once during each player’s turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have [P] Pokémon in play.
     img:
       jp:
       en: /en/meg/122.jpg
@@ -199,7 +199,7 @@ cards:
     type: T
     subtype: Item
     trainer:
-      - During this turn, attacks used by your {F} Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+      - During this turn, attacks used by your [F] Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
     img:
       jp:
       en: /en/meg/124.jpg

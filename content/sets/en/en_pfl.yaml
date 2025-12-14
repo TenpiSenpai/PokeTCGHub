@@ -43,7 +43,7 @@ cards:
     evolve-from: Haunter
     ability:
       name: Shadowy Concealment
-      desc: If 1 of your {D} Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon ex, that player takes 1 fewer Prize card. The effect of Shadowy Concealment doesn’t stack.
+      desc: If 1 of your [D] Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon ex, that player takes 1 fewer Prize card. The effect of Shadowy Concealment doesn’t stack.
     attack:
       - energy: DD
         name: Void Gale

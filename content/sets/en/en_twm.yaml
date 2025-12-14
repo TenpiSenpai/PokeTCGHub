@@ -9,7 +9,7 @@ cards:
     evolve-from: 
     ability:
       name: Teal Dance
-      desc: Once during your turn, you may attach a Basic {G} Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card.
+      desc: Once during your turn, you may attach a Basic [G] Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card.
     attack:
       - energy: GGG
         name: Myriad Leaf Shower
@@ -29,7 +29,7 @@ cards:
     evolve-from: 
     ability:
       name: Adrena-Brain
-      desc: Once during your turn, if this Pokémon has any {D} Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent’s Pokémon.
+      desc: Once during your turn, if this Pokémon has any [D] Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent’s Pokémon.
     attack:
       - energy: PC
         name: Mind Bend
@@ -128,7 +128,7 @@ cards:
     type: T
     subtype: Item
     trainer:
-      - Look at the top 7 cards of your deck. You may reveal up to 2 in any combination of {G} Pokémon and Basic {G} Energy cards you find there and put them into your hand. Shuffle the other cards back into your deck.
+      - Look at the top 7 cards of your deck. You may reveal up to 2 in any combination of [G] Pokémon and Basic [G] Energy cards you find there and put them into your hand. Shuffle the other cards back into your deck.
     img:
       jp:
       en: /en/twm/143.jpg

@@ -34,7 +34,7 @@ cards:
       - energy: CCC
         name: Hydro Pump
         damage: 60
-        desc: This attack does 20 more damage for each {W} Energy attached to this Pokémon.
+        desc: This attack does 20 more damage for each [W] Energy attached to this Pokémon.
     weak: L
     resist:
     retreat: 1
