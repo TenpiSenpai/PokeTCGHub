@@ -46,7 +46,7 @@ cards:
     evolve-from:
     ability:
       name: Fan Call
-      desc: Once during your first turn, you may search your deck for up to 3 {C} Pokémon with 100 HP or less, reveal them, and put them into your hand. Then, shuffle your deck. You can’t use more than 1 Fan Call Ability during your turn.
+      desc: Once during your first turn, you may search your deck for up to 3 [C] Pokémon with 100 HP or less, reveal them, and put them into your hand. Then, shuffle your deck. You can’t use more than 1 Fan Call Ability during your turn.
     attack:
       - energy: C
         name: Assault Landing
@@ -66,7 +66,7 @@ cards:
     evolve-from:
     ability:
       name: Curly Wall
-      desc: As long as you have at least 1 other Bouffalant in play, all of your Basic {C} Pokémon take 60 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). The effect of Curly Wall doesn’t stack.
+      desc: As long as you have at least 1 other Bouffalant in play, all of your Basic [C] Pokémon take 60 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). The effect of Curly Wall doesn’t stack.
     attack:
       - energy: CCC
         name: Boundless Power
@@ -92,7 +92,7 @@ cards:
       - energy: GWL
         name: Crown Opal
         damage: 180
-        desc: During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic non-{C} Pokémon.
+        desc: During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic non-[C] Pokémon.
     weak: F
     resist: 
     retreat: 2
@@ -115,7 +115,7 @@ cards:
     subtype: Item
     trainer:
       - You can use this card only if you have any Tera Pokémon in play.
-      - Choose up to 2 of your Benched {C} Pokémon and attach a Basic Energy card from your discard pile to each of them.
+      - Choose up to 2 of your Benched [C] Pokémon and attach a Basic Energy card from your discard pile to each of them.
     img:
       jp:
       en: /en/scr/135.jpg

@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   ssr: false,
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@nuxt/fonts'],
   app: {
     baseURL: '/PokeTCGHub/',
     head: {
@@ -11,6 +11,11 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en',
       },
-    }
+    },
   },
+  fonts: {
+    providers: {
+      custom: '~/providers/ptcg'
+    }
+  }
 })

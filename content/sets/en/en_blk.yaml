@@ -26,7 +26,7 @@ cards:
     evolve-from: Tynamo
     ability:
       name: Dynamotor
-      desc: Once during your turn, you may attach a Basic {L} Energy card from your discard pile to 1 of your Benched Pokémon.
+      desc: Once during your turn, you may attach a Basic [L] Energy card from your discard pile to 1 of your Benched Pokémon.
     attack:
       - energy: LLC
         name: Electric Ball
@@ -67,7 +67,7 @@ cards:
     evolve-from:
     ability:
       name: Metallic Signal
-      desc: Once during your turn, you may search your deck for up to 2 Evolution {M} Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+      desc: Once during your turn, you may search your deck for up to 2 Evolution [M] Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
     attack:
       - energy: MMC
         name: Protect Charge
@@ -84,7 +84,7 @@ cards:
     type: T
     subtype: Pokemon Tool
     trainer:
-      - The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.
+      - The Retreat Cost of the Pokémon this card is attached to is [C][C] less.
     img:
       jp:
       en: /en/blk/079.jpg
@@ -93,7 +93,7 @@ cards:
     type: T
     subtype: Special Energy
     trainer:
-      - As long as this card is attached to a Pokémon, it provides {C} Energy.
+      - As long as this card is attached to a Pokémon, it provides [C] Energy.
       - If this card is attached to a Basic Pokémon, this card provides every type of Energy but provides only 1 Energy at a time.
     img:
       jp:

@@ -69,8 +69,10 @@ function testLastType(code: string) {
 </script>
 
 <template>
-    <div class="flex p-4 border-t" v-if="!excludeTypes">
-        <a v-for="type in Types" class="p-4" :href="'#type-' + type.code">{{ type.name }}</a>
+    <div class="flex p-4 border-t flex-wrap" v-if="!excludeTypes">
+        <a v-for="type in Types" class="px-4 py-0 basis-1/2 md:basis-1 whitespace-nowrap underline text-blue-600" :href="'#type-' + type.code">
+            <span class="font-ptcg" v-if="type.code != 'T' && type.code != 'E'">{{ type.code }}</span> {{ type.name }}
+        </a>
     </div>
     <template v-for="card in cards" :key="card.num">
         <div v-if="testLastType(card.type)" :id="'type-' + card.type"></div>

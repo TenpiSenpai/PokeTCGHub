@@ -51,7 +51,7 @@ cards:
     evolve-from: Yanma
     ability:
       name: Buzzing Boost
-      desc: Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may search your deck for up to 3 Basic {G} Energy cards and attach them to this Pokémon. Then, shuffle your deck.
+      desc: Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may search your deck for up to 3 Basic [G] Energy cards and attach them to this Pokémon. Then, shuffle your deck.
     attack:
       - energy: GGGC
         name: Jet Cyclone
@@ -223,7 +223,7 @@ cards:
       - energy: RRR
         name: Lava Burst
         damage: 70x
-        desc: Discard up to 5 {R} Energy from this Pokémon. This attack does 70 damage for each card you discarded in this way.
+        desc: Discard up to 5 [R] Energy from this Pokémon. This attack does 70 damage for each card you discarded in this way.
     weak: W
     resist:
     retreat: 3
@@ -238,7 +238,7 @@ cards:
     evolve-from:
     ability:
       name: Golden Flame
-      desc: Once during your turn, you may attach up to 2 Basic {R} Energy cards from your hand to 1 of your Benched Ethan’s Pokémon.
+      desc: Once during your turn, you may attach up to 2 Basic [R] Energy cards from your hand to 1 of your Benched Ethan’s Pokémon.
     attack:
       - energy: RRRR
         name: Shining Feathers
@@ -525,7 +525,7 @@ cards:
     type: T
     subtype: Supporter
     trainer:
-      - Search your deck for up to 3 in any combination of Ethan’s Pokémon and Basic {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+      - Search your deck for up to 3 in any combination of Ethan’s Pokémon and Basic [R] Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
     img:
       jp:
       en: /en/dri/165.jpg
@@ -608,7 +608,7 @@ cards:
     type: T
     subtype: Stadium
     trainer:
-      - '{C} Pokémon in play (both yours and your opponent’s) have no Abilities.'
+      - '[C] Pokémon in play (both yours and your opponent’s) have no Abilities.'
     img:
       jp:
       en: /en/dri/180.jpg
@@ -618,7 +618,7 @@ cards:
     subtype: Special Energy
     trainer:
       - This card can only be attached to a Team Rocket’s Pokémon. If this card is attached to anything other than a Team Rocket’s Pokémon, discard this card.
-      - As long as this card is attached to a Pokémon, it provides 2 in any combination of {P} Energy and {D} Energy.
+      - As long as this card is attached to a Pokémon, it provides 2 in any combination of [P] Energy and [D] Energy.
     img:
       jp:
       en: /en/dri/182.jpg
