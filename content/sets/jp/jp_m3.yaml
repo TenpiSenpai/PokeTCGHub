@@ -1,0 +1,134 @@
+set: jp_m3
+desc: Nihil Zero
+cards:
+  - num: '041'
+    name: Binacle
+    type: F
+    hp: 80
+    stage: 0
+    attack:
+      - energy: F
+        name: Double Draw
+        damage:
+        desc: Draw 2 cards.
+      - energy: FF
+        name: Scratch
+        damage: 30
+        desc:
+    weak: G
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/041.jpg
+      en:
+  - num: '042'
+    name: Barbaracle
+    type: F
+    hp: 130
+    stage: 1
+    evolve-from: Binacle
+    ability:
+      name: Stone Arms
+      desc: Once during your turn, you may attach a Basic [F] Energy from your hand to 1 of your [F] Pokemon.
+    attack:
+      - energy: FFC
+        name: Hammer In
+        damage: 80
+        desc:
+    weak: G
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/042.jpg
+      en:
+  - num: '046'
+    name: Mega Zygarde ex
+    type: F
+    hp: 310
+    stage: 0
+    attack:
+      - energy: FFF
+        name: Gaia Wave
+        damage: 200
+        desc: During your opponent's next turn, this Pokemon takes 30 less damage from attacks.
+      - energy: FFFFF
+        name: Nihil Zero
+        damage:
+        desc: For each of your opponent's Pokemon, flip a coin. If heads, this attack does 150 damage to that Pokemon.
+    weak: G
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/046.jpg
+      en:
+  - num: '061'
+    name: Meowth ex
+    type: C
+    hp: 170
+    stage: 0
+    ability:
+      name: Trump Card Catch
+      desc: When you play this Pokemon from your hand to your Bench during your turn, you may use this Ability. Search your deck for a Supporter card, reveal it, and put it into your hand. You can't use this Ability if you've already used another Ability with "Trump Card" in its name this turn.
+    attack:
+      - energy: CCC
+        name: Tuck Tail
+        damage: 60
+        desc: Return this card and all cards attached to it to your hand.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/061.jpg
+      en:
+  - num: '070'
+    ref:
+      set: jp_mc
+      num: '662'
+      from: Reprint from Start Deck 100
+  - num: '072'
+    name: Core Memory
+    type: T
+    subtype: Pokemon Tool
+    trainer:
+      - The Mega Zygarde ex this card is attached to can use the attacks on this card.
+      - "[FFFF] Geobuster: 350 damage. Discard all Energy from this Pokemon."
+    img:
+      jp: /jp/m3/072.jpg
+      en:
+  - num: '073'
+    name: Tarragon
+    type: T
+    subtype: Supporter
+    trainer:
+      - Put up to 4 in any combination of [F] Pokemon and Basic [F] Energy from your discard pile into your hand.
+    img:
+      jp: /jp/m3/073.jpg
+      en:
+  - num: '074'
+    name: Naveen
+    type: T
+    subtype: Supporter
+    trainer:
+      - Discard any number of cards from your hand. Then, draw cards until you have 5 cards in your hand.
+    img:
+      jp: /jp/m3/074.jpg
+      en:
+  - num: '077'
+    name: Lumiose City
+    type: T
+    subtype: Stadium
+    trainer:
+      - Once during each player's turn, that player may search their deck for a Basic Pokemon and put it onto their Bench. Then, that player shuffles their deck. If a player uses this effect, their turn ends.
+    img:
+      jp: /jp/m3/077.jpg
+      en:
+  - num: '080'
+    name: Rock Fighting Energy
+    type: T
+    subtype: Special Energy
+    trainer:
+      - This card provides [F] Energy while this card is attached to a Pokemon.
+      - Prevent all effects of attacks used by your opponent’s Pokemon done to the [F] Pokemon this card is attached to. (Existing effects are not removed. Damage is not an effect.)
+    img:
+      jp: /jp/m3/080.jpg
+      en:
