@@ -9,8 +9,9 @@
       </ul>
       <h2 class="text-xl">Upcoming Japanese Sets</h2>
       <ul>
-        <li><NuxtLink class="block px-8 py-4 underline text-blue-600" to="/sets/jp/megadream">MEGA Dream ex</NuxtLink></li>
+        <li><NuxtLink class="block px-8 py-4 underline text-blue-600" to="/sets/jp/nihil_zero">Nihil Zero</NuxtLink></li>
         <li><NuxtLink class="block px-8 py-4 underline text-blue-600" to="/sets/jp/start_deck_100_2025">Start Deck 100</NuxtLink></li>
+        <li><NuxtLink class="block px-8 py-4 underline text-blue-600" to="/sets/jp/megadream">MEGA Dream ex</NuxtLink></li>
         <li><NuxtLink class="block px-8 py-4 underline text-blue-600" to="/sets/jp/assorted_jp">Other JP Cards</NuxtLink></li>
       </ul>
   </div>

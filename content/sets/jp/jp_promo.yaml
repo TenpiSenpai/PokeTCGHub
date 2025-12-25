@@ -31,3 +31,24 @@ cards:
     img:
       jp: /jp/promo/049.jpg
       en:
+  - num: '068'
+    name: Mega Gallade ex
+    type: F
+    hp: 350
+    stage: 2
+    evolve-from: Kirlia
+    attack:
+      - energy: F
+        name: Gale Cut
+        damage: 50+
+        desc: If this Pokemon has no damage counters on it, this attack does 150 more damage.
+      - energy: FFC
+        name: Marvelous Edge
+        damage: 240
+        desc:
+    weak: P
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/promo/068.jpg
+      en:
