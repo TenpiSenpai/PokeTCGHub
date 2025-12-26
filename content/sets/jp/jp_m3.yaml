@@ -61,6 +61,22 @@ cards:
     img:
       jp: /jp/m3/046.jpg
       en:
+  - num: '054'
+    name: Mega Skarmory ex
+    type: M
+    hp: 260
+    stage: 0
+    attack:
+      - energy: MMC
+        name: Sonic Ripper
+        damage:
+        desc: Shuffle all Energy from this Pokémon into your deck. This attack does 220 damage to 1 of your opponent's Pokémon.
+    weak: L
+    resist: F 
+    retreat: 
+    img:
+      jp: /jp/m3/054.jpg
+      en:
   - num: '061'
     name: Meowth ex
     type: C
