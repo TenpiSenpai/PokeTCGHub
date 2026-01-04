@@ -1,6 +1,43 @@
 set: jp_m3
 desc: Nihil Zero
 cards:
+  - num: '022'
+    name: Amaura
+    type: W
+    hp: 100
+    stage: 1
+    evolve-from: Antique Sail Fossil
+    attack:
+      - energy: WC
+        name: Icy Wind
+        damage: 50
+        desc: Your opponent's Active Pokemon is now Asleep.
+    weak: M
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m3/022.jpg
+      en:
+  - num: '023'
+    name: Aurorus
+    type: W
+    hp: 170
+    stage: 2
+    evolve-from: Amaura
+    ability:
+      name: Tundra Wall
+      desc: While this Pokemon is in play, all of your Pokemon that have a [W] Energy attached take 50 less damage from attacks from your opponent’s Pokemon. This Ability does not stack.
+    attack:
+      - energy: WWC
+        name: Wreak Havoc
+        damage: 150
+        desc: During your opponent's next turn, the Defending Pokemon can't attack.
+    weak: M
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m3/023.jpg
+      en:
   - num: '041'
     name: Binacle
     type: F
@@ -40,6 +77,43 @@ cards:
     retreat: 2
     img:
       jp: /jp/m3/042.jpg
+      en:
+  - num: '043'
+    name: Tyrunt
+    type: F
+    hp: 100
+    stage: 1
+    evolve-from: Antique Jaw Fossil
+    attack:
+      - energy: FC
+        name: Get Angry
+        damage: 20x
+        desc: This attack does 20 damage times the number of damage counters on this Pokemon.
+    weak: G
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m3/043.jpg
+      en:
+  - num: '044'
+    name: Tyrantrum
+    type: F
+    hp: 180
+    stage: 2
+    evolve-from: Tyrunt
+    ability:
+      name: Tyrannoguts
+      desc: If this Pokemon has any Special Energy attached, it gets +150 HP.
+    attack:
+      - energy: FC
+        name: Wreak Havoc
+        damage: 160
+        desc: Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.
+    weak: G
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m3/044.jpg
       en:
   - num: '046'
     name: Mega Zygarde ex
@@ -95,6 +169,28 @@ cards:
     retreat: 1
     img:
       jp: /jp/m3/061.jpg
+      en:
+  - num: '068'
+    name: Antique Jaw Fossil
+    type: T
+    subtype: Item
+    trainer:
+      - You may play this card as a 60 HP Basic [C] Pokemon. This Pokemon can't be affected by Special Conditions and can't retreat. At any time during your turn, you may discard this card from play.
+      - 'Ability: Imitating Jaw'
+      - If this Pokemon is your Active Pokemon, attacks from your opponent’s Active Pokemon do 30 less damage (before applying Weakness and Resistance).
+    img:
+      jp: /jp/m3/068.jpg
+      en:
+  - num: '069'
+    name: Antique Sail Fossil
+    type: T
+    subtype: Item
+    trainer:
+      - You may play this card as a 60 HP Basic [C] Pokemon. This Pokemon can't be affected by Special Conditions and can't retreat. At any time during your turn, you may discard this card from play.
+      - 'Ability: Protective Sail'
+      - This Pokemon can't be affected by the effects of Supporter cards played from your opponent's hand.
+    img:
+      jp: /jp/m3/069.jpg
       en:
   - num: '070'
     ref:
