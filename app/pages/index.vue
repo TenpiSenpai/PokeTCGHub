@@ -5,6 +5,7 @@
       
       <h2 class="text-xl">Upcoming English Sets</h2>
       <ul>
+        <li><NuxtLink class="block px-8 py-4 underline text-blue-600" to="/sets/en/perfect-order">Perfect Order</NuxtLink></li>
         <li><NuxtLink class="block px-8 py-4 underline text-blue-600" to="/sets/en/ascended-heroes">Ascended Heroes</NuxtLink></li>
       </ul>
       <h2 class="text-xl">Upcoming Japanese Sets</h2>

@@ -1,6 +1,201 @@
 set: jp_m3
 desc: Nihil Zero
 cards:
+  - num: '007'
+    name: Scatterbug
+    type: G
+    hp: 40
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: G
+        name: Gnaw
+        damage: 20
+        desc:
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/007.jpg
+      en:
+  - num: '008'
+    name: Spewpa
+    type: G
+    hp: 80
+    stage: 1
+    evolve-from: Scatterbug
+    attack:
+      - energy: G
+        name: Hide
+        damage:
+        desc: Flip a coin. If heads, during your opponent's next turn, prevent all damage and effects from attacks done to this Pokemon.
+    weak: R
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m3/008.jpg
+      en:
+  - num: '009'
+    name: Vivillon
+    type: G
+    hp: 120
+    stage: 2
+    evolve-from: Spewpa
+    ability:
+      name: Big Wings
+      desc: Once during your turn, you may have your opponent shuffle their hand and put all of those cards on the bottom of their deck. Then, your opponent draws 4 cards.
+    attack:
+      - energy: G
+        name: Blow Through
+        damage: 60+
+        desc: If there is a stadium in play, this attack does 60 more.
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/009.jpg
+      en:
+  - num: '010'
+    name: Rowlet
+    type: G
+    hp: 80
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: G
+        name: Find a Friend
+        damage: 
+        desc: Search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.
+      - energy: CCC
+        name: Tackle
+        damage: 30
+        desc:
+    weak: R
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/010.jpg
+      en:
+  - num: '011'
+    name: Dartrix
+    type: G
+    hp: 100
+    stage: 1
+    evolve-from: Rowlet
+    attack:
+      - energy: G
+        name: Leafage
+        damage: 10
+        desc:
+      - energy: CCC
+        name: Phaser Shot
+        damage: 
+        desc: Discard all Energy attached to this Pokemon. Choose 1 of your opponent's Pokemon. This attack does 90 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+    weak: R
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/011.jpg
+      en:
+  - num: '012'
+    name: Decidueye ex
+    type: G
+    hp: 320
+    stage: 2
+    evolve-from: Dartrix
+    ability:
+      name: Sniper Eye
+      desc: If your opponent has exactly 4 cards in their hand, ignore all [C] in this Pokemon’s attack costs.
+    attack:
+      - energy: GCCC
+        name: Crush Arrow
+        damage: 240
+        desc: Discard an Energy from your opponent's Active Pokemon.
+    weak: R
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/012.jpg
+      en:
+  - num: '018'
+    name: Seel
+    type: W
+    hp: 80
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: W
+        name: Rain Splash
+        damage: 10
+        desc:
+      - energy: WW
+        name: Wave Splash
+        damage: 30
+        desc:
+    weak: L
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/018.jpg
+      en:
+  - num: '019'
+    name: Dewgong
+    type: W
+    hp: 130
+    stage: 1
+    evolve-from: Seel
+    ability:
+      name: Wash Out
+      desc: As often as you like during your turn, you may move a [W] Energy from your Benched Pokemon to your Active Pokemon.
+    attack:
+      - energy: WW
+        name: Wave Splash
+        damage: 60
+        desc:
+    weak: L
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/019.jpg
+      en:
+  - num: '020'
+    name: Staryu
+    type: W
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: W
+        name: Water Gun
+        damage: 20
+        desc:
+    weak: L
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/020.jpg
+      en:
+  - num: '021'
+    name: Mega Starmie ex
+    type: W
+    hp: 330
+    stage: 1
+    evolve-from: Staryu
+    attack:
+      - energy: W
+        name: Jet Blow
+        damage: 120
+        desc: This attack also does 50 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+      - energy: CCC
+        name: Nebula Beam
+        damage: 210
+        desc: This attack's damage isn't affected by Weakness, Resistance, or any effects on your opponent's Active Pokemon.
+    weak: L
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/021.jpg
+      en:
   - num: '022'
     name: Amaura
     type: W
@@ -124,17 +319,17 @@ cards:
       - energy: FFF
         name: Gaia Wave
         damage: 200
-        desc: During your opponent's next turn, this Pokemon takes 30 less damage from attacks.
+        desc: During your opponent's next turn, this Pokemon takes 30 less damage from attacks (after apply Weakness and Resistance).
       - energy: FFFFF
-        name: Nihil Zero
+        name: Nullifying Zero
         damage:
-        desc: For each of your opponent's Pokemon, flip a coin. If heads, this attack does 150 damage to that Pokemon.
+        desc: For each of your opponent's Pokemon, flip a coin. If heads, this attack does 150 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
     weak: G
     resist: 
     retreat: 2
     img:
       jp: /jp/m3/046.jpg
-      en:
+      en: /en/por/047.jpg
   - num: '054'
     name: Mega Skarmory ex
     type: M
@@ -157,19 +352,19 @@ cards:
     hp: 170
     stage: 0
     ability:
-      name: Trump Card Catch
-      desc: When you play this Pokemon from your hand to your Bench during your turn, you may use this Ability. Search your deck for a Supporter card, reveal it, and put it into your hand. You can't use this Ability if you've already used another Ability with "Trump Card" in its name this turn.
+      name: Last-Ditch Catch
+      desc: Once during your turn, when you play this Pokemon from your hand onto your Bench, you may use this Ability. Search your deck for a Supporter card, reveal it, and put it into your hand. Then shuffle your deck. You can't use more than 1 Ability that has "Last-Ditch" in its name each turn.
     attack:
       - energy: CCC
         name: Tuck Tail
         damage: 60
-        desc: Return this card and all cards attached to it to your hand.
+        desc: Put this Pokemon and all attached cards into your hand.
     weak: F
     resist: 
     retreat: 1
     img:
       jp: /jp/m3/061.jpg
-      en:
+      en: /en/por/062.jpg
   - num: '068'
     name: Antique Jaw Fossil
     type: T
@@ -234,8 +429,18 @@ cards:
     img:
       jp: /jp/m3/077.jpg
       en:
+  - num: '078'
+    name: Grow [G] Energy
+    type: T
+    subtype: Special Energy
+    trainer:
+      - This card provides [G] Energy while this card is attached to a Pokemon.
+      - The [G] Pokemon this card is attached to gets +20 HP.
+    img:
+      jp: /jp/m3/078.jpg
+      en:
   - num: '080'
-    name: Rock Fighting Energy
+    name: Rock [F] Energy
     type: T
     subtype: Special Energy
     trainer:

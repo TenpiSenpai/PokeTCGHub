@@ -1,0 +1,13 @@
+set: en_por
+desc: Perfect Order
+cards:
+  - num: '047'
+    ref:
+      set: jp_m3
+      num: '046'
+      from: From JP Nihil Zero
+  - num: '062'
+    ref:
+      set: jp_m3
+      num: '061'
+      from: From JP Nihil Zero
