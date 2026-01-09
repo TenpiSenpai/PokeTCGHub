@@ -32,6 +32,15 @@ export default defineNuxtConfig({
     },
   },
 
+  tailwindcss: {
+    cssPath: '~/assets/css/main.css',
+    configPath: 'tailwind.config.ts',
+    exposeConfig: true,
+    viewer: true,
+  },
+
+  css: ['~/assets/css/main.css'],
+
   // Security headers
   nitro: {
     routeRules: {
