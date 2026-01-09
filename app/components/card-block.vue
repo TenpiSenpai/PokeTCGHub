@@ -13,7 +13,9 @@ function replaceTypes(text: string) {
 }
 function replaceNames(text: string) {
     if (text == null || text == undefined) return null;
-    return text.replace(/ ex/g, ' <span class="font-ptcg">e</span>');
+    text = text.replace(/ ex/g, ' <span class="font-ptcg">e</span>');
+    text = replaceTypes(text)!;
+    return text;
 }
 </script>
 <template>
