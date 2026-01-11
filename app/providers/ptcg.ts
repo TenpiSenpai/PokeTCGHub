@@ -9,7 +9,6 @@ export default defineFontProvider('custom', () => {
       if (!resolvableFonts.has(fontFamily)) {
         return
       }
-      console.log('test2')
       return {
         fonts: [
           { src: [{ url: '/ptcg-font-19.ttf', format: 'ttf' }] },
