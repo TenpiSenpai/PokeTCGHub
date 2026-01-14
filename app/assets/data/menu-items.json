@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Upcoming EN Releases",
+    "items": [
+      {
+        "label": "Perfect Order",
+        "path": "/sets/en/perfect-order"
+      },
+      {
+        "label": "Ascended Heroes",
+        "path": "/sets/en/ascended-heroes"
+      }
+    ]
+  },
+  {
+    "title": "Upcoming JP Releases",
+    "items": [
+      {
+        "label": "Nihil Zero",
+        "path": "/sets/jp/nihil_zero"
+      },
+      {
+        "label": "Start Deck 100",
+        "path": "/sets/jp/start_deck_100_2025"
+      },
+      {
+        "label": "MEGA Dream ex",
+        "path": "/sets/jp/megadream"
+      },
+      {
+        "label": "Other JP Cards",
+        "path": "/sets/jp/assorted_jp"
+      }
+    ]
+  }
+]

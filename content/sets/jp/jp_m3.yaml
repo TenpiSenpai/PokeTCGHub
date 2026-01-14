@@ -117,6 +117,44 @@ cards:
     img:
       jp: /jp/m3/012.jpg
       en:
+  - num: '015'
+    name: Salandit
+    type: R
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: R
+        name: Fire Claws
+        damage: 20
+        desc:
+    weak: W
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/015.jpg
+      en:
+  - num: '016'
+    name: Salazzle ex
+    type: R
+    hp: 260
+    stage: 1
+    evolve-from: Salandit
+    attack:
+      - energy: R
+        name: Nasty Plot
+        damage:
+        desc: Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.
+      - energy: RR
+        name: Fatal Nail
+        damage: 100
+        desc: Your opponent's Active Pokemon is now Poisoned and Burned. Switch this Pokemon with 1 of your Benched Pokemon.
+    weak: W
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/016.jpg
+      en:
   - num: '018'
     name: Seel
     type: W
@@ -345,6 +383,61 @@ cards:
     retreat: 
     img:
       jp: /jp/m3/054.jpg
+      en:
+  - num: '055'
+    name: Honedge
+    type: M
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Cut
+        damage: 10
+        desc:
+    weak: R
+    resist: G 
+    retreat: 2
+    img:
+      jp: /jp/m3/055.jpg
+      en:
+  - num: '056'
+    name: Doublade
+    type: M
+    hp: 100
+    stage: 1
+    evolve-from: Honedge
+    attack:
+      - energy: CC
+        name: Sword Stash
+        damage: 60x
+        desc: You may reveal any number of Honedge, Doublade and Aegislash from your hand. This attack does 60 damage for each card you revealed this way.
+    weak: R
+    resist: G 
+    retreat: 2
+    img:
+      jp: /jp/m3/056.jpg
+      en:
+  - num: '057'
+    name: Aegislash
+    type: M
+    hp: 150
+    stage: 2
+    evolve-from: Doublade
+    attack:
+      - energy: CCC
+        name: Slash
+        damage: 80
+        desc:
+      - energy: MCCC
+        name: Metal Slash
+        damage: 230
+        desc: This Pokémon can't attack during your next turn.
+    weak: R
+    resist: G 
+    retreat: 3
+    img:
+      jp: /jp/m3/057.jpg
       en:
   - num: '061'
     name: Meowth ex

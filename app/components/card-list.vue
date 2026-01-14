@@ -1,62 +1,16 @@
 <script lang="ts" setup>
-import { Types,GetTypeByCode } from '../classes/types';
-const props = defineProps({
-    set: {
-        type: String,
-        required: true
-    },
-    excludeTypes: {
-        type: Boolean,
-        required: false,
-        default: false
-    }
-})
-const {set, excludeTypes} = props;
+import { Types } from '../classes/types';
+import { useCardStore } from '@/stores/cardStore';
 
-const {data} = await useAsyncData(set, () => {
-  return queryCollection('card_db').where('set', '=', set).first()
-})
-if (data.value == null) {
-    throw set + ' does not exist';
+const store = useCardStore();
+
+interface Props {
+    set: string,
+    excludeTypes?: boolean
 }
-let setList: {set:string, cards: any[]}[] = [];
-//set Linking
-//This makes it so you only have to declare cards once and cn show them in several sets such as reprints or en/jp
-for(let i = 0; i < data.value!.cards.length; i++) {
-    const card = data.value!.cards[i]!;
-    if (card.ref != null && card.ref.num != null) {
-        let setFind = setList.find((x) => x.set == card.ref.set);
-        if (setFind == null) {
-            const {data: item} = await useAsyncData(card.ref.set, () => {
-            return queryCollection('card_db')
-                .where('set', '=', card.ref.set)
-                .first()
-            });
-            if (item.value == null) {
-                throw card.ref.set + ': does not exists.';
-            }
-            const newSet = {
-                set: card.ref.set,
-                cards: item.value.cards
-            };
-            setList.push(newSet);
-            setFind = newSet;
-        }
-        
-        let f = setFind.cards.find((item: any) => parseInt(item.num) == parseInt(card.ref.num));
-        if (f == null) {
-            throw card.ref.set + ':' + card.ref.num + ' does not exists.';
-        }
-        var found = { ...f }
-        found.ref = card.ref;
-        found.title = card.title;
-        found.num = card.num;
-        data.value!.cards[i] = found;
-    }
-}
-const cards = data.value!.cards.sort((a, b) => {
-    return GetTypeByCode(a.type).order - GetTypeByCode(b.type).order
-});
+const { set: setName, excludeTypes = false } = defineProps<Props>();
+
+const setinfo = await store.buildSet(setName);
 
 let lastType:string | null = null;
 function testLastType(code: string) {
@@ -70,12 +24,19 @@ function testLastType(code: string) {
 
 <template>
     <div class="flex p-4 border-t flex-wrap" v-if="!excludeTypes">
-        <a v-for="type in Types" class="px-4 py-0 basis-1/2 md:basis-1 whitespace-nowrap underline text-blue-600" :href="'#type-' + type.code">
+        <a 
+            v-for="type in Types"
+            :key="type.code"
+            class="px-4 py-0 basis-1/2 md:basis-1 whitespace-nowrap underline text-blue-600 hover:text-blue-800"
+            :href="'#type-' + type.code"
+            aria-label="Filter by card type"
+        >
             <span class="font-ptcg" v-if="type.code != 'T' && type.code != 'E'">{{ type.code }}</span> {{ type.name }}
         </a>
     </div>
-    <template v-for="card in cards" :key="card.num">
+    <template v-for="card in setinfo.cards" :key="card.num">
         <div v-if="testLastType(card.type)" :id="'type-' + card.type"></div>
-        <card-block :data="card"></card-block>
+        <card-block :card="card"></card-block>
     </template>
 </template>
+

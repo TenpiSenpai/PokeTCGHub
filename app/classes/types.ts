@@ -22,7 +22,7 @@ const Types: CardType[] = [
     new CardType('N','Dragon',8),
     new CardType('C','Colorless',9),
     new CardType('T','Trainer',10),
-    new CardType('E','Special Energy',11),
+    new CardType('E','Special Energy',11)
 ]
 
 let GetTypeByCode = (code: string) : CardType | undefined => Types.find((x: CardType) => x.code == code);
