@@ -386,7 +386,7 @@ cards:
       en:
   - num: '055'
     name: Honedge
-    type: S
+    type: M
     hp: 70
     stage: 0
     evolve-from:
@@ -403,7 +403,7 @@ cards:
       en:
   - num: '056'
     name: Doublade
-    type: S
+    type: M
     hp: 100
     stage: 1
     evolve-from: Honedge
@@ -420,7 +420,7 @@ cards:
       en:
   - num: '057'
     name: Aegislash
-    type: S
+    type: M
     hp: 150
     stage: 2
     evolve-from: Doublade
