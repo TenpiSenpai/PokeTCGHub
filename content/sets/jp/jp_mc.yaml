@@ -1057,7 +1057,160 @@ cards:
     img:
       jp: /jp/mc/724.jpg
       en: /en/asc/183.jpg
+  - num: '743'
+    alt: IR
+    ref:
+      num: '014'
+    img:
+      jp: /jp/mc/alt/743.jpg
+      en:
+  - num: '744'
+    alt: IR
+    ref:
+      num: '024'
+      set: en_scr
+    img:
+      jp: /jp/mc/alt/744.jpg
+      en:
+  - num: '745'
+    alt: IR
+    ref:
+      num: '026'
+      set: en_scr
+    img:
+      jp: /jp/mc/alt/745.jpg
+      en:
+  - num: '746'
+    alt: IR
+    ref:
+      num: '014'
+      set: en_sfa
+    img:
+      jp: /jp/mc/alt/746.jpg
+      en:
+  - num: '747'
+    alt: IR
+    ref:
+      num: '053'
+      set: en_scr
+    img:
+      jp: /jp/mc/alt/747.jpg
+      en:
+  - num: '748'
+    alt: IR
+    ref:
+      num: '295'
+    img:
+      jp: /jp/mc/alt/748.jpg
+      en:
+  - num: '749'
+    alt: IR
+    ref:
+      set: en_jtg
+      num: '060'
+    img:
+      jp: /jp/mc/alt/749.jpg
+      en:
+  - num: '750'
+    alt: IR
+    ref:
+      num: '334'
+    img:
+      jp: /jp/mc/alt/750.jpg
+      en:
+  - num: '751'
+    alt: IR
+    ref:
+      num: '367'
+    img:
+      jp: /jp/mc/alt/751.jpg
+      en:
+  - num: '752'
+    alt: IR
+    ref:
+      num: '400'
+    img:
+      jp: /jp/mc/alt/752.jpg
+      en:
+  - num: '753'
+    alt: IR
+    ref:
+      set: en_tef
+      num: '106'
+    img:
+      jp: /jp/mc/alt/753.jpg
+      en:
+  - num: '754'
+    alt: IR
+    ref:
+      num: '495'
+    img:
+      jp: /jp/mc/alt/754.jpg
+      en:
+  - num: '755'
+    alt: IR
+    ref:
+      set: en_svp
+      num: '173'
+  - num: '756'
+    alt: IR
+    ref:
+      num: '592'
+    img:
+      jp: /jp/mc/alt/756.jpg
+      en:
+  - num: '757'
+    alt: FA
+    ref:
+      set: en_svp
+      num: '087'
+    img:
+      jp: /jp/mc/alt/757.jpg
+      en:
+  - num: '758'
+    alt: FA
+    ref:
+      num: '394'
+    img:
+      jp: /jp/mc/alt/758.jpg
+      en:
+  - num: '759'
+    alt: FA
+    ref:
+      num: '602'
+    img:
+      jp: /jp/mc/alt/759.jpg
+      en:
+  - num: '760'
+    alt: FA
+    ref:
+      num: '724'
+    img:
+      jp: /jp/mc/alt/760.jpg
+      en:
+  - num: '761'
+    alt: SIR
+    ref:
+      num: '018'
+    img:
+      jp: /jp/mc/alt/761.jpg
+      en:
+  - num: '762'
+    alt: SIR
+    ref:
+      num: '111'
+    img:
+      jp: /jp/mc/alt/762.jpg
+      en:
+  - num: '763'
+    alt: SIR
+    ref:
+      num: '167'
+    img:
+      jp: /jp/mc/alt/763.jpg
+      en:
   - num: 764
+    alt: SIR
     name: Pikachu ex
     type: L
     hp: 200
@@ -1072,7 +1225,22 @@ cards:
     resist: 
     retreat: 1
     img:
-      jp: /jp/mc/764.jpg
+      jp: /jp/mc/alt/764.jpg
       en: 
     ref:
       from: Only IR Revealed so far
+  - num: '765'
+    alt: SIR
+    ref:
+      set: en_jtg
+      num: '056'
+    img:
+      jp: /jp/mc/alt/765.jpg
+      en:
+  - num: '766'
+    alt: SIR
+    ref:
+      num: '085'
+    img:
+      jp: /jp/mc/alt/766.jpg
+      en:

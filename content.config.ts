@@ -4,6 +4,7 @@ import z from 'zod';
 const cardSchema = z.strictObject({
   name: z.string(),
   num: z.string(),
+  rarity: z.string(),
   type: z.string(),
   subtype: z.string(),
   hp: z.number(),

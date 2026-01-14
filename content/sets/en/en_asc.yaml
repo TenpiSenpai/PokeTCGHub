@@ -51,6 +51,16 @@ cards:
       set: jp_mc
       num: '111'
       from: From JP Start Deck 100
+  - num: '039'
+    ref:
+      set: en_mep
+      num: '007'
+      from: Reprint
+  - num: '040'
+    ref:
+      set: en_mep
+      num: '008'
+      from: Reprint
   - num: '041'
     ref:
       set: jp_mc
@@ -100,4 +110,9 @@ cards:
     ref:
       set: jp_mc
       num: '724'
+      from: From JP Start Deck 100
+  - num: '198'
+    ref:
+      set: jp_mc
+      num: '662'
       from: From JP Start Deck 100

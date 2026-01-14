@@ -1,6 +1,27 @@
 set: en_sfa
 desc: Shrouded Fable
 cards:
+  - num: '014'
+    name: Weavile
+    type: W
+    hp: 100
+    stage: 1
+    evolve-from: Sneasel
+    attack:
+      - energy: W
+        name: Slash
+        damage: 40
+        desc:
+      - energy: WW
+        name: Hail Claw
+        damage: 70
+        desc: Discard all Energy from this Pokémon. Your opponent’s Active Pokémon is now Paralyzed.
+    weak: M
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/sfa/014.jpg
   - num: '018'
     name: Duskull
     type: P

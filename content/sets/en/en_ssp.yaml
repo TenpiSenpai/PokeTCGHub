@@ -231,6 +231,26 @@ cards:
     img:
       jp:
       en: /en/ssp/130.jpg
+  - num: '143'
+    name: Eevee
+    type: C
+    hp: 50
+    stage: 0
+    evolve-from:
+    ability:
+      name: Boosted Evolution
+      desc: As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it.
+    attack:
+      - energy: CC
+        name: Reckless Charge
+        damage: 30
+        desc: This Pokémon also does 10 damage to itself.
+    weak: F
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/ssp/143.jpg
   - num: '161'
     name: Terapagos
     type: C
