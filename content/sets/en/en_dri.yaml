@@ -502,6 +502,46 @@ cards:
     img:
       jp:
       en: /en/dri/129.jpg
+  - num: 136
+    name: Marnie's Grimmsnarl ex
+    type: D
+    hp: 320
+    stage: 2
+    evolve-from: Marnie's Morgrem
+    ability:
+      name: Punk Up
+      desc: When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 5 Basic [D] Energy cards and attach them to your Marnie’s Pokémon in any way you like. Then, shuffle your deck.
+    attack:
+      - energy: DD
+        name: Shadow Bullet
+        damage: 180
+        desc: This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+    weak: G
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/dri/136.jpg
+  - num: 145
+    name: Steven's Metagross ex
+    type: M
+    hp: 340
+    stage: 2
+    evolve-from: Steven's Metang
+    ability:
+      name: X-Boot
+      desc: Once during your turn, you may search your deck for a Basic [P] Energy card, a Basic [M] Energy card, or 1 of each and attach them to your [P] Pokémon and [M] Pokémon in any way you like. Then, shuffle your deck.
+    attack:
+      - energy: MCC
+        name: Metal Stomp
+        damage: 200
+        desc: 
+    weak: R
+    resist: G
+    retreat: 3
+    img:
+      jp:
+      en: /en/dri/145.jpg
   - num: 162
     name: Cynthia's Power Weight
     type: T
@@ -614,8 +654,7 @@ cards:
       en: /en/dri/180.jpg
   - num: 182
     name: Team Rocket's Energy
-    type: T
-    subtype: Special Energy
+    type: E
     trainer:
       - This card can only be attached to a Team Rocket’s Pokémon. If this card is attached to anything other than a Team Rocket’s Pokémon, discard this card.
       - As long as this card is attached to a Pokémon, it provides 2 in any combination of [P] Energy and [D] Energy.

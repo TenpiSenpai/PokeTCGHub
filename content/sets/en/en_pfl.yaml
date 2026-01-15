@@ -1,6 +1,26 @@
 set: en_pfl
 desc: Phantasmal Flames
 cards:
+  - num: '041'
+    name: Mega Diancie ex
+    type: P
+    hp: 270
+    stage: 0
+    evolve-from:
+    ability: 
+      name: Diamond Coat
+      desc: This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+    attack:
+      - energy: PP
+        name: Garland Ray
+        damage: 120x
+        desc: Discard up to 2 Energy cards from this Pokémon, and this attack does 120 damage for each card you discarded in this way.
+    weak: M
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/pfl/041.jpg
   - num: '054'
     name: Gastly
     type: D

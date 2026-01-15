@@ -18,3 +18,12 @@ cards:
     img:
       jp:
       en: /en/pre/004.jpg
+  - num: '096'
+    name: Black Belt's Training
+    type: T
+    subtype: Supporter
+    trainer:
+      - During this turn, attacks used by your Pokémon do 40 more damage to your opponent’s Active Pokémon ex (before applying Weakness and Resistance).
+    img:
+      jp:
+      en: /en/pre/096.jpg

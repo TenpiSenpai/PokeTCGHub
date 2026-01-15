@@ -90,8 +90,7 @@ cards:
       en: /en/blk/079.jpg
   - num: '086'
     name: Prism Energy
-    type: T
-    subtype: Special Energy
+    type: E
     trainer:
       - As long as this card is attached to a Pokémon, it provides [C] Energy.
       - If this card is attached to a Basic Pokémon, this card provides every type of Energy but provides only 1 Energy at a time.

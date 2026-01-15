@@ -203,3 +203,13 @@ cards:
     img:
       jp:
       en: /en/meg/124.jpg
+  - num: 131
+    name: Ultra Ball
+    type: T
+    subtype: Item
+    trainer:
+      - You can use this card only if you discard 2 other cards from your hand.
+      - Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+    img:
+      jp:
+      en: /en/meg/131.jpg
