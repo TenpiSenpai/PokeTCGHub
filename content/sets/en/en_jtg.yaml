@@ -158,6 +158,27 @@ cards:
     img:
       jp:
       en: /en/jtg/056.jpg
+  - num: '060'
+    name: Banette
+    type: P
+    hp: 90
+    stage: 1
+    evolve-from: Shuppet
+    attack:
+      - energy: P
+        name: Cursed Words
+        damage:
+        desc: Your opponent chooses 3 cards from their hand and shuffles those cards into their deck.
+      - energy: PC
+        name: Spooky Shot
+        damage: 70
+        desc:
+    weak: D
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/jtg/060.jpg
   - num: '097'
     name: N's Zorua
     type: D

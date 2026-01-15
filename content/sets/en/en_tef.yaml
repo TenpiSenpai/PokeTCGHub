@@ -1,6 +1,27 @@
 set: en_tef
 desc: Temporal Forces
 cards:
+  - num: '106'
+    name: Mightyena
+    type: D
+    hp: 120
+    stage: 1
+    evolve-from: Poochyena
+    attack:
+      - energy: DC
+        name: Kick Away
+        damage: 50
+        desc: Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+      - energy: DDC
+        name: Sharp Fang
+        damage: 130
+        desc:
+    weak: G
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/tef/106.jpg
   - num: 144
     name: Buddy-Buddy Poffin
     type: T

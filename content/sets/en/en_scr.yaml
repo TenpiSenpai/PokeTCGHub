@@ -1,6 +1,65 @@
 set: en_scr
 desc: Stellar Crown
 cards:
+  - num: '024'
+    name: Salazzle
+    type: R
+    hp: 120
+    stage: 1
+    evolve-from: Salandit
+    attack:
+      - energy: RR
+        name: Sudden Scorching
+        damage:
+        desc: Your opponent discards a card from their hand. If this Pokémon evolved from Salandit during this turn, your opponent discards 2 more cards.
+      - energy: RCC
+        name: Flamethrower
+        damage: 130
+        desc: Discard an Energy from this Pokémon.
+    weak: W
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/scr/024.jpg
+  - num: '026'
+    name: Scorbunny
+    type: R
+    hp: 70
+    stage:
+    evolve-from:
+    attack:
+      - energy: C
+        name: Quick Attack
+        damage: 10+
+        desc:
+    weak: W
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/scr/026.jpg
+  - num: '053'
+    name: Vikavolt
+    type: L
+    hp: 160
+    stage: 2
+    evolve-from: Charjabug
+    attack:
+      - energy: L
+        name: Volt Switch
+        damage: 90
+        desc: Switch this Pokémon with 1 of your Benched [L] Pokémon.
+      - energy: LLCC
+        name: Sparking Strike
+        damage: 240
+        desc:
+    weak: F
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/scr/053.jpg
   - num: '114'
     name: Hoothoot
     type: C

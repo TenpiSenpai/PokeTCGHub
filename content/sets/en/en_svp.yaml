@@ -1,0 +1,32 @@
+set: en_svp
+desc: Scarlet & Violet Promos
+cards:
+  - num: '087'
+    name: Sprigatito ex
+    type: G
+    hp: 200
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Scratch
+        damage: 20
+        desc:
+      - energy: GCC
+        name: Magical Leaf
+        damage: 100
+        desc: Heal 30 damage from this Pokémon.
+    weak: R
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/svp/087.jpg
+  - num: '173'
+    alt: IR
+    ref:
+      set: en_ssp
+      num: '143'
+    img:
+      jp: /en/svp/173.jpg
+      en:

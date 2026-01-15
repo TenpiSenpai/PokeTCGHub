@@ -9,6 +9,7 @@ interface Set {
 interface Card {
     name: string,
     num: string,
+    rarity: string,
     type: string,
     subtype: string,
     hp: number,
@@ -42,6 +43,11 @@ interface CardRef {
     set: string,
     num: string,
     from: string
+}
+interface AltCard {
+    num: string
+    ref: CardRef,
+    img: CardImage
 }
 
 export { 

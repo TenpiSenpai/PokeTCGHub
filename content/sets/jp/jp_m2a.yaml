@@ -1829,3 +1829,424 @@ cards:
       set: en_dri
       num: '182'
       from: Reprint
+  - num: '194'
+    alt: IR
+    ref:
+      num: '006'
+    img:
+      jp: /jp/m2a/alt/194.jpg
+      en:
+  - num: '195'
+    alt: IR
+    ref:
+      num: '008'
+    img:
+      jp: /jp/m2a/alt/195.jpg
+      en:
+  - num: '196'
+    alt: IR
+    ref:
+      set: en_pre
+      num: '004'
+    img:
+      jp: /jp/m2a/alt/196.jpg
+      en:
+  - num: '197'
+    alt: IR
+    ref:
+      set: en_dri
+      num: '036'
+    img:
+      jp: /jp/m2a/alt/197.jpg
+      en:
+  - num: '198'
+    alt: IR
+    ref:
+      num: '022'
+    img:
+      jp: /jp/m2a/alt/198.jpg
+      en:
+  - num: '199'
+    alt: IR
+    ref:
+      set: en_mep
+      num: '007'
+    img:
+      jp: /jp/m2a/alt/199.jpg
+      en: /en/asc/alt/226.jpg
+  - num: '200'
+    alt: IR
+    ref:
+      num: '035'
+    img:
+      jp: /jp/m2a/alt/200.jpg
+      en:
+  - num: '201'
+    alt: IR
+    ref:
+      num: '053'
+    img:
+      jp: /jp/m2a/alt/201.jpg
+      en:
+  - num: '202'
+    alt: IR
+    ref:
+      num: '067'
+    img:
+      jp: /jp/m2a/alt/202.jpg
+      en:
+  - num: '203'
+    alt: IR
+    ref:
+      set: en_ssp
+      num: '072'
+    img:
+      jp: /jp/m2a/alt/203.jpg
+      en:
+  - num: '204'
+    alt: IR
+    ref:
+      num: '078'
+    img:
+      jp: /jp/m2a/alt/204.jpg
+      en:
+  - num: '205'
+    alt: IR
+    ref:
+      set: en_dri
+      num: '087'
+    img:
+      jp: /jp/m2a/alt/205.jpg
+      en:
+  - num: '206'
+    alt: IR
+    ref:
+      num: '083'
+    img:
+      jp: /jp/m2a/alt/206.jpg
+      en:
+  - num: '207'
+    alt: IR
+    ref:
+      num: '085'
+    img:
+      jp: /jp/m2a/alt/207.jpg
+      en:
+  - num: '208'
+    alt: IR
+    ref:
+      set: en_dri
+      num: '129'
+    img:
+      jp: /jp/m2a/alt/208.jpg
+      en:
+  - num: '209'
+    alt: IR
+    ref:
+      num: '107'
+    img:
+      jp: /jp/m2a/alt/209.jpg
+      en:
+  - num: '210'
+    alt: IR
+    ref:
+      num: '129'
+    img:
+      jp: /jp/m2a/alt/210.jpg
+      en:
+  - num: '211'
+    alt: IR
+    ref:
+      set: en_twm
+      num: '128'
+    img:
+      jp: /jp/m2a/alt/211.jpg
+      en:
+  - num: '212'
+    alt: IR
+    ref:
+      set: en_twm
+      num: '129'
+    img:
+      jp: /jp/m2a/alt/212.jpg
+      en:
+  - num: '213'
+    alt: IR
+    ref:
+      set: en_scr
+      num: '118'
+    img:
+      jp: /jp/m2a/alt/213.jpg
+      en:
+  - num: '214'
+    alt: FA
+    ref:
+      set: en_jtg
+      num: '153'
+    img:
+      jp: /jp/m2a/alt/214.jpg
+      en:
+  - num: '215'
+    alt: FA
+    ref:
+      set: en_scr
+      num: '135'
+    img:
+      jp: /jp/m2a/alt/215.jpg
+      en:
+  - num: '216'
+    alt: FA
+    ref:
+      set: en_meg
+      num: '131'
+    img:
+      jp: /jp/m2a/alt/216.jpg
+      en:
+  - num: '217'
+    alt: FA
+    ref:
+      set: en_dri
+      num: '178'
+    img:
+      jp: /jp/m2a/alt/217.jpg
+      en:
+  - num: '218'
+    alt: FA
+    ref:
+      set: en_ssp
+      num: '169'
+    img:
+      jp: /jp/m2a/alt/218.jpg
+      en:
+  - num: '219'
+    alt: FA
+    ref:
+      num: '170'
+    img:
+      jp: /jp/m2a/alt/219.jpg
+      en:
+  - num: '220'
+    alt: FA
+    ref:
+      set: en_pre
+      num: '096'
+    img:
+      jp: /jp/m2a/alt/220.jpg
+      en:
+  - num: '221'
+    alt: FA
+    ref:
+      num: '173'
+    img:
+      jp: /jp/m2a/alt/221.jpg
+      en:
+  - num: '222'
+    alt: FA
+    ref:
+      set: en_twm
+      num: '153'
+    img:
+      jp: /jp/m2a/alt/222.jpg
+      en:
+  - num: '223'
+    alt: MA
+    ref:
+      set: en_mep
+      num: '023'
+  - num: '224'
+    alt: MA
+    ref:
+      num: '036'
+    img:
+      jp: /jp/m2a/alt/224.jpg
+      en:
+  - num: '225'
+    alt: MA
+    ref:
+      num: '049'
+    img:
+      jp: /jp/m2a/alt/225.jpg
+      en:
+  - num: '226'
+    alt: MA
+    ref:
+      set: en_mep
+      num: '032'
+  - num: '227'
+    alt: MA
+    ref:
+      set: en_pfl
+      num: '041'
+    img:
+      jp: /jp/m2a/alt/227.jpg
+      en:
+  - num: '228'
+    alt: MA
+    ref:
+      set: en_mep
+      num: '033'
+  - num: '229'
+    alt: MA
+    ref:
+      num: '094'
+    img:
+      jp: /jp/m2a/alt/229.jpg
+      en:
+  - num: '230'
+    alt: MA
+    ref:
+      set: en_pfl
+      num: '056'
+    img:
+      jp: /jp/m2a/alt/230.jpg
+      en:
+  - num: '231'
+    alt: MA
+    ref:
+      num: '110'
+    img:
+      jp: /jp/m2a/alt/231.jpg
+      en:
+  - num: '232'
+    alt: MA
+    ref:
+      num: '126'
+    img:
+      jp: /jp/m2a/alt/232.jpg
+      en:
+  - num: '233'
+    alt: MA
+    ref:
+      num: '036'
+    img:
+      jp: /jp/m2a/alt/233.jpg
+      en:
+  - num: '234'
+    alt: SIR
+    ref:
+      set: en_ssp
+      num: '057'
+    img:
+      jp: /jp/m2a/alt/234.jpg
+      en:
+  - num: '235'
+    alt: SIR
+    ref:
+      num: '049'
+    img:
+      jp: /jp/m2a/alt/235.jpg
+      en:
+  - num: '236'
+    alt: SIR
+    ref:
+      set: en_jtg
+      num: '053'
+    img:
+      jp: /jp/m2a/alt/236.jpg
+      en:
+  - num: '237'
+    alt: SIR
+    ref:
+      set: en_dri
+      num: '081'
+    img:
+      jp: /jp/m2a/alt/237.jpg
+      en:
+  - num: '238'
+    alt: SIR
+    ref:
+      set: en_pfl
+      num: '041'
+    img:
+      jp: /jp/m2a/alt/238.jpg
+      en:
+  - num: '239'
+    alt: SIR
+    ref:
+      num: '094'
+    img:
+      jp: /jp/m2a/alt/239.jpg
+      en:
+  - num: '240'
+    alt: SIR
+    ref:
+      set: en_pfl
+      num: '056'
+    img:
+      jp: /jp/m2a/alt/240.jpg
+      en:
+  - num: '241'
+    alt: SIR
+    ref:
+      num: '110'
+    img:
+      jp: /jp/m2a/alt/241.jpg
+      en:
+  - num: '242'
+    alt: SIR
+    ref:
+      set: en_jtg
+      num: '098'
+    img:
+      jp: /jp/m2a/alt/242.jpg
+      en:
+  - num: '243'
+    alt: SIR
+    ref:
+      set: en_dri
+      num: '136'
+    img:
+      jp: /jp/m2a/alt/243.jpg
+      en:
+  - num: '244'
+    alt: SIR
+    ref:
+      set: en_sfa
+      num: '038'
+    img:
+      jp: /jp/m2a/alt/244.jpg
+      en:
+  - num: '245'
+    alt: SIR
+    ref:
+      set: en_dri
+      num: '145'
+    img:
+      jp: /jp/m2a/alt/245.jpg
+      en:
+  - num: '246'
+    alt: SIR
+    ref:
+      num: '126'
+    img:
+      jp: /jp/m2a/alt/246.jpg
+      en:
+  - num: '247'
+    alt: SIR
+    ref:
+      set: en_jtg
+      num: '149'
+    img:
+      jp: /jp/m2a/alt/247.jpg
+      en:
+  - num: '248'
+    alt: SIR
+    ref:
+      num: '170'
+    img:
+      jp: /jp/m2a/alt/248.jpg
+      en:
+  - num: '249'
+    alt: SIR
+    ref:
+      num: '171'
+    img:
+      jp: /jp/m2a/alt/249.jpg
+      en:
+  - num: '250'
+    alt: GOLD
+    ref:
+      num: '126'
+    img:
+      jp: /jp/m2a/alt/250.jpg
+      en:

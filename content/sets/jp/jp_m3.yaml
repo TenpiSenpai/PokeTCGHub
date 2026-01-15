@@ -524,8 +524,7 @@ cards:
       en:
   - num: '078'
     name: Grow [G] Energy
-    type: T
-    subtype: Special Energy
+    type: E
     trainer:
       - This card provides [G] Energy while this card is attached to a Pokemon.
       - The [G] Pokemon this card is attached to gets +20 HP.
@@ -534,8 +533,7 @@ cards:
       en:
   - num: '080'
     name: Rock [F] Energy
-    type: T
-    subtype: Special Energy
+    type: E
     trainer:
       - This card provides [F] Energy while this card is attached to a Pokemon.
       - Prevent all effects of attacks used by your opponent’s Pokemon done to the [F] Pokemon this card is attached to. (Existing effects are not removed. Damage is not an effect.)

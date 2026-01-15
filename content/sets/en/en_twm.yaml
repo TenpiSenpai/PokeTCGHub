@@ -141,3 +141,12 @@ cards:
     img:
       jp:
       en: /en/twm/148.jpg
+  - num: 153
+    name: Jamming Tower
+    type: T
+    subtype: Stadium
+    trainer:
+      - Pokémon Tools attached to each Pokémon (both yours and your opponent’s) have no effect.
+    img:
+      jp:
+      en: /en/twm/153.jpg
