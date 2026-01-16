@@ -1,6 +1,116 @@
 set: jp_m3
 desc: Nihil Zero
 cards:
+  - num: '001'
+    name: Spinarak
+    type: G
+    hp: 60
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: G
+        name: Gooey Thread
+        damage: 10
+        desc: During your opponent's next turn, the Defending Pokemon can't retreat.
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/001.jpg
+      en:
+  - num: '002'
+    name: Ariados
+    type: G
+    hp: 110
+    stage: 1
+    evolve-from: Spinarak
+    attack:
+      - energy: G
+        name: Poison Circle
+        damage: 50
+        desc: Your opponent's Active Pokemon is now Poisoned. During your opponent's next turn, the Defending Pokemon can't retreat.
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/002.jpg
+      en:
+  - num: '003'
+    name: Shaymin
+    type: G
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: G
+        name: Flower Delivery
+        damage:
+        desc: Search your deck for an Energy and attach it to 1 of your Benched [G] Pokemon. Then, shuffle your deck.
+      - energy: G
+        name: Leaf Step
+        damage: 30
+        desc:
+    weak: R
+    resist: 
+    retreat: 
+    img:
+      jp: /jp/m3/003.jpg
+      en:
+  - num: '004'
+    name: Snivy
+    type: G
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: G
+        name: Reckless Charge
+        damage: 30
+        desc: This Pokemon does 10 damage to itself.
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/004.jpg
+      en:
+  - num: '005'
+    name: Servine
+    type: G
+    hp: 100
+    stage: 1
+    evolve-from: Snivy
+    attack:
+      - energy: G
+        name: Solar Cutter
+        damage: 40
+        desc:
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/005.jpg
+      en:
+  - num: '006'
+    name: Serperior
+    type: G
+    hp: 160
+    stage: 2
+    evolve-from: Servine
+    attack:
+      - energy: G
+        name: Royal Command
+        damage: 20x
+        desc: This attack does 20 damage for each Pokemon you have in play.
+      - energy: GGG
+        name: Solar Winder
+        damage: 100+
+        desc: If you have Rosa's Encouragement in your discard pile, this attack does 150 more damage.
+    weak: R
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/006.jpg
+      en:
   - num: '007'
     name: Scatterbug
     type: G
@@ -117,6 +227,43 @@ cards:
     img:
       jp: /jp/m3/012.jpg
       en:
+  - num: '013'
+    name: Fletchinder
+    type: R
+    hp: 90
+    stage: 1
+    evolve-from: Fletchling
+    attack:
+      - energy: RR
+        name: Flare
+        damage: 60
+        desc:
+    weak: L
+    resist: F 
+    retreat: 1
+    img:
+      jp: /jp/m3/013.jpg
+      en:
+  - num: '014'
+    name: Talonflame
+    type: R
+    hp: 150
+    stage: 2
+    evolve-from: Fletchinder
+    ability:
+      name: Sky Hunt
+      desc: Once during your turn, you may flip a coin. If heads, your opponent discards a random card from their hand.
+    attack:
+      - energy: RR
+        name: Fire Wing
+        damage: 60
+        desc:
+    weak: L
+    resist: F 
+    retreat: 1
+    img:
+      jp: /jp/m3/014.jpg
+      en:
   - num: '015'
     name: Salandit
     type: R
@@ -154,6 +301,26 @@ cards:
     retreat: 1
     img:
       jp: /jp/m3/016.jpg
+      en:
+  - num: '017'
+    name: Turtonator
+    type: R
+    hp: 120
+    stage: 0
+    evolve-from:
+    ability:
+      name: Thorny Shell
+      desc: When this Pokemon takes damage from an attack from your opponent’s Pokemon while it is in the Active Spot, discard an Energy from the attacking Pokemon.
+    attack:
+      - energy: RRC
+        name: Heat Breath
+        damage: 80+
+        desc: Flip a coin. If heads, this attack does 80 more damage.
+    weak: L
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/017.jpg
       en:
   - num: '018'
     name: Seel
@@ -271,6 +438,347 @@ cards:
     img:
       jp: /jp/m3/023.jpg
       en:
+  - num: '024'
+    name: Volcanion
+    type: W
+    hp: 130
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: WC
+        name: Volcanic Strength
+        damage: 50
+        desc:
+      - energy: WWC
+        name: Powerful Steam
+        damage: 90x
+        desc: Flip a coin for each [W] Energy attached to this Pokemon. This attack does 90 damage for each heads.
+    weak: L
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m3/024.jpg
+      en:
+  - num: '025'
+    name: Shinx
+    type: L
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: L
+        name: Double Scratch
+        damage: 10x
+        desc: Flip 2 coins. This attack does 10 damage for each heads.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/025.jpg
+      en:
+  - num: '026'
+    name: Luxio
+    type: L
+    hp: 90
+    stage: 1
+    evolve-from: Shinx
+    ability:
+      name: Tiger's Roar
+      desc: If your opponent's Active Pokemon is a Pokemon ex, you can evolve this Pokemon on your first turn, or on the first turn this Pokemon is put into play.
+    attack:
+      - energy: LC
+        name: Zzzap
+        damage: 40
+        desc:
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/026.jpg
+      en:
+  - num: '027'
+    name: Luxray
+    type: L
+    hp: 150
+    stage: 2
+    evolve-from: Luxio
+    attack:
+      - energy: LC
+        name: Pressure
+        damage: 70x
+        desc: This attack does 70 damage for each Prize card you have taken.
+      - energy: LCC
+        name: Strong Bolt
+        damage: 200
+        desc: Discard 2 Energy from this Pokemon.
+    weak: F
+    resist: 
+    retreat: 0
+    img:
+      jp: /jp/m3/027.jpg
+      en:
+  - num: '028'
+    name: Dedenne
+    type: L
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: L
+        name: Tail Generation
+        damage:
+        desc: For each Energy attached to all of your opponent's Pokemon, you may attach a Basic [L] Energy from your discard pile to your [L] Pokemon in any way you like.
+      - energy: LC
+        name: Thunder Shock
+        damage: 30
+        desc: Flip a coin. If heads, your opponent's Active Pokemon is now Paralyzed.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/028.jpg
+      en:
+  - num: '029'
+    name: Clefairy
+    type: P
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: P
+        name: Follow Me
+        damage:
+        desc: Switch 1 of your opponent’s Benched Pokemon with their Active Pokemon.
+      - energy: PP
+        name: Flop
+        damage: 30
+        desc:
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/029.jpg
+      en:
+  - num: '030'
+    name: Mega Clefable ex
+    type: P
+    hp: 320
+    stage: 1
+    evolve-from: Clefairy
+    ability:
+      name: Wings of Light
+      desc: Prevent all effects of your opponent's Abilities done to this Pokemon.
+    attack:
+      - energy: PP
+        name: Shooting Moon
+        damage: 120+
+        desc: You may discard up to 4 Energy cards from you hand. If you do, this attack does 40 more damage for each card discarded in this way.
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/030.jpg
+      en:
+  - num: '031'
+    name: Mawile
+    type: P
+    hp: 110
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: PC
+        name: Double Eater
+        damage: 60x
+        desc: Discard up to 2 Energy cards from your hand. This attack does 60 damage for each card discarded in this way.
+    weak: M
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/031.jpg
+      en:
+  - num: '032'
+    name: Espurr
+    type: P
+    hp: 60
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Nap
+        damage:
+        desc: Heal 20 damage from this Pokemon.
+      - energy: P
+        name: Stampede
+        damage: 10
+        desc:
+    weak: D
+    resist: F 
+    retreat: 1
+    img:
+      jp: /jp/m3/032.jpg
+      en:
+  - num: '033'
+    name: Meowstic
+    type: P
+    hp: 100
+    stage: 1
+    evolve-from: Espurr
+    attack:
+      - energy: P
+        name: Perplex
+        damage:
+        desc: Your opponent's Active Pokemon is now Confused.
+      - energy: P
+        name: Psychic
+        damage: 30+
+        desc: This attack does 30 more damage for each Energy attached to your opponent's Active Pokemon.
+    weak: D
+    resist: F 
+    retreat: 1
+    img:
+      jp: /jp/m3/033.jpg
+      en:
+  - num: '034'
+    name: Spritzee
+    type: P
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Sweet Scent
+        damage:
+        desc: Heal 30 damage from this Pokemon.
+      - energy: P
+        name: Ram
+        damage: 10
+        desc:
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/034.jpg
+      en:
+  - num: '035'
+    name: Aromatisse
+    type: P
+    hp: 120
+    stage: 1
+    evolve-from: Spritzee
+    ability:
+      name: Fragrance Collection
+      desc: Once during your turn, you may search your deck for up to 2 Basic [P] Energy, reveal them, and put them into your hand. Then, shuffle your deck.
+    attack:
+      - energy: PC
+        name: Draining Kiss
+        damage: 50
+        desc: Heal 30 damage from this Pokemon.
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/035.jpg
+      en:
+  - num: '036'
+    name: Nosepass
+    type: F
+    hp: 90
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: FF
+        name: Rock Throw
+        damage: 40
+        desc:
+    weak: G
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m3/036.jpg
+      en:
+  - num: '037'
+    name: Probopass
+    type: F
+    hp: 140
+    stage: 1
+    evolve-from: Nosepass
+    attack:
+      - energy: FF
+        name: Rock Throw
+        damage: 60
+        desc:
+      - energy: FFFC
+        name: Nose Bumper
+        damage: 260
+        desc: Discard 3 Energy from this Pokemon.
+    weak: G
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m3/037.jpg
+      en:
+  - num: '038'
+    name: Hippopotas
+    type: F
+    hp: 100
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: F
+        name: Sand Attack
+        damage: 10
+        desc: During your opponent’s next turn, if the Defending Pokemon tries to use an attack, your opponent flips a coin. If tails, that attack doesn’t happen.
+      - energy: FFC
+        name: Bite
+        damage: 60
+        desc:
+    weak: G
+    resist: 
+    retreat: 4
+    img:
+      jp: /jp/m3/038.jpg
+      en:
+  - num: '039'
+    name: Hippowdon
+    type: F
+    hp: 150
+    stage: 1
+    evolve-from: Hippopotas
+    attack:
+      - energy: FFC
+        name: Tornado Drill
+        damage: 80
+        desc: If you played Taragon from your hand during this turn, discard the top 3 cards from your opponent's deck.
+      - energy: FFCC
+        name: Heavy Slam
+        damage: 130
+        desc:
+    weak: G
+    resist: 
+    retreat: 4
+    img:
+      jp: /jp/m3/039.jpg
+      en:
+  - num: '040'
+    name: Landorus
+    type: F
+    hp: 120
+    stage: 0
+    attack:
+      - energy: FF
+        name: Rock Tumble
+        damage: 50
+        desc: This attacks damage isn't affected by Resistance.
+      - energy: FFC
+        name: Screw Knuckle
+        damage: 120
+        desc: Return an Energy card attached to this Pokemon to your hand.
+    weak: G
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/040.jpg
+      en:
   - num: '041'
     name: Binacle
     type: F
@@ -348,6 +856,23 @@ cards:
     img:
       jp: /jp/m3/044.jpg
       en:
+  - num: '045'
+    name: Hawlucha
+    type: F
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: F
+        name: Revenge Kick
+        damage: 30+
+        desc: If your Benched Pokemon have any damage counters on them, this attack does 60 more damage.
+    weak: P
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/045.jpg
+      en:
   - num: '046'
     name: Mega Zygarde ex
     type: F
@@ -368,6 +893,140 @@ cards:
     img:
       jp: /jp/m3/046.jpg
       en: /en/por/047.jpg
+  - num: '047'
+    name: Gastly
+    type: D
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: D
+        name: Surprise Attack
+        damage: 30
+        desc: Flip a coin. If tails, this attack does nothing.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/047.jpg
+      en:
+  - num: '048'
+    name: Haunter
+    type: D
+    hp: 100
+    stage: 1
+    evolve-from: Gastly
+    attack:
+      - energy: D
+        name: Spite
+        damage: 30
+        desc: Put 3 damage counters on your opponent's Active Pokemon.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/048.jpg
+      en:
+  - num: '049'
+    name: Gengar
+    type: D
+    hp: 130
+    stage: 2
+    evolve-from: Haunter
+    ability:
+      name: Infinite Shadow
+      desc: If this Pokemon would be Knocked Out by damage from an opponent's Pokemon's attack, instead of discarding it, return it to your hand. (Discard all other cards attached to this Pokemon that are not Pokemon.)
+    attack:
+      - energy: D
+        name: Mind Jack
+        damage: 10+
+        desc: This attack does 30 more damage for each of your opponent's Benched Pokemon.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m3/049.jpg
+      en:
+  - num: '050'
+    name: Skorupi
+    type: D
+    hp: 80
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: DD
+        name: Poison Jab
+        damage: 20
+        desc: Your opponent's Active Pokemon is now Poisoned.
+    weak: F
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m3/050.jpg
+      en:
+  - num: '051'
+    name: Drapion
+    type: D
+    hp: 140
+    stage: 1
+    evolve-from: Skorupi
+    attack:
+      - energy: DD
+        name: Smack Down
+        damage: 60
+        desc:
+      - energy: DDD
+        name: Hazard Tail
+        damage: 100
+        desc: This Pokemon does 70 damage to itself. Your opponent's Active Pokemon is now Poisoned and Paralyzed.
+    weak: F
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m3/051.jpg
+      en:
+  - num: '052'
+    name: Yveltal ex
+    type: D
+    hp: 210
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: DDC
+        name: Death Soul
+        damage:
+        desc: Knock Out each of your opponent's Pokemon that has 50 HP or less remaining.
+      - energy: DDC
+        name: Dark Strike
+        damage: 210
+        desc: During your next turn, this Pokemon can't use Dark Strike.
+    weak: L
+    resist: F 
+    retreat: 1
+    img:
+      jp: /jp/m3/052.jpg
+      en:
+  - num: '053'
+    name: Chien Pao
+    type: D
+    hp: 120
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: D
+        name: Strafe
+        damage: 20
+        desc: You may switch this Pokemon with 1 of your Benched Pokemon.
+      - energy: DDC
+        name: Rising Blade
+        damage: 80+
+        desc: If your opponent's Active Pokemon is a Pokemon ex, this attack does 80 more damage.
+    weak: G
+    resist:  
+    retreat: 1
+    img:
+      jp: /jp/m3/053.jpg
+      en:
   - num: '054'
     name: Mega Skarmory ex
     type: M
@@ -439,6 +1098,61 @@ cards:
     img:
       jp: /jp/m3/057.jpg
       en:
+  - num: '058'
+    name: Klefki
+    type: M
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: M
+        name: Memory Lock
+        damage: 30
+        desc: Choose an attack on your opponent's Active Pokemon. During your opponent's next turn, the Defending Pokemon can't use that attack.
+    weak: R
+    resist: G 
+    retreat: 1
+    img:
+      jp: /jp/m3/058.jpg
+      en:
+  - num: '059'
+    name: Rattata
+    type: C
+    hp: 40
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Take Down
+        damage: 30
+        desc: This Pokemon does 10 damage to itself.
+    weak: F
+    resist:  
+    retreat: 1
+    img:
+      jp: /jp/m3/059.jpg
+      en:
+  - num: '060'
+    name: Raticate
+    type: C
+    hp: 90
+    stage: 1
+    evolve-from: Rattata
+    attack:
+      - energy: C
+        name: Scrape Off
+        damage: 20
+        desc: Before doing damage, you may discard a Pokemon Tool attached to your opponent's Active Pokemon.
+      - energy: C
+        name: Counter Incisors
+        damage: 40x
+        desc: This attack does 40 damage for each damage counter on all of your Benched Rattata.
+    weak: F
+    resist:  
+    retreat: 1
+    img:
+      jp: /jp/m3/060.jpg
+      en:
   - num: '061'
     name: Meowth ex
     type: C
@@ -458,6 +1172,116 @@ cards:
     img:
       jp: /jp/m3/061.jpg
       en: /en/por/062.jpg
+  - num: '062'
+    name: Snorlax
+    type: C
+    hp: 160
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Big Eater
+        damage: 
+        desc: Flip a coin until you get tails. For each heads, you may search your deck for a Basic Cnergy and attach it to this Pokemon. Then, shuffle your deck.
+      - energy: CCCC
+        name: Collapse
+        damage: 160
+        desc: This Pokemon is now Asleep.
+    weak: F
+    resist:  
+    retreat: 4
+    img:
+      jp: /jp/m3/062.jpg
+      en:
+  - num: '063'
+    name: Bunnelby
+    type: C
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Smash Kick
+        damage: 10
+        desc:
+    weak: F
+    resist:  
+    retreat: 1
+    img:
+      jp: /jp/m3/063.jpg
+      en:
+  - num: '064'
+    name: Diggersby
+    type: C
+    hp: 150
+    stage: 1
+    evolve-from: Bunnelby
+    attack:
+      - energy: C
+        name: Earthquake
+        damage: 140
+        desc: This attack does 30 damage to each of your Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+      - energy: CCC
+        name: Smack Down
+        damage: 100
+        desc:
+    weak: F
+    resist:  
+    retreat: 4
+    img:
+      jp: /jp/m3/064.jpg
+      en:
+  - num: '065'
+    name: Fletchling
+    type: C
+    hp: 60
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Chirp
+        damage: 
+        desc: Search your deck for up to 2 Pokemon with [F] Resistances, reveal them, and put them into your hand. Then, shuffle your deck.
+      - energy: CC
+        name: Peck
+        damage: 20
+        desc:
+    weak: L
+    resist: F  
+    retreat: 1
+    img:
+      jp: /jp/m3/065.jpg
+      en:
+  - num: '066'
+    name: Furfrou
+    type: C
+    hp: 90
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Hand Cut
+        damage: 
+        desc: Discard random cards from your opponent's hand until they have 5 cards in their hand.
+      - energy: C
+        name: Headbutt
+        damage: 30
+        desc:
+    weak: F
+    resist:   
+    retreat: 1
+    img:
+      jp: /jp/m3/066.jpg
+      en:
+  - num: '067'
+    name: Energy Swatter
+    type: T
+    subtype: Item
+    trainer:
+      - Your opponent reveals their hand. Choose an Energy card you find there and put it on the bottom of your opponent's deck.
+    img:
+      jp: /jp/m3/067.jpg
+      en:
   - num: '068'
     name: Antique Jaw Fossil
     type: T
@@ -485,6 +1309,15 @@ cards:
       set: jp_mc
       num: '662'
       from: Reprint from Start Deck 100
+  - num: '071'
+    name: Lumiose Galette
+    type: T
+    subtype: Item
+    trainer:
+      - Heal 20 damage and 1 Special Condition from your Active Pokemon.
+    img:
+      jp: /jp/m3/071.jpg
+      en:
   - num: '072'
     name: Core Memory
     type: T
@@ -513,6 +1346,25 @@ cards:
     img:
       jp: /jp/m3/074.jpg
       en:
+  - num: '075'
+    name: Rosa's Encouragement
+    type: T
+    subtype: Supporter
+    trainer:
+      - You can only use this card if you have more Prize cards remaining than your opponent.
+      - Attach up to 2 Basic Energy cards from your discard pile to 1 of your Stage 2 Pokemon.
+    img:
+      jp: /jp/m3/075.jpg
+      en:
+  - num: '076'
+    name: Jacinthe
+    type: T
+    subtype: Supporter
+    trainer:
+      - Heal 150 damage from 1 of your [P] Pokemon.
+    img:
+      jp: /jp/m3/076.jpg
+      en:
   - num: '077'
     name: Lumiose City
     type: T
@@ -531,6 +1383,15 @@ cards:
     img:
       jp: /jp/m3/078.jpg
       en:
+  - num: '079'
+    name: Telepath [P] Energy
+    type: E
+    trainer:
+      - This card provides [P] Energy while this card is attached to a Pokemon.
+      - When you attach this card from your hand to 1 of your [P] Pokemon, you may search your deck for 2 Basic [P] Pokemon and put them onto your Bench. Then, shuffle your deck.
+    img:
+      jp: /jp/m3/079.jpg
+      en:
   - num: '080'
     name: Rock [F] Energy
     type: E
@@ -540,3 +1401,10 @@ cards:
     img:
       jp: /jp/m3/080.jpg
       en:
+  - num: '086'
+    alt: IR
+    ref:
+      num: '029'
+    img:
+      jp: /jp/m3/alt/086.jpg
+      en: 

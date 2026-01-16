@@ -116,3 +116,18 @@ cards:
       set: jp_mc
       num: '662'
       from: From JP Start Deck 100
+  - num: '274'
+    ref:
+      set: jp_mc
+      num: '763'
+      from: From JP Start Deck 100
+  - num: '283'
+    ref:
+      set: jp_m2a
+      num: '229'
+      from: From Mega Dream ex
+  - num: '284'
+    ref:
+      set: jp_m2a
+      num: '240'
+      from: From Mega Dream ex

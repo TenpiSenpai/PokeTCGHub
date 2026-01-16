@@ -333,9 +333,9 @@ cards:
     evolve-from: Croconaw
     attack:
       - energy: WWC
-        name: Killer Crunch
+        name: Mortal Crunch
         damage: 200+
-        desc: If your opponent's Active Pokemon has damage counters on it, this attack does 200 more damage.
+        desc: If your opponent's Active Pokemon already has any damage counters on it, this attack does 200 more damage.
     weak: L
     resist: 
     retreat: 3

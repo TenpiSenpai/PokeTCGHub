@@ -2091,7 +2091,7 @@ cards:
       num: '094'
     img:
       jp: /jp/m2a/alt/229.jpg
-      en:
+      en: /en/asc/alt/283.jpg
   - num: '230'
     alt: MA
     ref:
@@ -2174,7 +2174,7 @@ cards:
       num: '056'
     img:
       jp: /jp/m2a/alt/240.jpg
-      en:
+      en: /en/asc/alt/284.jpg
   - num: '241'
     alt: SIR
     ref:
