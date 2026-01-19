@@ -1,56 +1,50 @@
-
-import { type Collections } from '@nuxt/content';
+import type { Collections } from '@nuxt/content'
 
 interface Set {
-    set: string,
-    desc: string,
+    set: string
+    desc: string
     cards: Card[]
 }
 interface Card {
-    name: string,
-    num: string,
-    rarity: string,
-    type: string,
-    subtype: string,
-    hp: number,
-    stage: number,
-    'evolve-from': string,
-    ability: CardAbility,
-    attack: CardAttack[],
-    trainer: string[],
-    weak: string,
-    resist: string,
-    retreat: number,
-    img: CardImage,
-    title: string,
+    name: string
+    num: string
+    rarity: string
+    type: string
+    subtype: string
+    hp: number
+    stage: number
+    'evolve-from': string
+    ability: CardAbility
+    attack: CardAttack[]
+    trainer: string[]
+    weak: string
+    resist: string
+    retreat: number
+    img: CardImage
+    title: string
     ref: CardRef
 }
 interface CardAbility {
-    name: string,
+    name: string
     desc: string
 }
 interface CardAttack {
-    energy: string,
-    name: string,
-    damage: string,
-    desc: string,
+    energy: string
+    name: string
+    damage: string
+    desc: string
 }
 interface CardImage {
-    jp: string,
+    jp: string
     en: string
 }
 interface CardRef {
-    set: string,
-    num: string,
+    set: string
+    num: string
     from: string
 }
-interface AltCard {
-    num: string
-    ref: CardRef,
-    img: CardImage
-}
 
-export { 
+export {
     type Collections,
     type Set,
     type Card,
@@ -58,4 +52,4 @@ export {
     type CardAttack,
     type CardImage,
     type CardRef
-};
+}
