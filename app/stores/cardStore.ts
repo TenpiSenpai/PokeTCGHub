@@ -51,12 +51,12 @@ export const useCardStore = defineStore('CardStore', () => {
                 if (!card.ref.set && card.ref.num) card.ref.set = set.set
                 let f = await findCard(card.ref.set, card.ref.num)
                 let found = { ...f }
-                if (f.img && f.ref) {
+                if (f.img && f.ref && f.ref.num) {
                     if (!f.ref.set) f.ref.set = card.ref.set
                     f = await findCard(f.ref.set, f.ref.num)
                     f.img = found.img
                     found = { ...f }
-                } else if (f.ref) {
+                } else if (f.ref && f.ref.set) {
                     f = await findCard(f.ref.set, f.ref.num)
                     found = { ...f }
                 }

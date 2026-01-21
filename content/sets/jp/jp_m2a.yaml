@@ -1790,7 +1790,7 @@ cards:
       num: '122'
       from: Reprint
   - num: 188
-    name: Night Mine
+    name: Nighttime Mine
     type: T
     subtype: Stadium
     hp:
@@ -2091,7 +2091,7 @@ cards:
       num: '094'
     img:
       jp: /jp/m2a/alt/229.jpg
-      en: /en/asc/alt/283.jpg
+      en:
   - num: '230'
     alt: MA
     ref:
@@ -2166,7 +2166,7 @@ cards:
       num: '094'
     img:
       jp: /jp/m2a/alt/239.jpg
-      en:
+      en: /en/asc/alt/283.jpg
   - num: '240'
     alt: SIR
     ref:
