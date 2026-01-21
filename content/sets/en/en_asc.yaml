@@ -1,6 +1,41 @@
 set: en_asc
 desc: Ascended Heroes
 cards:
+  - num: '001'
+    ref:
+      set: jp_mc
+      num: '001'
+      from: From JP Start Deck 100
+  - num: '002'
+    ref:
+      set: jp_mc
+      num: '002'
+      from: From JP Start Deck 100
+  - num: '003'
+    ref:
+      set: jp_mc
+      num: '003'
+      from: From JP Start Deck 100
+  - num: '004'
+    ref:
+      set: jp_mc
+      num: '006'
+      from: From JP Start Deck 100
+  - num: '005'
+    ref:
+      set: jp_mc
+      num: '007'
+      from: From JP Start Deck 100
+  - num: '006'
+    ref:
+      set: jp_mc
+      num: '008'
+      from: From JP Start Deck 100
+  - num: '007'
+    ref:
+      set: jp_mc
+      num: '014'
+      from: From JP Start Deck 100
   - num: '008'
     ref:
       set: jp_mc
@@ -31,11 +66,36 @@ cards:
       set: jp_mc
       num: '085'
       from: From JP Start Deck 100
+  - num: '023'
+    ref:
+      set: en_dri
+      num: '035'
+      from: From Destined Rivals
+  - num: '024'
+    ref:
+      set: en_dri
+      num: '036'
+      from: From Destined Rivals
   - num: '025'
     ref:
       set: jp_m2a
       num: '020'
       from: From JP MEGA Dream ex
+  - num: '026'
+    ref:
+      set: en_dri
+      num: '039'
+      from: From Destined Rivals
+  - num: '027'
+    ref:
+      set: jp_m2a
+      num: '022'
+      from: From Mega Dream ex
+  - num: '028'
+    ref:
+      set: jp_m2a
+      num: '023'
+      from: From Mega Dream ex
   - num: '029'
     ref:
       set: jp_mc
@@ -76,6 +136,21 @@ cards:
       set: jp_mc
       num: '167'
       from: From JP Start Deck 100
+  - num: '046'
+    ref:
+      set: jp_m2a
+      num: '035'
+      from: From JP MEGA Dream ex
+  - num: '047'
+    ref:
+      set: jp_m2a
+      num: '036'
+      from: From JP MEGA Dream ex
+  - num: '048'
+    ref:
+      set: jp_mc
+      num: '192'
+      from: From JP Start Deck 100
   - num: '049'
     ref:
       set: jp_m2a
@@ -91,6 +166,61 @@ cards:
       set: jp_m2a
       num: '039'
       from: From JP MEGA Dream ex
+  - num: '052'
+    ref:
+      set: jp_m2a
+      num: '040'
+      from: From JP MEGA Dream ex
+  - num: '053'
+    ref:
+      set: jp_m2a
+      num: '041'
+      from: From JP MEGA Dream ex
+  - num: '054'
+    ref:
+      set: jp_m2a
+      num: '042'
+      from: From JP MEGA Dream ex
+  - num: '055'
+    ref:
+      set: jp_mc
+      num: '225'
+      from: From JP Start Deck 100
+  - num: '074'
+    ref:
+      set: jp_mc
+      num: '285'
+      from: From JP Start Deck 100
+  - num: '077'
+    ref:
+      set: jp_m2a
+      num: '061'
+      from: From JP MEGA Dream ex
+  - num: '078'
+    ref:
+      set: jp_m2a
+      num: '042'
+      from: From JP MEGA Dream ex
+  - num: '083'
+    ref:
+      set: jp_mc
+      num: '295'
+      from: From JP Start Deck 100
+  - num: '084'
+    ref:
+      set: jp_mc
+      num: '297'
+      from: From JP Start Deck 100
+  - num: '108'
+    ref:
+      set: jp_mc
+      num: '375'
+      from: From JP Start Deck 100
+  - num: '121'
+    ref:
+      set: jp_mc
+      num: '425'
+      from: From JP Start Deck 100
   - num: 123
     ref:
       set: en_pfl
@@ -106,28 +236,413 @@ cards:
       set: en_pfl
       num: '056'
       from: Reprint from Phantasmal Flames
+  - num: '153'
+    ref:
+      set: jp_m2a
+      num: '127'
+      from: From Mega Dream ex
+  - num: '155'
+    ref:
+      set: jp_m2a
+      num: '129'
+      from: From Mega Dream ex
+  - num: '175'
+    ref:
+      set: jp_mc
+      num: '619'
+      from: From JP Start Deck 100
   - num: '183'
     ref:
       set: jp_mc
       num: '724'
       from: From JP Start Deck 100
+  - num: '197'
+    ref:
+      set: jp_m2a
+      num: '188'
+      from: From Mega Dream ex
   - num: '198'
     ref:
       set: jp_mc
       num: '662'
+      from: From JP Start Deck 100
+  - num: '218'
+    ref:
+      set: jp_mc
+      num: '743'
+      from: From JP Start Deck 100
+  - num: '219'
+    ref:
+      set: jp_m2a
+      num: '194'
+      from: From Mega Dream ex
+  - num: '220'
+    ref:
+      set: jp_m2a
+      num: '195'
+      from: From Mega Dream ex
+  - num: '221'
+    ref:
+      set: jp_m2a
+      num: '196'
+      from: From Mega Dream ex
+  - num: '222'
+    ref:
+      set: jp_m2a
+      num: '197'
+      from: From Mega Dream ex
+  - num: '223'
+    ref:
+      set: jp_m2a
+      num: '198'
+      from: From Mega Dream ex
+  - num: '224'
+    ref:
+      set: jp_mc
+      num: '744'
+      from: From JP Start Deck 100
+  - num: '225'
+    ref:
+      set: jp_mc
+      num: '745'
+      from: From JP Start Deck 100
+  - num: '226'
+    ref:
+      set: jp_m2a
+      num: '199'
+      from: From Mega Dream ex
+  - num: '227'
+    ref:
+      set: jp_m2a
+      num: '200'
+      from: From Mega Dream ex
+  - num: '228'
+    ref:
+      set: jp_mc
+      num: '746'
+      from: From JP Start Deck 100
+  - num: '229'
+    ref:
+      set: jp_m2a
+      num: '201'
+      from: From Mega Dream ex
+  - num: '230'
+    ref:
+      set: jp_mc
+      num: '747'
+      from: From JP Start Deck 100
+  - num: '232'
+    ref:
+      set: jp_mc
+      num: '748'
+      from: From JP Start Deck 100
+  - num: '233'
+    ref:
+      set: jp_m2a
+      num: '202'
+      from: From Mega Dream ex
+  - num: '234'
+    ref:
+      set: jp_mc
+      num: '749'
+      from: From JP Start Deck 100
+  - num: '235'
+    ref:
+      set: jp_m2a
+      num: '203'
+      from: From Mega Dream ex
+  - num: '236'
+    ref:
+      set: jp_mc
+      num: '750'
+      from: From JP Start Deck 100
+  - num: '237'
+    ref:
+      set: jp_m2a
+      num: '204'
+      from: From Mega Dream ex
+  - num: '238'
+    ref:
+      set: jp_m2a
+      num: '205'
+      from: From Mega Dream ex
+  - num: '239'
+    ref:
+      set: jp_m2a
+      num: '206'
+      from: From Mega Dream ex
+  - num: '240'
+    ref:
+      set: jp_mc
+      num: '751'
+      from: From JP Start Deck 100
+  - num: '241'
+    ref:
+      set: jp_m2a
+      num: '207'
+      from: From Mega Dream ex
+  - num: '242'
+    ref:
+      set: jp_mc
+      num: '752'
+      from: From JP Start Deck 100
+  - num: '243'
+    ref:
+      set: jp_mc
+      num: '753'
+      from: From JP Start Deck 100
+  - num: '244'
+    ref:
+      set: jp_m2a
+      num: '208'
+      from: From Mega Dream ex
+  - num: '245'
+    ref:
+      set: jp_m2a
+      num: '209'
+      from: From Mega Dream ex
+  - num: '246'
+    ref:
+      set: jp_mc
+      num: '754'
+      from: From JP Start Deck 100
+  - num: '247'
+    ref:
+      set: jp_m2a
+      num: '211'
+      from: From Mega Dream ex
+  - num: '248'
+    ref:
+      set: jp_m2a
+      num: '212'
+      from: From Mega Dream ex
+  - num: '249'
+    ref:
+      set: jp_m2a
+      num: '213'
+      from: From Mega Dream ex
+  - num: '250'
+    ref:
+      set: jp_mc
+      num: '756'
+      from: From JP Start Deck 100
+  - num: '251'
+    ref:
+      set: jp_mc
+      num: '757'
+      from: From JP Start Deck 100
+  - num: '252'
+    ref:
+      set: jp_mc
+      num: '758'
+      from: From JP Start Deck 100
+  - num: '253'
+    ref:
+      set: jp_mc
+      num: '759'
+      from: From JP Start Deck 100
+  - num: '254'
+    ref:
+      set: jp_m2a
+      num: '221'
+      from: From Mega Dream ex
+  - num: '255'
+    ref:
+      set: jp_m2a
+      num: '220'
+      from: From Mega Dream ex
+  - num: '256'
+    ref:
+      set: jp_mc
+      num: '760'
+      from: From JP Start Deck 100
+  - num: '257'
+    ref:
+      set: jp_m2a
+      num: '219'
+      from: From Mega Dream ex
+  - num: '259'
+    ref:
+      set: jp_m2a
+      num: '218'
+      from: From Mega Dream ex
+  - num: '260'
+    ref:
+      set: jp_m2a
+      num: '215'
+      from: From Mega Dream ex
+  - num: '261'
+    ref:
+      set: jp_m2a
+      num: '222'
+      from: From Mega Dream ex
+  - num: '262'
+    ref:
+      set: jp_m2a
+      num: '214'
+      from: From Mega Dream ex
+  - num: '263'
+    ref:
+      set: jp_m2a
+      num: '217'
+      from: From Mega Dream ex
+  - num: '264'
+    ref:
+      set: jp_m2a
+      num: '216'
+      from: From Mega Dream ex
+  - num: '265'
+    ref:
+      set: jp_m2a
+      num: '224'
+      from: From Mega Dream ex
+  - num: '266'
+    ref:
+      set: jp_m2a
+      num: '225'
+      from: From Mega Dream ex
+  - num: '267'
+    ref:
+      set: jp_m2a
+      num: '227'
+      from: From Mega Dream ex
+  - num: '268'
+    ref:
+      set: jp_m2a
+      num: '229'
+      from: From Mega Dream ex
+  - num: '269'
+    ref:
+      set: jp_m2a
+      num: '230'
+      from: From Mega Dream ex
+  - num: '270'
+    ref:
+      set: jp_m2a
+      num: '231'
+      from: From Mega Dream ex
+  - num: '271'
+    ref:
+      set: jp_m2a
+      num: '232'
+      from: From Mega Dream ex
+  - num: '272'
+    ref:
+      set: jp_mc
+      num: '761'
+      from: From JP Start Deck 100
+  - num: '273'
+    ref:
+      set: jp_mc
+      num: '762'
       from: From JP Start Deck 100
   - num: '274'
     ref:
       set: jp_mc
       num: '763'
       from: From JP Start Deck 100
+  - num: '275'
+    ref:
+      set: jp_m2a
+      num: '233'
+      from: From Mega Dream ex
+  - num: '276'
+    ref:
+      set: jp_mc
+      num: '764'
+      from: From JP Start Deck 100
+  - num: '277'
+    ref:
+      set: jp_m2a
+      num: '234'
+      from: From Mega Dream ex
+  - num: '278'
+    ref:
+      set: jp_m2a
+      num: '235'
+      from: From Mega Dream ex
+  - num: '279'
+    ref:
+      set: jp_m2a
+      num: '236'
+      from: From Mega Dream ex
+  - num: '280'
+    ref:
+      set: jp_mc
+      num: '765'
+      from: From JP Start Deck 100
+  - num: '281'
+    ref:
+      set: jp_m2a
+      num: '237'
+      from: From Mega Dream ex
+  - num: '282'
+    ref:
+      set: jp_m2a
+      num: '238'
+      from: From Mega Dream ex
   - num: '283'
     ref:
       set: jp_m2a
-      num: '229'
+      num: '239'
       from: From Mega Dream ex
   - num: '284'
     ref:
       set: jp_m2a
       num: '240'
+      from: From Mega Dream ex
+  - num: '285'
+    ref:
+      set: jp_m2a
+      num: '241'
+      from: From Mega Dream ex
+  - num: '286'
+    ref:
+      set: jp_m2a
+      num: '242'
+      from: From Mega Dream ex
+  - num: '287'
+    ref:
+      set: jp_m2a
+      num: '243'
+      from: From Mega Dream ex
+  - num: '288'
+    ref:
+      set: jp_m2a
+      num: '244'
+      from: From Mega Dream ex
+  - num: '289'
+    ref:
+      set: jp_m2a
+      num: '245'
+      from: From Mega Dream ex
+  - num: '290'
+    ref:
+      set: jp_m2a
+      num: '246'
+      from: From Mega Dream ex
+  - num: '291'
+    ref:
+      set: jp_m2a
+      num: '248'
+      from: From Mega Dream ex
+  - num: '292'
+    ref:
+      set: jp_m2a
+      num: '247'
+      from: From Mega Dream ex
+  - num: '293'
+    ref:
+      set: jp_m2a
+      num: '249'
+      from: From Mega Dream ex
+  - num: '294'
+    ref:
+      set: jp_mc
+      num: '766'
+      from: From JP Start Deck 100
+  - num: '295'
+    ref:
+      set: jp_m2a
+      num: '250'
       from: From Mega Dream ex

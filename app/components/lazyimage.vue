@@ -1,25 +1,14 @@
 <script lang="ts" setup>
-const props = defineProps({
-    source: {
-      type: String,
-      required: true
-    },
-    className: {
-      type: String,
-      required: false
-    },
-    altText: {
-      type: String,
-      required: true
-    }
-})
+interface Props {
+    source: string
+    className: string
+    altText: string
+}
+const props = defineProps<Props>()
 </script>
+
 <template>
-  <figure v-lazy-load>
-    <img
-      :class="(className ?? '')"
-      :data-url="source"
-      :alt="altText"
-    >
-  </figure>
+    <figure v-lazy-load>
+        <img :class="props.className ?? ''" :data-url="props.source" :alt="props.altText" />
+    </figure>
 </template>
