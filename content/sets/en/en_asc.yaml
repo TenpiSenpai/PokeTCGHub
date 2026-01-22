@@ -186,6 +186,21 @@ cards:
       set: jp_mc
       num: '225'
       from: From JP Start Deck 100
+  - num: '059'
+    ref:
+      set: jp_m2a
+      num: '047'
+      from: From JP MEGA Dream ex
+  - num: '060'
+    ref:
+      set: jp_m2a
+      num: '048'
+      from: From JP MEGA Dream ex
+  - num: '061'
+    ref:
+      set: jp_m2a
+      num: '049'
+      from: From JP MEGA Dream ex
   - num: '074'
     ref:
       set: jp_mc
@@ -236,6 +251,26 @@ cards:
       set: en_pfl
       num: '056'
       from: Reprint from Phantasmal Flames
+  - num: 142
+    ref:
+      set: en_sfa
+      num: '038'
+      from: Reprint from Shrouded Fable
+  - num: '150'
+    ref:
+      set: jp_m2a
+      num: '124'
+      from: From Mega Dream ex
+  - num: '151'
+    ref:
+      set: jp_m2a
+      num: '125'
+      from: From Mega Dream ex
+  - num: '152'
+    ref:
+      set: jp_m2a
+      num: '126'
+      from: From Mega Dream ex
   - num: '153'
     ref:
       set: jp_m2a
@@ -418,14 +453,14 @@ cards:
       from: From Mega Dream ex
   - num: '249'
     ref:
-      set: jp_m2a
-      num: '213'
-      from: From Mega Dream ex
-  - num: '250'
-    ref:
       set: jp_mc
       num: '756'
       from: From JP Start Deck 100
+  - num: '250'
+    ref:
+      set: jp_m2a
+      num: '213'
+      from: From Mega Dream ex
   - num: '251'
     ref:
       set: jp_mc
