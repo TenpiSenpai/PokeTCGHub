@@ -7,6 +7,7 @@ interface Set {
 }
 interface Card {
     name: string
+    alt: string
     num: string
     rarity: string
     type: string

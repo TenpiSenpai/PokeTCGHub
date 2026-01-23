@@ -1401,10 +1401,267 @@ cards:
     img:
       jp: /jp/m3/080.jpg
       en:
+  - num: '081'
+    alt: IR
+    ref:
+      num: '008'
+    img:
+      jp: /jp/m3/alt/081.jpg
+      en: 
+  - num: '082'
+    alt: IR
+    ref:
+      num: '010'
+    img:
+      jp: /jp/m3/alt/082.jpg
+      en: 
+  - num: '083'
+    alt: IR
+    ref:
+      num: '014'
+    img:
+      jp: /jp/m3/alt/083.jpg
+      en: 
+  - num: '084'
+    alt: IR
+    ref:
+      num: '023'
+    img:
+      jp: /jp/m3/alt/084.jpg
+      en: 
+  - num: '085'
+    alt: IR
+    ref:
+      num: '028'
+    img:
+      jp: /jp/m3/alt/085.jpg
+      en: 
   - num: '086'
     alt: IR
     ref:
       num: '029'
     img:
       jp: /jp/m3/alt/086.jpg
+      en: 
+  - num: '087'
+    alt: IR
+    ref:
+      num: '032'
+    img:
+      jp: /jp/m3/alt/087.jpg
+      en: 
+  - num: '088'
+    alt: IR
+    ref:
+      num: '037'
+    img:
+      jp: /jp/m3/alt/088.jpg
+      en: 
+  - num: '089'
+    alt: IR
+    ref:
+      num: '043'
+    img:
+      jp: /jp/m3/alt/089.jpg
+      en: 
+  - num: '090'
+    alt: IR
+    ref:
+      num: '051'
+    img:
+      jp: /jp/m3/alt/090.jpg
+      en: 
+  - num: '091'
+    alt: IR
+    ref:
+      num: '056'
+    img:
+      jp: /jp/m3/alt/091.jpg
+      en: 
+  - num: '092'
+    alt: IR
+    ref:
+      num: '060'
+    img:
+      jp: /jp/m3/alt/092.jpg
+      en: 
+  - num: '093'
+    alt: SR
+    ref:
+      num: '012'
+    img:
+      jp: /jp/m3/alt/093.jpg
+      en: 
+  - num: '094'
+    alt: SR
+    ref:
+      num: '016'
+    img:
+      jp: /jp/m3/alt/094.jpg
+      en: 
+  - num: '095'
+    alt: SR
+    ref:
+      num: '021'
+    img:
+      jp: /jp/m3/alt/095.jpg
+      en: 
+  - num: '096'
+    alt: SR
+    ref:
+      num: '030'
+    img:
+      jp: /jp/m3/alt/096.jpg
+      en: 
+  - num: '097'
+    alt: SR
+    ref:
+      num: '046'
+    img:
+      jp: /jp/m3/alt/097.jpg
+      en: 
+  - num: '098'
+    alt: SR
+    ref:
+      num: '052'
+    img:
+      jp: /jp/m3/alt/098.jpg
+      en: 
+  - num: '099'
+    alt: SR
+    ref:
+      num: '054'
+    img:
+      jp: /jp/m3/alt/099.jpg
+      en: 
+  - num: '100'
+    alt: SR
+    ref:
+      num: '061'
+    img:
+      jp: /jp/m3/alt/100.jpg
+      en: 
+  - num: '101'
+    alt: SR
+    ref:
+      set: en_dri
+      num: '164'
+    img:
+      jp: /jp/m3/alt/101.jpg
+      en: 
+  - num: '102'
+    alt: SR
+    ref:
+      set: en_dri
+      num: '168'
+    img:
+      jp: /jp/m3/alt/102.jpg
+      en: 
+  - num: '103'
+    alt: SR
+    ref:
+      set: jp_mc
+      num: '662'
+    img:
+      jp: /jp/m3/alt/103.jpg
+      en: 
+  - num: '104'
+    alt: SR
+    ref:
+      set: en_pfl
+      num: '094'
+    img:
+      jp: /jp/m3/alt/104.jpg
+      en: 
+  - num: '105'
+    alt: SR
+    ref:
+      num: '073'
+    img:
+      jp: /jp/m3/alt/105.jpg
+      en: 
+  - num: '106'
+    alt: SR
+    ref:
+      num: '074'
+    img:
+      jp: /jp/m3/alt/106.jpg
+      en: 
+  - num: '107'
+    alt: SR
+    ref:
+      num: '075'
+    img:
+      jp: /jp/m3/alt/107.jpg
+      en: 
+  - num: '108'
+    alt: SR
+    ref:
+      num: '076'
+    img:
+      jp: /jp/m3/alt/108.jpg
+      en: 
+  - num: '109'
+    alt: SR
+    ref:
+      set: en_meg
+      num: '117'
+    img:
+      jp: /jp/m3/alt/109.jpg
+      en: 
+  - num: '110'
+    alt: SR
+    ref:
+      num: '077'
+    img:
+      jp: /jp/m3/alt/110.jpg
+      en: 
+  - num: '111'
+    alt: SAR
+    ref:
+      num: '021'
+    img:
+      jp: /jp/m3/alt/111.jpg
+      en: 
+  - num: '112'
+    alt: SAR
+    ref:
+      num: '030'
+    img:
+      jp: /jp/m3/alt/112.jpg
+      en: 
+  - num: '113'
+    alt: SAR
+    ref:
+      num: '046'
+    img:
+      jp: /jp/m3/alt/113.jpg
+      en: 
+  - num: '114'
+    alt: SAR
+    ref:
+      num: '061'
+    img:
+      jp: /jp/m3/alt/114.jpg
+      en: 
+  - num: '115'
+    alt: SAR
+    ref:
+      num: '075'
+    img:
+      jp: /jp/m3/alt/115.jpg
+      en: 
+  - num: '116'
+    alt: SAR
+    ref:
+      num: '076'
+    img:
+      jp: /jp/m3/alt/116.jpg
+      en: 
+  - num: '117'
+    alt: MUR
+    ref:
+      num: '046'
+    img:
+      jp: /jp/m3/alt/117.jpg
       en: 
