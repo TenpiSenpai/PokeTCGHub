@@ -63,6 +63,7 @@ export const useCardStore = defineStore('CardStore', () => {
                 found.ref = card.ref
                 found.title = card.title
                 found.num = card.num
+                found.alt = card.alt
                 if (card.img) {
                     found.img = card.img
                 }

@@ -75,3 +75,12 @@ cards:
     img:
       jp:
       en: /en/pfl/056.jpg
+  - num: '094'
+    name: Wondrous Patch
+    type: T
+    subtype: Item
+    trainer:
+      - Attach a Basic [P] Energy card from your discard pile to 1 of your Benched [P] Pokémon.
+    img:
+      jp:
+      en: /en/pfl/094.jpg
