@@ -1,6 +1,23 @@
 set: en_tef
 desc: Temporal Forces
 cards:
+  - num: '105'
+    name: Poochyena
+    type: D
+    hp: 70
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: DC
+        name: Gnaw Off
+        damage: 20+
+        desc: Flip a coin. If heads, this attack does 20 more damage.
+    weak: G
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/tef/105.jpg
   - num: '106'
     name: Mightyena
     type: D

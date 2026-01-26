@@ -1,6 +1,40 @@
 set: en_scr
 desc: Stellar Crown
 cards:
+  - num: '009'
+    name: Grubbin
+    type: G
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: CC
+        name: Ambush
+        damage: 10+
+        desc: Flip a coin. If heads, this attack does 30 more damage.
+    weak: R
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/scr/009.jpg
+  - num: '023'
+    name: Salandit
+    type: R
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: R
+        name: Ember
+        damage: 30
+        desc: Discard an Energy from this Pokémon.
+    weak: W
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/scr/023.jpg
   - num: '024'
     name: Salazzle
     type: R
@@ -32,13 +66,72 @@ cards:
       - energy: C
         name: Quick Attack
         damage: 10+
-        desc:
+        desc: Flip a coin. If heads, this attack does 10 more damage.
     weak: W
     resist:
     retreat: 1
     img:
       jp:
       en: /en/scr/026.jpg
+  - num: '027'
+    name: Raboot
+    type: R
+    hp: 90
+    stage: 1
+    evolve-from: Scorbunny
+    attack:
+      - energy: R
+        name: Low Sweep
+        damage: 30
+        desc:
+      - energy: RCC
+        name: Combustion
+        damage: 60
+        desc:
+    weak: W
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/scr/027.jpg
+  - num: '028'
+    name: Cinderace ex
+    type: R
+    hp: 320
+    stage: 2
+    evolve-from: Raboot
+    attack:
+      - energy: RCC
+        name: Flare Strike
+        damage: 280
+        desc: During your next turn, this Pokémon can’t use Flare Strike.
+      - energy: RFD
+        name: Garnet Volley
+        damage:
+        desc: This attack does 180 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)
+    weak: W
+    resist:
+    retreat:
+    img:
+      jp:
+      en: /en/scr/028.jpg
+  - num: '052'
+    name: Charjabug
+    type: L
+    hp: 80
+    stage: 1
+    evolve-from: Grubbin
+    attack:
+      - energy: E
+        name: Parallel Placement
+        damage:
+        desc: Search your deck for up to 3 Charjabug and put them onto your Bench. Then, shuffle your deck.
+    weak: F
+    resist:
+    retreat: 2
+    img:
+      jp:
+      en: /en/scr/052.jpg
   - num: '053'
     name: Vikavolt
     type: L
