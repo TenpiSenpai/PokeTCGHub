@@ -21,6 +21,27 @@ cards:
     img:
       jp:
       en: /en/twm/025.jpg
+  - num: '079'
+    name: Clefable
+    type: P
+    hp: 120
+    stage: 1
+    evolve-from: Clefairy
+    attack:
+      - energy: CC
+        name: Metronome
+        damage: 
+        desc: Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this attack.
+      - energy: PCC
+        name: Magical Shot
+        damage: 100
+        desc:
+    weak: M
+    resist: 
+    retreat: 2
+    img:
+      jp:
+      en: /en/twm/079.jpg
   - num: '095'
     name: Munkidori
     type: P

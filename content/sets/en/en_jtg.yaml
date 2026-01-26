@@ -158,6 +158,23 @@ cards:
     img:
       jp:
       en: /en/jtg/056.jpg
+  - num: '059'
+    name: Shuppet
+    type: P
+    hp: 60
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: P
+        name: Spooky Shot
+        damage: 20
+        desc:
+    weak: D
+    resist: F
+    retreat: 1
+    img:
+      jp:
+      en: /en/jtg/059.jpg
   - num: '060'
     name: Banette
     type: P

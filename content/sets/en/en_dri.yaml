@@ -328,6 +328,27 @@ cards:
     img:
       jp:
       en: /en/dri/087.jpg
+  - num: '101'
+    name: Regirock ex
+    type: F
+    hp: 230
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Regi Charge
+        damage:
+        desc: Attach up to 2 Basic [F] Energy cards from your discard pile to this Pokémon.
+      - energy: FCCC
+        name: Giant Rock
+        damage: 140+
+        desc: If your opponent’s Active Pokémon is a Stage 2 Pokémon, this attack does 140 more damage.
+    weak: G
+    resist:
+    retreat: 3
+    img:
+      jp:
+      en: /en/dri/101.jpg
   - num: '102'
     name: Cynthia's Gible
     type: F
@@ -542,6 +563,27 @@ cards:
     img:
       jp:
       en: /en/dri/145.jpg
+  - num: 149
+    name: Team Rocket's Meowth
+    type: C
+    hp: 70
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: C
+        name: Paw-cket Pilfer
+        damage: 
+        desc: Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into their deck.
+      - energy: CC
+        name: Fury Swipes
+        damage: 20x
+        desc: Flip 3 coins. This attack does 20 damage for each heads.
+    weak: F
+    resist: 
+    retreat: 1
+    img:
+      jp:
+      en: /en/dri/149.jpg
   - num: 162
     name: Cynthia's Power Weight
     type: T
@@ -615,6 +657,15 @@ cards:
     img:
       jp:
       en: /en/dri/174.jpg
+  - num: 175
+    name: Team Rocket's Great Ball
+    type: T
+    subtype: Item
+    trainer:
+      - Flip a coin. If heads, search your deck for an Evolution Team Rocket’s Pokémon, reveal it, and put it into your hand. If tails, search your deck for a Basic Team Rocket’s Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+    img:
+      jp:
+      en: /en/dri/175.jpg
   - num: 176
     name: Team Rocket's Petrel
     type: T
@@ -642,7 +693,7 @@ cards:
       - Search your deck for a Supporter card that has “Team Rocket” in its name, reveal it, and put it into your hand. Then, shuffle your deck.
     img:
       jp:
-      en: /en/dri/177.jpg
+      en: /en/dri/178.jpg
   - num: 180
     name: Team Rocket's Watchtower
     type: T

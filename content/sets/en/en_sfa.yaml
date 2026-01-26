@@ -1,6 +1,27 @@
 set: en_sfa
 desc: Shrouded Fable
 cards:
+  - num: '013'
+    name: Sneasel
+    type: W
+    hp: 70
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: W
+        name: Cut
+        damage: 10
+        desc:
+      - energy: WW
+        name: Beset
+        damage: 30
+        desc: During your opponent’s next turn, the Defending Pokémon can’t retreat.
+    weak: M
+    resist:
+    retreat: 1
+    img:
+      jp:
+      en: /en/sfa/013.jpg
   - num: '014'
     name: Weavile
     type: W
