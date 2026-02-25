@@ -1,0 +1,509 @@
+set: jp_m4
+desc: Ninja Spinner
+cards:
+  - num: '001'
+    name: Weedle
+    type: G
+    hp: 50
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: G
+        name: Surprise Attack
+        damage: 30
+        desc: Flip a coin. If tails, this attack does nothing.
+    weak: R
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m4/001.jpg
+      en:
+  - num: '002'
+    name: Kakuna
+    type: G
+    hp: 80
+    stage: 1
+    evolve-from: Weedle
+    ability:
+      name: Exoskeleton
+      desc: This Pokemon takes 20 less damage from attacks.
+    attack:
+      - energy: G
+        name: Hang Down
+        damage: 20
+        desc:
+    weak: R
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m4/002.jpg
+      en:
+  - num: '003'
+    name: Beedrill ex
+    type: G
+    hp: 310
+    stage: 2
+    evolve-from: Kakuna
+    attack:
+      - energy: G
+        name: Bee Rumble
+        damage: 110x
+        desc: This attack does 110 damage for each Beedrill you have in play (including Beedrill ex).
+    weak: R
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m4/002.jpg
+      en:
+  - num: '005'
+    name: Chespin
+    type: G
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: G
+        name: Beat
+        damage: 10
+        desc:
+      - energy: GG
+        name: Spike Sting
+        damage: 30
+        desc:
+    weak: R
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m4/005.jpg
+      en:
+  - num: '006'
+    name: Quilladin
+    type: G
+    hp: 100
+    stage: 1
+    evolve-from: Chespin
+    attack:
+      - energy: G
+        name: Leaf Charge
+        damage: 20
+        desc: Search your deck for a Basic [G] Energy card and attach it to this Pokémon. Then, shuffle your deck.
+      - energy: GGC
+        name: Vine Whip
+        damage: 80
+        desc:
+    weak: R
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m4/006.jpg
+      en:
+  - num: '007'
+    name: Chesnaught
+    type: G
+    hp: 180
+    stage: 2
+    evolve-from: Quilladin
+    ability:
+      name: Needle Armor
+      desc: If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 3 damage counters for each attached [G] Energy on this Pokemon, on the Attacking Pokémon.
+    attack:
+      - energy: GGC
+        name: Impound
+        damage: 160
+        desc: During your opponent’s next turn, the Defending Pokémon can’t retreat.
+    weak: R
+    resist: 
+    retreat: 4
+    img:
+      jp: /jp/m4/007.jpg
+      en:
+  - num: '011'
+    name: Fennekin
+    type: R
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Call for Family
+        damage: 
+        desc: Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.
+    weak: W
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m4/011.jpg
+      en:
+  - num: '012'
+    name: Braixen
+    type: R
+    hp: 100
+    stage: 1
+    evolve-from: Fennekin
+    attack:
+      - energy: RR
+        name: Flamethrower
+        damage: 80
+        desc: Discard an Energy from this Pokémon.
+    weak: W
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m4/012.jpg
+      en:
+  - num: '013'
+    name: Delphox
+    type: R
+    hp: 160
+    stage: 2
+    evolve-from: Braixen
+    ability:
+      name: Flare Magic
+      desc: Discard a Basic [R] Energy from your hand in order to use this Ability. Once during your turn, you may draw cards until you have 7 cards in your hand.
+    attack:
+      - energy: RR
+        name: Energy Storm
+        damage: 30x
+        desc: This attack does 30 damage times the amount of Energy attached to all Pokémon.
+    weak: W
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m4/013.jpg
+      en:
+  - num: '020'
+    name: Froakie
+    type: W
+    hp: 70
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Collect
+        damage: 
+        desc: Draw a card.
+      - energy: W
+        name: Water Gun
+        damage: 10
+        desc:
+    weak: L
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m4/020.jpg
+      en:
+  - num: '021'
+    name: Frogadier
+    type: W
+    hp: 100
+    stage: 1
+    evolve-from: Froakie
+    attack:
+      - energy: W
+        name: Summoning Jutsu
+        damage: 
+        desc: Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.
+      - energy: WW
+        name: Aqua Edge
+        damage: 50
+        desc:
+    weak: L
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m4/021.jpg
+      en:
+  - num: '022'
+    name: Mega Greninja ex
+    type: W
+    hp: 100
+    stage: 2
+    evolve-from: Frogadier
+    ability:
+      name: Deadly Shuriken
+      desc: Once during your turn, if this Pokémon is in the Active Spot, you may discard a Basic [W] Energy card from your hand in order to use this Ability. Place 6 damage counters on 1 of your opponent's Pokémon.
+    attack:
+      - energy: WW
+        name: Ninja Spinner
+        damage: 120+
+        desc: You may put a [W] Energy attached to this Pokémon into your hand and have this attack do 80 more damage.
+    weak: L
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m4/022.jpg
+      en:
+  - num: '031'
+    name: Deoxys
+    type: P
+    hp: 110
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: C
+        name: Genome Charge
+        damage: 
+        desc: Search your deck for up to 2 Basic [P] Energy cards and attach them to this Pokemon. Then, shuffle your deck.
+      - energy: PPC
+        name: Psychic
+        damage: 80+
+        desc: This attack does 20 more damage for each Energy attached to your opponent's Active Pokemon.
+    weak: D
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m4/031.jpg
+      en:
+  - num: '032'
+    name: Deoxys
+    type: P
+    hp: 120
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: PPP
+        name: Psy Spear
+        damage: 120
+        desc: If this Pokemon has at least 2 extra Energy attached to it, this attack also does 120 damage to 1 of your opponent's Benched Pokemon.
+    weak: D
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m4/032.jpg
+      en:
+  - num: '033'
+    name: Deoxys
+    type: P
+    hp: 130
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: PPC
+        name: Psy Protect
+        damage: 80
+        desc: During your opponent's next turn, prevent all damage done to this Pokemon from attacks from your opponent's Pokemon that have any Abilities.
+    weak: D
+    resist: 
+    retreat: 3
+    img:
+      jp: /jp/m4/033.jpg
+      en:
+  - num: '034'
+    name: Deoxys
+    type: P
+    hp: 100
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: P
+        name: Psy Speed
+        damage: 30
+        desc: You may draw cards until you have 5 cards in your hand.
+    weak: D
+    resist: 
+    retreat: 0
+    img:
+      jp: /jp/m4/034.jpg
+      en:
+  - num: '035'
+    name: Mega Floette ex
+    type: P
+    hp: 250
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: P
+        name: Gentle Light
+        damage: 
+        desc: Heal 30 damage from each Pokemon (boths yours and your opponent's).
+      - energy: PPP
+        name: Eternity Bloom
+        damage: 200
+        desc: Search your deck for up to 4 Basic [P] Energy cards and attach them to your Benched Pokemon in any way you like. Then, shuffle your deck.
+    weak: M
+    resist: 
+    retreat: 1
+    img:
+      jp: /jp/m4/035.jpg
+      en:
+  - num: '038'
+    name: Phantump
+    type: P
+    hp: 70
+    stage: 0
+    evolve-from:
+    ability:
+      name: Envious Evolution
+      desc: Once during your turn, you may put a card from your hand that evolves from this Pokemon onto it to evolve it. Then, put 2 damage counters on this Pokemon. You can't use this Ability during your first turn.
+    attack:
+      - energy: P
+        name: Mumble
+        damage: 10
+        desc:
+    weak: D
+    resist: F
+    retreat: 2
+    img:
+      jp: /jp/m4/038.jpg
+      en:
+  - num: '039'
+    name: Trevenant
+    type: P
+    hp: 130
+    stage: 1
+    evolve-from: Phantump
+    attack:
+      - energy: P
+        name: Cursed Roots
+        damage: 30
+        desc: During your opponent's next turn, Energy can't be attached from your opponent's hand to the Defending Pokemon.
+      - energy: PP
+        name: Overpain
+        damage: 60+
+        desc: This attack does 10 more damage for each damage counter on all your opponent's Pokemon.
+    weak: D
+    resist: F
+    retreat: 3
+    img:
+      jp: /jp/m4/039.jpg
+      en:
+  - num: '040'
+    name: Pumpkaboo
+    type: P
+    hp: 60
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: P
+        name: Stampede
+        damage: 20
+        desc:
+    weak: D
+    resist: F
+    retreat: 2
+    img:
+      jp: /jp/m4/040.jpg
+      en:
+  - num: '041'
+    name: Gourgeist ex
+    type: P
+    hp: 270
+    stage: 1
+    evolve-from: Pumpkaboo
+    attack:
+      - energy: P
+        name: Horror Rondo
+        damage: 30+
+        desc: This attack does 50 more damage for each of your Benched Pokemon that have any damage counters on them.
+      - energy: PP
+        name: Ghost Touch
+        damage: 140
+        desc:  Discard a random card from your opponent's hand.
+    weak: D
+    resist: F
+    retreat: 2
+    img:
+      jp: /jp/m4/041.jpg
+      en:
+  - num: '042'
+    name: Xerneas
+    type: P
+    hp: 130
+    stage: 0
+    evolve-from:
+    attack:
+      - energy: PPP
+        name: Geostorm
+        damage: 30x
+        desc: This attack does 30 damage times the number of [P] Energy attached to all of your Pokemon.
+    weak: M
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/m4/042.jpg
+      en:
+  - num: '062'
+    name: Cobalion ex
+    type: M
+    hp: 210
+    stage: 0
+    evolve-from:
+    ability:
+      name: Metal Road
+      desc: Once during your turn, when this Pokemon moves from your Bench to the Active Spot, you may move any amount of [M] Energy from your Pokemon in play to this Pokemon.
+    attack:
+      - energy: MMC
+        name: Power Tackle
+        damage: 200
+        desc: During your next turn, this Pokemon can’t attack.
+    weak: R
+    resist: G 
+    retreat: 2
+    img:
+      jp: /jp/m4/062.jpg
+      en:
+  - num: '073'
+    name: Big Catch Net
+    type: T
+    subtype: Item
+    trainer:
+      - Shuffle up to 3 [W] Pokémon and up to 3 Basic [W] Energy cards from your discard pile into your deck.
+    img:
+      jp: /jp/m4/073.jpg
+      en:
+  - num: '075'
+    name: AZ's Tranquility
+    type: T
+    subtype: Supporter
+    trainer:
+      - Switch your Active Pokemon to 1 of your Benched Pokemon.
+      - If you moved a Pokemon ex to your Bench this way, heal 80 damage from that Pokemon.
+    img:
+      jp: /jp/m4/075.jpg
+      en:
+  - num: '076'
+    name: Philippe
+    type: T
+    subtype: Supporter
+    trainer:
+      - Attach up to 2 Basic [M] Energy from your discard pile to 1 of your [M] Pokemon.
+    img:
+      jp: /jp/m4/076.jpg
+      en:
+  - num: '079'
+    name: Ange Floette
+    type: T
+    subtype: Stadium
+    trainer:
+      - You can play this card only by discarding Prism Tower in play. You can play this card even if Prism Tower was played this turn.
+      - Each Mega Floette ex in play gets +150 HP.
+    img:
+      jp: /jp/m4/079.jpg
+      en:
+  - num: '080'
+    name: Prism Tower
+    type: T
+    subtype: Stadium
+    trainer:
+      - Once during each player’s turn, that player may discard 2 cards from their hand. If they do, they draw a card.
+    img:
+      jp: /jp/m4/080.jpg
+      en:
+  - num: '082'
+    name: Bubble [W] Energy
+    type: E
+    trainer:
+      - As long as this card is attached to a Pokémon, it provides 1 [W] Energy.
+      - The [W] Pokémon this card is attached to recovers from being Asleep, Confused, or Paralyzed and can’t be affected by those Special Conditions.
+    img:
+      jp: /jp/m4/082.jpg
+      en:
+  - num: '083'
+    name: Magnet [M] Energy
+    type: E
+    trainer:
+      - As long as this card is attached to a Pokemon, it provides [M] Energy.
+      - As long as this card is attached to a [M] Pokémon, that Pokemon has no Retreat Cost.
+    img:
+      jp: /jp/m4/083.jpg
+      en:

@@ -16,6 +16,10 @@
     "title": "Upcoming JP Releases",
     "items": [
       {
+        "label": "Ninja Spinner",
+        "path": "/sets/jp/ninjaspinner"
+      },
+      {
         "label": "Nihil Zero",
         "path": "/sets/jp/nihil_zero"
       },
