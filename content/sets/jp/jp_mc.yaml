@@ -1021,6 +1021,33 @@ cards:
     img:
       jp: /jp/mc/621.jpg
       en:
+  - num: '639'
+    name: Energy Search
+    type: T
+    subtype: Item
+    trainer:
+      - Search your deck for a Basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck.
+    img:
+      jp: /jp/mc/639.jpg
+      en:
+  - num: '643'
+    name: Potion
+    type: T
+    subtype: Potion
+    trainer:
+      - Heal 30 damage from 1 of your Pokémon.
+    img:
+      jp: /jp/mc/643.jpg
+      en:
+  - num: '644'
+    name: Crushing Hammer
+    type: T
+    subtype: Item
+    trainer:
+      - Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.
+    img:
+      jp: /jp/mc/644.jpg
+      en:
   - num: 662
     name: PokePad
     type: T
@@ -1029,6 +1056,24 @@ cards:
       - Search your deck for a Pokemon without a Rule Box, reveal it, and put it into your hand. Then, shuffle your deck.
     img:
       jp: /jp/mc/662.jpg
+      en:
+  - num: '665'
+    name: Pokémon Catcher 
+    type: T
+    subtype: Item
+    trainer:
+      - Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot.
+    img:
+      jp: /jp/mc/665.jpg
+      en:
+  - num: '669'
+    name: Poké Ball 
+    type: T
+    subtype: Item
+    trainer:
+      - Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.
+    img:
+      jp: /jp/mc/669.jpg
       en:
   - num: 700
     name: Waitress
@@ -1047,6 +1092,15 @@ cards:
       - Draw 3 cards.
     img:
       jp: /jp/mc/702.jpg
+      en:
+  - num: '711'
+    name: Judge
+    type: T
+    subtype: Supporter
+    trainer:
+      - Each player shuffles their hand into their deck and draws 4 cards.
+    img:
+      jp: /jp/mc/711.jpg
       en:
   - num: 724
     name: Boss's Orders (Corbeau)

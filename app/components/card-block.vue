@@ -63,7 +63,8 @@ function replaceNames(text: string) {
                 >
             </div>
             <div v-if="props.card.ability != null" class="pb-4">
-                Ability: {{ props.card.ability.name }}<br />
+                <span class="text-red-600 font-bold">Ability: {{ props.card.ability.name }}</span
+                ><br />
                 <span v-html="replaceTypes(props.card.ability.desc)" />
             </div>
             <div v-for="attack in props.card.attack" :key="attack.name" class="pb-2">
