@@ -1,0 +1,33 @@
+set: jp_promo_m-p
+desc: Japanese Promos - M-P
+cards:
+  - num: '002'
+    name: Lapras ex
+    type: W
+    hp: 210
+    stage: 0
+    evolve-from: 
+    attack:
+      - energy: W
+        name: Hydro Turn
+        damage: 30x
+        desc: This attack does 30 damage for each [W] Energy attached to this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.
+      - energy: WWW
+        name: Surf
+        damage: 140
+        desc: 
+    weakness: L
+    resist: 
+    retreat: 2
+    img:
+      jp: /jp/promo/m-p/002.jpg
+      en:
+  - num: '005'
+    name: Digging Shovel
+    type: T
+    subtype: Item
+    trainer:
+      - Discard the top 2 cards of your deck. 
+    img:
+      jp: /jp/promo/m-p/005.jpg
+      en:
